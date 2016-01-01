@@ -22,3 +22,10 @@
   transition-timing-function: ease-out;
   z-index: 10;
 }
+.Menu:checked {
+  background-color: #92a8d1;
+  border: 2px solid #3c0;
+}
+.Menu:checked ~ .main {
+  left: 40%;
+}
