@@ -10,7 +10,6 @@ background-color: #f7cac9;
   background-color: #92a8d1;
 }
 .face {
-  left: 100px;
   background-color: #f0f4f8;
   z-index: 1;
 }
@@ -26,7 +25,14 @@ background-color: #f7cac9;
   height: 300px;
   width: 300px;
   position: absolute;
-  right:-150px;
+  right:0;
   bottom:0;
-  border-radius: 50%;
+  border-radius: 100%;
+}
+.mouth {
+  position: absolute;
+  height: 10px;
+  width: 200px;
+  top: 0;
+  left: 0;
 }
