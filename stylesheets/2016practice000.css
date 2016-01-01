@@ -5,15 +5,15 @@ body{
 }
 .pack{
   display: inline-box;
-  height: 90%;
+  height: 100%;
   margin: 0;
   position: relative;
-  width: 120px;
+  width: 160px;
   background-color: #92a8d1;
 }
 .face {
   background-color: #f0f4f8;
-  font-family: serif, #d1bb92;
+  font-family: sans-serif, bold, #d1bb92;
   z-index: 1;
 }
 .face .left {
