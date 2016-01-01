@@ -1,5 +1,7 @@
 *{
-background-color: #f7cac9;
+  margin: 0;
+  height: 100%;
+  background-color: #f7cac9;
 }
 .pack{
   display: inline-box;
