@@ -1,31 +1,4 @@
-*{
-  background-color: #f7cac9;
-}
-.menu,
-.main {
-  min-height: 500px;
-  position: absolute;
-  top: 35px;
-  width: 100%;
-}
-.main {
-  background-color: #c9f7ca;
-  border-top: 1px solid #ddd;
-  color: #666;
-  display: table-cell;
-  font-size: 5em;
-  left: 0;
-  padding: 40px 0 0;
-  text-align: center;
-  transition-duration: .2s;
-  transition-property: left;
-  transition-timing-function: ease-out;
-  z-index: 10;
-}
-.Menu:checked {
-  background-color: #92a8d1;
-  border: 2px solid #3c0;
-}
-.Menu:checked ~ .main {
-  left: 40%;
-}
+.heading {} /*heading*/
+.list {} /*list*/
+.button {} /*button*/
+.frame-base {} /*frame*/
