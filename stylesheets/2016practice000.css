@@ -14,16 +14,16 @@ background-color: #f7cac9;
   z-index: 1;
 }
 .face .left {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   position: absolute;
   top:0;
   left:150px;
-  border-radius: 30px 15px;
+  border-radius: 30% 45%;
 }
 .face .right {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   position: absolute;
   right:0;
   bottom:0;
@@ -31,4 +31,5 @@ background-color: #f7cac9;
 }
 .mark {
   background-color: #a3a3a3;
+  font-family: sans-serif, #333;
 }
