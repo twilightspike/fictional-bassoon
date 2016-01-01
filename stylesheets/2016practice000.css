@@ -13,6 +13,7 @@ body{
 }
 .face {
   background-color: #f0f4f8;
+  font-family: serif, #d1bb92;
   z-index: 1;
 }
 .face .left {
@@ -33,5 +34,5 @@ body{
 }
 .mark {
   background-color: #a3a3a3;
-  font-family: sans-serif, bold, #333;
+  font-family: sans-serif, bold, #d192a8;
 }
