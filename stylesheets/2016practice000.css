@@ -11,7 +11,10 @@ background-color: #f7cac9;
 }
 .face {
   height: 100px;
-  position: relative;
+  position: absolute;
   width: 100px;
-  background-color: #92a8d1;
+  top: 250px;
+  left: 300px;
+  background-color: #f0f4f8;
+  border-radius: 50%;
 }
