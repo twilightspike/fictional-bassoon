@@ -1,3 +1,11 @@
 *{
 background-color: #f7cac9;
 }
+.pack{
+  display: inline-box;
+  height: 90px;
+  margin: 30px;
+  position: relative;
+  width: 120px;
+  background-color: #92a8d1;
+}
