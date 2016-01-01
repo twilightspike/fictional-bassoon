@@ -5,8 +5,8 @@
 }
 .pack{
   display: inline-box;
-  height: 90px;
-  margin: 30px;
+  height: 90%;
+  margin: 0;
   position: relative;
   width: 120px;
   background-color: #92a8d1;
@@ -33,5 +33,5 @@
 }
 .mark {
   background-color: #a3a3a3;
-  font-family: sans-serif, #333;
+  font-family: sans-serif, bold, #333;
 }
