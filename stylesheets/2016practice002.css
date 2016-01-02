@@ -2,9 +2,9 @@ body {
   background-color: #bceeff; /*lighter*/
   background-image:
     -webkit-linear-gradient(left top, #70dbff 25%,transparent 25%,transparent 100%),
-    -webkit-linear-gradient(right top, ),
-    -webkit-linear-gradient(left bottom, ),
-    -webkit-linear-gradient(right bottom, );
+    -webkit-linear-gradient(right top, #70dbff 25%,transparent 25%,transparent 100%),
+    -webkit-linear-gradient(left bottom, #70dbff 25%,transparent 25%,transparent 100%),
+    -webkit-linear-gradient(right bottom, #70dbff 25%,transparent 25%,transparent 100%);
     -webkit-background-size: 20px;
 }
 .box .title {
