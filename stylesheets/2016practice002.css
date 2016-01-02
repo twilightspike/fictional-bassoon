@@ -1,0 +1,9 @@
+body {
+  background-color: #; /*lighter*/
+  background-image:
+    -webkit-linear-gradient(left top, ),
+    -webkit-linear-gradient(right top, ),
+    -webkit-linear-gradient(left bottom, ),
+    -webkit-linear-gradient(right bottom, );
+    -webkit-background-size: 20px;
+}
