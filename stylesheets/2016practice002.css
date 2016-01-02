@@ -1,9 +1,13 @@
 body {
-  background-color: #; /*lighter*/
+  background-color: #bceeff; /*lighter*/
   background-image:
-    -webkit-linear-gradient(left top, ),
+    -webkit-linear-gradient(left top, #70dbff 25%,transparent 25%,transparent 100%),
     -webkit-linear-gradient(right top, ),
     -webkit-linear-gradient(left bottom, ),
     -webkit-linear-gradient(right bottom, );
     -webkit-background-size: 20px;
+}
+.box .title {
+  color: #fff;
+  opacity: .8;
 }
