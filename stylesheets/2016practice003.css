@@ -1,5 +1,5 @@
 body {
-  background-image: repeating-linear-gradient( to right, #000, #000 10px, #FFF 10px, #FFF 20px);
+  background-image: repeating-linear-gradient( to right, #000, #000 10px, #FFF 10px, #cce893 20px);
   /*background-image:
     repeating-linear-gradient( #000, #000 10px, #FFF 10px, #FFF 20px);*/
     /*-webkit-repeating-linear-gradient (#FF9E7E 20%,#fff 60%,#cce893 60%);*/
