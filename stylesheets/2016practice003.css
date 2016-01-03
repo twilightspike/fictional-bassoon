@@ -1,7 +1,7 @@
 body {
   background-image:
-    -webkit-linear-gradient(left top, #70dbff 25%,transparent 25%,transparent 100%),
-    -webkit-linear-gradient(right bottom, #cbf2ba 0,#cbf2ba 50%,#cbf2ba 100%);
+    -webkit-linear-gradient(left top, #FF9E7E 25%,#FF9E7E 25%,#FF9E7E 100%),
+    -webkit-linear-gradient(right bottom, #cce893 0,#cce893 50%,#cce893 100%);
     -webkit-background-size: 100%, 200px;
 }
 .box .title {
