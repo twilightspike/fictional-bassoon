@@ -1,6 +1,6 @@
-body {
+.bow {
   background-image:
-    -webkit-linear-gradient(#FF9E7E 0,#FF9E7E 50%,#FF9E7E 50%);
+    -webkit-linear-gradient(#FF9E7E 20%,#000 60%,#cce893 80%);
     /*-webkit-linear-gradient(#cce893 0,#cce893 50%,#cce893 100%);*/
-    -webkit-background-size: 20px;
+    -webkit-background-size: 2px;
 }
