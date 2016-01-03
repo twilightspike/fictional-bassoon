@@ -12,7 +12,7 @@ body {
 .line::before,
 .line::after {
   background-color:#f0f;
-  content:'\f06c\f06c\f06c\f06c\f06c\f06c\f06c\f06c\f06c\f06c';
+  content:'';
   display:block;
   height:1px;
   position:relative;
