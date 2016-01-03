@@ -4,5 +4,5 @@ body {
     repeating-linear-gradient( #000, #000 10px, #FFF 10px, #FFF 20px);*/
     /*-webkit-repeating-linear-gradient (#FF9E7E 20%,#fff 60%,#cce893 60%);*/
     /*-webkit-linear-gradient(#cce893 0,#cce893 50%,#cce893 100%);*/
-    -webkit-background-size: 100%, 20px;
+    -webkit-background-size: 100%, 50px;
 }
