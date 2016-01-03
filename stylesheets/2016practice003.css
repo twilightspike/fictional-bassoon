@@ -6,7 +6,7 @@
   z-index:1;
   -webkit-transform: rotate(45deg);
   background-image:
-    -webkit-linear-gradient(#FF9E7E 20%,#000 60%,#cce893 80%);
+    -webkit-repeating-linear-gradient (#FF9E7E 20%,#000 60%,#cce893 80%);
     /*-webkit-linear-gradient(#cce893 0,#cce893 50%,#cce893 100%);*/
     -webkit-background-size: 20px;
 }
