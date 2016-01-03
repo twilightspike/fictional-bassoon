@@ -1,5 +1,26 @@
 body {
   background-color:#fff;
-  background-image: linear-gradient(90deg, transparent 0, #cce893 50%, transparent 25%, #cce893 25%), linear-gradient(90deg, #ff9e7e 50%, transparent 50%);
-    -webkit-background-size: 30px, 60px;
+  background-image: linear-gradient(90deg, #cce893 50%, transparent 50%), linear-gradient(90deg, #ff9e7e 50%, transparent 50%);
+    -webkit-background-size: 20px, 60px;
+}
+.line {
+  background-color:#ffbbbf;
+  border:0;
+  height:10px;
+  position:relative;
+}
+.line::before,
+.line::after {
+  background-color:#f0f;
+  content:'This line is done on 2016';
+  display:block;
+  height:5px;
+  position:relative;
+  width:100%;
+}
+.line::before {
+  top:-2px;
+}
+.line::after {
+  top:2px;
 }
