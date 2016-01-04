@@ -34,7 +34,7 @@ body {
 }
 .square {
   bottom:0;
-  display:inline-flex;/*Difference between display:(inline|block) and display:box?*/
+  -webkit-box-pack:center;/*Difference between display:(inline|block) and display:box?*/
   left:0;
   height:10px;
   margin:0 1.3em 0 0;
