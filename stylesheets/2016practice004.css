@@ -62,12 +62,12 @@ body {
   transform:rotate(45deg);
   z-index:-1;
 }
-.middle {
+.slash {
   -webkit-flex: none;
           flex: none;
-  width: 200px;
+  width: 20px;
 }
-.slash {
+.middle {
   -webkit-flex: initial;
           flex: initial;
   width: 200px;
