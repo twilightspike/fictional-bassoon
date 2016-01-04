@@ -29,12 +29,14 @@ body {
   display: box;
   background:rgba(253,238,0,.3);
   padding:20px;
+  height:150px;
+  width:100%;
 }
 .square {
   bottom:0;
   display:inline-box;
   left:0;
-  height:100px;
+  height:10px;
   margin:0 1.3em 0 0;
   position:relative;
   width:75%;
