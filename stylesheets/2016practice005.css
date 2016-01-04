@@ -1,6 +1,6 @@
-body{backgorund:#ffc000;}
-.heading {color:#00bfff;font:sans-serif;} /*heading*/
-.list {color:#4100ff;};.list-wrap {background:#ffffeb;} /*list*/
+body {background:#ffc000; background-image:-webkit-linear-gradient(#efefef 1px, transparent 1px), -webkit-linear-gradient(#ffffe6, #ffc);background-position: 0 -1px, 0;}
+.heading {color:#00bfff; font:sans-serif;} /*heading*/
+.list {color:#4100ff; display:-webkit-box; font-family:sans-serif; padding:20px;};.list-wrap {background:#ffffeb;margin:0 1.3em 0 0; position:relative;};.list-image {display:inline-block;height:2em;line-height:2;padding:0 1em;text-decoration:none;} /*list*/
 .button {background:transparent;color:#ff0040;} /*button*/
 .frame-base {background:transparent;} /*frame*/
 /*the above are the basic must-have template whenever I need to retro later*/
