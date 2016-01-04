@@ -1,5 +1,5 @@
-.heading {background:#d19fe8;} /*heading*/
-.list {background:#f4bbff;} /*list*/
-.button {background:#e4717a;} /*button*/
-.frame-base {background:#fb607f;} /*frame*/
+.heading {color:#00bfff;} /*heading*/
+.list {background:#ffc000;};.list-wrap {background:#ffffeb;} /*list*/
+.button {background:#ff0040;color:transparent;} /*button*/
+.frame-base {background:transparent;} /*frame*/
 /*the above are the basic must-have template whenever I need to retro later*/
