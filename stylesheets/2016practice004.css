@@ -71,7 +71,7 @@ body {
   -webkit-flex: initial;
           flex: initial;
   width: 200px;
-  min-width: 100px;
+  min-width: 50px;
 }
 .square {
   -webkit-flex: 1;
