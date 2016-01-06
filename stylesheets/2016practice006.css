@@ -20,7 +20,9 @@ body {background:#ebebeb;}
   width:0;
   z-index:2;
 }
-
+.tag-main::before {
+  border-color:transparent #e6bbad;
+}
 /*wrapper*/
 .wrapper {
   list-style: none;
