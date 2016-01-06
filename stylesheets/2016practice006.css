@@ -16,7 +16,8 @@ body {background:#ebebeb;}
   box-sizing: border-box;
   padding: 1em;
   min-width: 1%;
-  background:transparent;
+  background:#e6f6f3;
+  border:#99c8ec;
 }
 /*main-2*/
 .main-2 {color:#4584dc;padding:0 2em;position:relative;}
@@ -28,7 +29,7 @@ body {background:#ebebeb;}
 /*above are main structures*/
 /*set for title text*/
 .box {border:1px solid #add8e6;height:200px;margin:20px;position:relative;width:300px;}
-.title {font-size:5em;position:absolute;line-height:1;margin-top:-.5em;text-align:center;top:50%;width:100%;}
+.title {font-size:3em;position:absolute;line-height:1;margin-top:-.5em;text-align:center;top:50%;width:100%;}
 /*set for note*/
 .mark1 {background-color:#ff7b24;position:relative;}
 .mark1::before,
