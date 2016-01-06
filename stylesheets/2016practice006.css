@@ -7,7 +7,14 @@ body {background:#ebebeb;}
 /*nav tag common*/
 .tag {display:inline-block;margin: 5px;overflow:hidden;position:relative;}
 .tag-main {border-radius:4px;display:inline-block;font-family:sansita-one, sans-serif;font-size:1.2em;height:1.5em;line-height:1.5;margin:0 0 0 .7em;padding:0 .8em;}
-
+.tag-main::before,
+.tag-main::after {
+  border-style:solid;
+  border-width:1em 0 1em 1em;
+  content:'';
+  display:block;
+  
+}
 /*wrapper*/
 .wrapper {
   list-style: none;
