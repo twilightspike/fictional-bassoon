@@ -22,11 +22,11 @@ body {background:#ebebeb;}
 }
 .tag-main::before {
   border-color:transparent transparent transparent #e6bbad;
-  right:-1.15em;
+  right:-0.65em;
 }
 .tag-main::after {
   border-color:transparent transparent transparent #fff68f;
-  right:-1em;
+  right:-.5em;
 }
 /*hover style*/
 .tag-main a:hover {
