@@ -22,7 +22,7 @@ body {background:#ebebeb;}
 .main-2::before,.main-2::after {background:#ffaea8;border-radius:50%;color:#f0f;font-weight:bold;height:1.5em;line-height:1.5;position:relative;text-align:center;width:1.5em;}
 .main-2::before {content:"\201C";left:0;top:0;}
 .main-2::after {bottom:0;content:"\201D";right:0;}
-.links {background:#e6bbad;position:relative;left:50%;}
+.links {background:#e6bbad;position:relative;left:0;}
 .footer {bottom:0;background:#000;position:relative;}
 /*above are main structures*/
 /*set for title text*/
