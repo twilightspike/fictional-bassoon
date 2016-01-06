@@ -21,12 +21,14 @@ body {background:#ebebeb;}
   z-index:2;
 }
 .tag-main::before {
-  border-color:transparent #e6bbad;
+  border-color:transparent transparent transparent #e6bbad;
   right:-1.15em;
 }
 .tag-main::after {
   border-color:transparent transparent transparent #fff68f;
+  right:-1em;
 }
+/**/
 /*wrapper*/
 .wrapper {
   list-style: none;
