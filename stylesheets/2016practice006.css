@@ -1,4 +1,4 @@
-body {background:#ebebeb;background-image:-webkit-linear-gradient(#efefef 1px, transparent 1px), -webkit-linear-gradient(#ffffe6, #ffc);background-position: 0 -1px, 0;}
+body {background:#ebebeb;background-image:-webkit-linear-gradient(#ebebeb 1px, transparent 1px), -webkit-linear-gradient(#ffffe6, #ffc);background-position: 0 -1px, 0;}
 .block {width:1260px;margin:00px auto;font: 13px/18px "Lucida Sans", Helvetica, Arial, sans-serif;background:#fff68f;position:relative;}
 .h1{font: bold 16px/16px "Lucida Sans", Helvetica, Arial, sans-serif;}
 .header {position:relative;top:0;}
@@ -11,6 +11,10 @@ body {background:#ebebeb;background-image:-webkit-linear-gradient(#efefef 1px, t
 .main-2::after {bottom:0;content:"\201D";right:0;}
 .footer {bottom:0;}
 /*above are main structures*/
-.mark1 {background-color:#ff7b24;position:relative;}.mark1::before,.mark1::after {background-color:#ff7b24;content:'';height:1.1em;position:absolute;transform:skew(10deg);width:1em;z-index:-1;}.mark::before {left:-.2em;top:0;}.mark::after {right:-.2em;bottom:0;}
+.mark1 {background-color:#ff7b24;position:relative;}
+.mark1::before,
+.mark1::after {background-color:#ff7b24;content:'';height:1.1em;position:absolute;transform:skew(10deg);width:1em;z-index:-1;}
+.mark::before {left:-.2em;top:0;}
+.mark::after {right:-.2em;bottom:0;}
 .mark2 {background-image:-webkit-linear-gradient(transparent 31%, #81d8d0, #81d8d0 61%, transparent 61%);}
 .mark4 {border-bottom:2px solid #800080;border-top:2px solid #800080;}
