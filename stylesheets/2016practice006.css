@@ -16,6 +16,7 @@ body {background:#ebebeb;}
   box-sizing: border-box;
   padding: 1em;
   min-width: 1%;
+  background:transparent;
 }
 /*main-2*/
 .main-2 {color:#4584dc;padding:0 2em;position:relative;}
