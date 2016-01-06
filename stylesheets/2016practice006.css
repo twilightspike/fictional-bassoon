@@ -2,7 +2,7 @@ body {background:#ebebeb;}
 .block {width:1260px;margin:00px auto;font: 13px/18px "Lucida Sans", Helvetica, Arial, sans-serif;background:#fff68f;position:relative;}
 .h1{font: bold 16px/16px "Lucida Sans", Helvetica, Arial, sans-serif;}
 .header {position:relative;top:0;}
-.nav {left:0;position:relative;}
+.nav {left:0;position:relative;background:#add8e6;}
 .main {position:relative;right:0;}
 /*main-2*/
 .main-2 {color:#4584dc;padding:0 2em;position:relative;}
