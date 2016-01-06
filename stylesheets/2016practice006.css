@@ -22,6 +22,10 @@ body {background:#ebebeb;}
 }
 .tag-main::before {
   border-color:transparent #e6bbad;
+  right:-1.15em;
+}
+.tag-main::after {
+  border-color:transparent transparent transparent #fff68f;
 }
 /*wrapper*/
 .wrapper {
