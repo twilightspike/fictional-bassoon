@@ -22,13 +22,20 @@ body {background:#ebebeb;}
 }
 .tag-main::before {
   border-color:transparent transparent transparent #e6bbad;
-  right:-1.15em;
+  /*right:-1.15em;*/
 }
 .tag-main::after {
   border-color:transparent transparent transparent #fff68f;
-  right:-1em;
+  /*right:-1em;*/
 }
-/**/
+/*hover style*/
+.tag-main a:hover {
+  background:#fe7171;
+  color:#333;
+}
+.tag-main a:hover::after {
+  border-color:transparent transparent transparent #f0f;
+}
 /*wrapper*/
 .wrapper {
   list-style: none;
