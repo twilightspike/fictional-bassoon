@@ -4,6 +4,10 @@ body {background:#ebebeb;}
 .header {position:relative;top:0;}
 .nav {left:0;position:relative;background:#add8e6;}
 .main {position:relative;right:0;}
+/*nav tag common*/
+.tag {display:inline-block;margin: 5px;overflow:hidden;position:relative;}
+.tag-main {border-radius:4px;display:inline-block;font-family:sansita-one, sans-serif;font-size:1.2em;height:1.5em;line-height:1.5;margin:0 0 0 .7em;padding:0 .8em;}
+
 /*wrapper*/
 .wrapper {
   list-style: none;
