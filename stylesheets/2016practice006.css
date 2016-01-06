@@ -1,9 +1,9 @@
 body {background:#ebebeb;}
-.block {width:1260px;margin:00px auto;font: 13px/18px "Lucida Sans", Helvetica, Arial, sans-serif;background:#fff68f;}
+.block {width:1260px;margin:00px auto;font: 13px/18px "Lucida Sans", Helvetica, Arial, sans-serif;background:#fff68f;position:relative;}
 .h1{font: bold 16px/16px "Lucida Sans", Helvetica, Arial, sans-serif;}
-.header {top:0;}
-.nav {left:0;}
-.main {right:0;}
+.header {position:relative;top:0;}
+.nav {left:0;position:relative;}
+.main {position:relative;right:0;}
 /*main-2*/
 .main-2 {color:#4584dc;padding:0 2em;position:relative;}
 .main-2::before,.main-2::after {background:#ffaea8;border-radius:50%;color:#f0f;font-weight:bold;height:1.5em;line-height:1.5;position:relative;text-align:center;width:1.5em;}
