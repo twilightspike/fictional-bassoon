@@ -4,6 +4,13 @@ body {background:#ebebeb;}
 .header {position:relative;top:0;}
 .nav {left:0;position:relative;background:#add8e6;}
 .main {position:relative;right:0;}
+/*wrapper*/
+.wrapper {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 /*main-2*/
 .main-2 {color:#4584dc;padding:0 2em;position:relative;}
 .main-2::before,.main-2::after {background:#ffaea8;border-radius:50%;color:#f0f;font-weight:bold;height:1.5em;line-height:1.5;position:relative;text-align:center;width:1.5em;}
