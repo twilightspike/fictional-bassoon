@@ -12,4 +12,4 @@ body{background:#fef1e6;}
 .header{top:10%;left:10%;}
 .none{text-decoration:none;}
 /*variation*/
-.footer::before{background:#5acfcf;position:relative;height:40px;width:80px;border-radius:0 0 40px 40px;z-index:2;}
+.footer::before{background:#5acfcf;position:absolute;height:40px;width:80px;border-radius:0 0 40px 40px;z-index:5;}
