@@ -1,0 +1,7 @@
+body{
+  background-image:linear-gradient(63deg, #f8f8f8 5px, transparent 5px) 0 5px,
+linear-gradient(243deg, #f8f8f8 5px, transparent 5px) 10px 0px,
+linear-gradient(63deg, #f0f0f0 5px, transparent 5px) 0px 10px,
+linear-gradient(243deg, #f0f0f0 5px, transparent 5px) 10px 5px,
+linear-gradient(0deg, #f6f6f6 10px, transparent 10px),
+linear-gradient(#f2f2f2 25%, #f3f3f3 25%, #f3f3f3 50%, transparent 50%, transparent 75%, #f4f4f4 75%, #f4f4f4);}
