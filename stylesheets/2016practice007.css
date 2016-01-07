@@ -6,7 +6,7 @@ body{background:#fef1e6;}
   margin: 0;
   list-style: none;
   height: 20px;
-  justify-content:center;
+  justify-content:space-between;
 }
 .grid{background: tomato;
   padding: 10px;
