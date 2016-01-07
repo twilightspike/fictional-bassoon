@@ -1,5 +1,5 @@
 body{background:#fef1e6;}
-.container{background:#ffaea8;border:1em solid #eee;position:absolute;height:566px;width:800px;}
+.container{background:#ffaea8;border:1em solid #eee;position:absolute;height:566px;width:800px;display:flex;}
 .header,.footer{flex: 1 100%;}
 .container{
   padding: 0;
