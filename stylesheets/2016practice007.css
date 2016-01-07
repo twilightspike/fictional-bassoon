@@ -4,12 +4,12 @@ body{background:#fef1e6;}
 .container{
   padding: 0;margin: 0;list-style: none;height: 200px;flex-flow:row wrap;align-items:baseline;
 }
-.footer,.header,.grid{color:white;font-weight:bold;text-align:center;}
-.footer,.header{background:#f0f;position:fixed;height:100px;width:100px;border-radius:100%;font-size:.5em;}
+.footer,.header,.grid{color:white;font-weight:bold;text-align:justify;}
+.footer,.header{background:#f0f;position:fixed;height:100px;width:100px;border-radius:100%;font-size:1em;}
 .footer{bottom:10%;right:10%}
 .grid{
   margin:20px;padding: 50px;width: 100px;border: 3px solid rgba(0,0,0,.2);font-size: 2em;}
 .header{top:10%;left:10%;}
 .none{text-decoration:none;}
 /*variation*/
-.footer::before{background:#5acfcf;position:block;height:40px;width:80px;border-radius:0 0 40px 40px;z-index:5;}
+/*.footer::before{background:#5acfcf;position:block;height:40px;width:80px;border-radius:0 0 40px 40px;z-index:5;}*/
