@@ -1,5 +1,11 @@
 body{background:#fef1e6;}
 .container{background:#ffaea8;border:1em solid #eee;position:absolute;height:566px;width:800px;}
+.container{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 200px;
+}
 .grid{background: tomato;
   padding: 10px;
   width: 100px;
