@@ -1,5 +1,5 @@
 body{background:#fef1e6;}
-.container{background:#ffaea8;border:1em solid #eee;position:absolute;height:566px;width:800px;display:flex;justify:center;}
+.container{background:#ffaea8;border:1em solid #eee;position:absolute;height:566px;width:800px;display:flex;}
 .header,.footer{flex: 1 100%;}
 .container{
   padding: 0;
@@ -9,8 +9,8 @@ body{background:#fef1e6;}
   flex-flow:row wrap;
   align-items:baseline;
 }
-.grid{background: carmin pink;
-  padding: 10px;
+.grid{background:#ff4040;
+  padding: 100px;
   width: 100px;
   border: 3px solid rgba(0,0,0,.2);
   
