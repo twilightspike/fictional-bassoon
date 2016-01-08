@@ -1,9 +1,9 @@
 body{background:#fffacd;}
 .container{
-  background:#fff44f;border:20px #cc00cc;display:block;
+  background:#fff44f;border:1.5em solid #cc00cc;display:block;
   height:500px;margin:0;padding:0;position:absolute;right:225px;top:40px;width:400px;}
 .footer{
-  background:#fff700;border:20px solid #e49b0f;bottom:0;
+  background:#fff700;border:1em solid #e49b0f;bottom:0;
   height:60px;margin:10px;padding:10px #f0f;position:absolute;right:0;width:60px;}
 .none{color:#eee;font:bold 100%/1.8em cursive;text-align:center;text-decoration:none;}
 .footer:hover{transform:scale(.5);transition:all .5s;}
