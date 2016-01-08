@@ -4,10 +4,13 @@ body{
 .container{
   background:#8f00ff;
   border:20px #cc00cc;
+  display:flex;
   height:500px;
   margin:0;
   padding:0;
-  position:flex;
+  position:absolute;
+  right:200px;
+  top:200px;
   width:400px;
 }
 .footer{
