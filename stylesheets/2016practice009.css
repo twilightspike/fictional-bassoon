@@ -2,6 +2,7 @@ body{
   background:#fffdd0;
 }
 .container{
+  background:#8f00ff;
   border:20px #cc00cc;
   height:500px;
   margin:0;
@@ -10,6 +11,7 @@ body{
   width:400px;
 }
 .footer{
+  background:#50c878;
   border:2px #cc00cc;
   bottom:0;
   height:200px;
