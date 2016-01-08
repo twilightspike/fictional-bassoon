@@ -6,4 +6,5 @@ body{
     linear-gradient(243deg, #f0f0f0 5px, transparent 5px) 10px 5px,
     linear-gradient(0deg, #f6f6f6 10px, transparent 10px),
     linear-gradient(#f2f2f2 25%, #f3f3f3 25%, #f3f3f3 50%, transparent 50%, transparent 75%, #f4f4f4 75%, #f4f4f4 90%);
+  background-size:100px 50px;
 }
