@@ -1,38 +1,12 @@
-body{
-  background:#fdd5b1;
-}
+body{background:#fdd5b1;}
 .container{
-  background:#fffacd;
-  border:20px #cc00cc;
-  display:block;
-  height:500px;
-  margin:0;
-  padding:0;
-  position:absolute;
-  right:225px;
-  top:40px;
-  width:400px;
-}
+  background:#fffacd;border:20px #cc00cc;display:block;
+  height:500px;margin:0;padding:0;position:absolute;right:225px;top:40px;width:400px;}
 .footer{
-  background:#b565ed;
-  border:20px #e49b0f;
-  bottom:0;
-  height:60px;
-  margin:10px;
-  padding:10px #f0f;
-  position:absolute;
-  right:0;
-  width:60px;
-}
-.none{
-  color:#eee;
-  font:bold 100%/1.8em cursive;
-  text-align:center;
-  text-decoration:none;
-}
-.none:link,.none:visited{
-  color:#f8f8ff;
-  text-decoration:none;
-}
+  background:#b565ed;border:20px #e49b0f;bottom:0;
+  height:60px;margin:10px;padding:10px #f0f;position:absolute;right:0;width:60px;}
+.none{color:#eee;font:bold 100%/1.8em cursive;text-align:center;text-decoration:none;}
+.none:hover{transform:perspective(200px) rotateZ(45deg);transition:all 1.5s;}
+.none:link,.none:visited{color:#f8f8ff;text-decoration:none;}
 /*set basic above*/
 
