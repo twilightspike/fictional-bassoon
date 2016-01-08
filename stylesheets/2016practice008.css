@@ -4,7 +4,6 @@ body{
     linear-gradient(243deg, #e6e200 5px, transparent 5px),
     linear-gradient(63deg, #88d8c0 5px, transparent 5px),
     linear-gradient(243deg, #eae0c8 5px, transparent 5px),
-    linear-gradient(0deg, #d1e231 10px, transparent 10px),
-    linear-gradient(#f77fbe 50%, transparent 75%);
-  background-size:100px 50px;
+    linear-gradient(0deg, #d1e231 10px, transparent 10px);
+  background-size:100px 200px;
 }
