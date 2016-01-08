@@ -48,8 +48,9 @@ body{
 .button::after{
   background:yellow;
   border:5px solid white;
+  color:#ff1493;
   content:'click here';
-  height:20px;
+  height:200px;
   position:relative;
   width:20px;
   z-index:2;
