@@ -1,4 +1,9 @@
-body{background:#abeebb;}
+body{
+  background:rgba(208,240,192,.5);
+  background-image:
+  radial-gradient(circle at 100% 150%, #ccccff 24%, #1c39bb 25%, transparent 40%),
+  radial-gradient(circle at 0 150%, #ccccff 24%, #1c39bb 25%, transparent 40%);
+}
 
 
 /*background-color:silver;
