@@ -2,7 +2,7 @@ body{
   background:rgba(208,240,192,.5);
   background-image:
   radial-gradient(circle at 100% 150%, #ccccff 24%, #e6e200 40%, #1c39bb 25%, #88d8c8 36%, transparent 40%),
-  radial-gradient(circle at 0 150%, #ccccff 24%, #1c39bb 25%, #e6e200 40%, transparent 40%);
+  radial-gradient(circle at 0 150%, #ccccff 24%, #1c39bb 25%, #e6e200 40%, #88d8c8 36%, transparent 40%);
   background-size:100px 50px;
 }
 
