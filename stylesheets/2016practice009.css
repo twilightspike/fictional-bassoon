@@ -31,3 +31,26 @@ body{
   color:#ff1493;
   text-decoration:none;
 }
+/*set basic above*/
+.button{
+  background:rgba(0,114,187,.8);
+  border-width:40px 30px 20px 30px;
+  border-style:solid;
+  border-color:folly forest-green french-beign french-blue;
+  height:50px;
+  width:50px;
+  z-index:1;
+}
+.button::before,
+.button::after{
+  background:yellow;
+  border:5px solid white;
+  content:'click here';
+  height:20px;
+  position:relative;
+  width:20px;
+  z-index:2;
+}
+/*button setting above*/
+
+/*letter icon setting above*/
