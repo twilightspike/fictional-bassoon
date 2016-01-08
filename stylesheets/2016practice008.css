@@ -7,6 +7,8 @@ body{
     linear-gradient(0deg, #d1e231 10px, transparent 10px);
   background-size:5px 10px;
 }
+.flex{font-size:2em bold solid #eee;text-align:justify;}
+/*
 .container{
   background:rgba(208,240,192,.5);
   background-image:
@@ -27,3 +29,4 @@ body{
     radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
   background-size:100px 50px;
 }
+*/
