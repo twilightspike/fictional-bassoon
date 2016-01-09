@@ -10,7 +10,3 @@ body{background:#fffacd;}
 .footer:hover{transform:scale(.5);transition:all .5s;}
 .none:link,.none:visited{color:#f8f8ff;text-decoration:none;}
 /*set basic above*/
-.sider::before,
-.sider::after{border-left:solid 7px transparent;border-right:solid 7px transparent;border-top:solid 50px;bottom:-10px;content:'';display:block;height:0;position:absolute;width:0;}
-.side::before{left:50%;margin-left:-5px;}
-.side::after{right:50%;margin-right:-5px;}
