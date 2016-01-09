@@ -10,4 +10,4 @@ body{background:#fffacd;}
 .footer:hover{transform:scale(.5);transition:all .5s;}
 .none:link,.none:visited{color:#f8f8ff;text-decoration:none;}
 /*set basic above*/
-.sider::after{border:.25em solid transparent rgba(38,97,156,.6) transparent transparent;border-width:1em 1.5em 5em .5em;bottom:-1em;content:'';position:absolute;z-index:2;}
+.sider::after{border:.25em solid transparent rgba(38,97,156,.6) rgba(38,97,156,.6) transparent;content:'';height:100px;position:absolute;transform:rotate(45deg);width:100px;z-index:2;}
