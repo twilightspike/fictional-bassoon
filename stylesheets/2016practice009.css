@@ -6,7 +6,7 @@ body{background:#fffacd;}
   background:#f56991;border:.25em solid #e68fac;bottom:0;
   height:60px;margin:10px;padding:10px;position:absolute;right:0;width:60px;}
 .none{color:#f56991;font:bold 100%/1.8em cursive;text-align:center;text-decoration:none;}
-.sider{border:.25em solid rgba(38,97,156,.3);height:450px;position:absolute;right:50px;top:0;width:50px;}
+.sider{border:.05em solid rgba(38,97,156,.3);height:450px;position:absolute;right:50px;top:0;width:150px;}
 .footer:hover{transform:scale(.5);transition:all .5s;}
 .none:link,.none:visited{color:#f8f8ff;text-decoration:none;}
 /*set basic above*/
