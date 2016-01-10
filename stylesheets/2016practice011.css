@@ -6,11 +6,6 @@ body{background:#848482;display: flex;height: 100vh;}
 .div5{background:#fae7b5;}
 .footer{background:#ffe135;}
 .article{background:#98777b;}
-.articlewave:nth-child(1n){
-  animation:wave;2s ease-in-out infinite;
-  flex: 1;
-  background:mix(black, ForestGreen, (n/6)*100%);
-  animation-delay: n/5 * 2s;
-	}
-}
-@keyframes wave { 50% { flex: 2; } }
+.articlewave:nth-child(1n){background:#89cff0;}
+.articlewave:nth-child(2n){background:#a1caf1;}
+
