@@ -8,4 +8,4 @@ body{background:#848482;display: flex;height: 100vh;}
 .article{background:#98777b;}
 .articlewave:nth-child(1n){background:#89cff0;}
 .articlewave:nth-child(2n){background:#a1caf1;}
-
+.articlewave:nth-child(3n){background:#f4c2c2;mix-blend-mode:screen;}
