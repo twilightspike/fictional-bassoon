@@ -1,2 +1,2 @@
-body{background:#008000;background-image:radial-gradient(50% 40%, rgba(251,206,177.35) 0, transparent 100%);}
+body{background:rgba(0,128,0,.5);background-image:radial-gradient(50% 40%, rgba(251,206,177.5) 0, transparent 100%);}
 .footer{color:#fff;font-family:Helvetica, Arial, sans-serif;font-size:34px;position:absolute;text-shadow:0 4px 20px rgba(250,235,215,.4);bottom:50%;margin:-17px 0 0;width:100%;}
