@@ -8,5 +8,5 @@ body{background:#fffacd;font-family:Alphabetized Cassette Tapes;}
 .none{color:#f56991;font:bold 100%/1.8em cursive;text-align:center;text-decoration:none;}
 .footer:hover{transform:scale(.5);transition:all .5s;}
 .none:link,.none:visited{color:#f8f8ff;text-decoration:none;}
-.sider{color:#848482;font:bold 100%/2em cursive;text-decoration:none;}
+.sider{color:#848482;font:bold 100%/2em ;text-decoration:none;}
 /*set basic above*/
