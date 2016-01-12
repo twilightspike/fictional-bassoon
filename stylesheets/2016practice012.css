@@ -1,15 +1,5 @@
-body{background:#fbceb1;}
-@font-face{
-  font-family:alphabetized cassette tapes;
-  src:local(alphabetized cassette tapes.ttf);
-  font-weight:bold;
-}
-.footer{
-  background:#4b5320;border-radius:100%;
-  color:#cd9575;
-  font-size:34px;
-  position:absolute;text-decoration:none;text-shadow:0 4px 20px rgba(250,235,215,.4);
-  bottom:50%;
-  margin:-17px 0 0;
-  width:10vw;}
-.wave{font-family:alphabetized cassette tapes, serif;}
+body{background:#32127a;}
+.flex{
+  background:rgba(253,253,150,.4);border:1em solid #77dd77;
+  color:#f7f7f7;display:grid;
+  font-family:Gill Sans Extrabold;}
