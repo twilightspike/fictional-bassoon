@@ -1,5 +1,5 @@
-body{background:#32127a;}
-.container,.footer,.article{
-  background:rgba(253,253,150,.4);border:1em solid #77dd77;
+body{background:#170837;}
+.wave,.footer,.article{
+  background:rgba(253,253,150,.4);border:.5em solid #77dd77;margin-top:10px;margin-left:20px;padding:0;
   color:#f7f7f7;display:grid;
   font-family:Gill Sans Extrabold;}
