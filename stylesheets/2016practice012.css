@@ -1,5 +1,5 @@
 body{background:#32127a;}
-.flex{
+.container,.footer,.article{
   background:rgba(253,253,150,.4);border:1em solid #77dd77;
   color:#f7f7f7;display:grid;
   font-family:Gill Sans Extrabold;}
