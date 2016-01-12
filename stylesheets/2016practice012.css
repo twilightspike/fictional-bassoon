@@ -1,9 +1,10 @@
-body{background:#170837;color:#f7f7f7;}
+body{background:#170837;color:#f7f7f7;text-align:center;}
 .container,.footer,.articlewave{
-  border:.25em solid #77dd77;margin-top:10px;margin-left:20px;padding:0;
+  border:.25em solid #77dd77;margin-top:10vh;margin-left:20px;padding:0;
   display:flex;
   font-family:Gill Sans Extrabold;}
 .div1{background:#ccff00;}.div2{background:#e55ea2;}.div3{background:#ffc0cb;}.div4{background:#efa988;}.div5{background:#e5c1ea;}
 .footer{background:#fdfd96;}
 .wave{height:100px;width:20vw;position:relative;}
-.article:nth-child(2n){background:#97e3ad;}.article:nth-child(3n){background:#cdc11b;}.article:nth-child(n){background:#66556a;}
+.articlewave:nth-child(2n){background:#97e3ad;}.articlewave:nth-child(3n){background:#cdc11b;}.articlewave:nth-child(1n){background:#66556a;}
+.none{text-decoration:none;}
