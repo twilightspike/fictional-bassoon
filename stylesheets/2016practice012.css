@@ -1,7 +1,7 @@
 body{background:#170837;}
 .wave,.footer,.articlewave{
-  border:.5em solid #77dd77;margin-top:10px;margin-left:20px;padding:0;
-  color:#f7f7f7;display:ruby;
+  border:.25em solid #77dd77;margin-top:10px;margin-left:20px;padding:0;
+  color:#f7f7f7;display:flex;
   font-family:Gill Sans Extrabold;}
 .div1{background:#ccff00;}.div2{background:#e55ea2;}.div3{background:#ffc0cb;}.div4{background:#efa988;}.div5{background:#e5c1ea;}
 .footer{background:#fdfd96;}/*.article{background:#;}*/
