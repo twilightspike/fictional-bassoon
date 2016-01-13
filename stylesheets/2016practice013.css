@@ -12,3 +12,4 @@
 .bottom,.left,.right,.top{display:box;border:.5px solid #ff355e;margin:.25px;padding:.2px;font-weight:bold;color:white;}
 .ordinal-group-1{flex:1;background:#f0f;}.ordinal-group-3{flex:1;background:#0f0;}.ordinal-group-4{flex:2;background:#ff0;}.ordinal-group-2{flex:2;background:#00f;}
 .pagination{display:box;}
+.wrap{display:inline-flex;}
