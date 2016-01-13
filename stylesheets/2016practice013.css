@@ -5,6 +5,8 @@
     linear-gradient(to top, rgba(253,245,230,.6) 50%, transparent 0);
   background-size:10px, 10px;
   }
-.flex{display:flex;border:1em solid #800080;color:#cc8899;margin:10%;padding:0;text-align:center;}
+.container{display:flex;border:5px solid #ff8f00;margin:10px;padding:.5px;text-align:center;}
+.flex{display:flex;border:.5em solid #800080;color:#cc8899;margin:10%;padding:0;text-align:center;}
 .none{text-decoration:none;}
-.wrap{display:flex;border:5px solid #ff8f00;margin:10px;padding:.5px;text-align:center;}
+/*box*/
+.bottom,.left,.right,.top{display:inline;border:.5px solid #ff355e;margin:.25px;padding:.2px;font-weight:bold;color:white;}
