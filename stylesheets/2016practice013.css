@@ -10,6 +10,6 @@
 .none{text-decoration:none;}
 /*box*/
 .bottom,.left,.right,.top{display:box;border:.5px solid #ff355e;margin:.25px;padding:.2px;font-weight:bold;color:white;}
-.ordinal-group-1{flex:1;background:#f0f;}.ordinal-group-3{flex:1;background:#0f0;}.ordinal-group-4{flex:2;background:#ff0;}.ordinal-group-2{flex:2;background:#00f;}
+.ordinal-group-1{flex:1;background:#f0f;box-ordinal-group:1;}.ordinal-group-3{flex:1;background:#0f0;box-ordinal-group:3;}.ordinal-group-4{flex:2;background:#ff0;box-ordinal-group:4;}.ordinal-group-2{flex:2;background:#00f;box-ordinal-group:2;}
 .pagination{display:box;}
 .wrap{display:inline-flex;}
