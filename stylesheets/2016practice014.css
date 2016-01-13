@@ -1,3 +1,3 @@
-body{background:rgba(244,196,48,.6);max-width: 100%;height: auto;}
-.footer{background:rgba(50,20,20,.8);max-width:auto;height:100%;margin:0 0 0 90%;}
-.none{color:white;text-align:center;text-decoration:none;}
+body{background:rgba(244,196,48,.6);height: auto;max-width: 100%;}
+.footer{background:rgba(50,20,20,.8);height:100%;margin:0 0 0 90%;max-width:auto;}
+.none{color:white;text-align:center;text-decoration:none;font-size:1em;}
