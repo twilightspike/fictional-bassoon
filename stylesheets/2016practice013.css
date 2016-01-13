@@ -11,5 +11,5 @@
 /*box*/
 .bottom,.left,.right,.top{display:inline-flex;flex-direction:column;border:5px solid #ff355e;margin:2px;padding:25px;font-weight:bold;color:white;}
 .ordinal-group-1{flex:1;background:#f0f;box-ordinal-group:1;}.ordinal-group-3{flex:1;background:#0f0;box-ordinal-group:3;}.ordinal-group-4{flex:2;background:#ff0;box-ordinal-group:4;}.ordinal-group-2{flex:2;background:#00f;box-ordinal-group:2;}
-.pagination{display:box;}
+.pagination-item{display:box;}
 .wrap{display:inline-flex;}
