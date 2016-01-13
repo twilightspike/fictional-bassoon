@@ -9,7 +9,7 @@
 .flex{display:flex;border:.5em solid #800080;color:#cc8899;margin:10%;padding:0;text-align:center;}
 .none{text-decoration:none;}
 /*box*/
-.bottom,.left,.right,.top{display:flex;flex-direction:row;border:.5px solid #ff355e;margin:.25px;padding:.2px;font-weight:bold;color:white;}
+.bottom,.left,.right,.top{display:inline-flex;flex-direction:row;border:.5px solid #ff355e;margin:.25px;padding:.2px;font-weight:bold;color:white;}
 .ordinal-group-1{flex:1;background:#f0f;box-ordinal-group:1;}.ordinal-group-3{flex:1;background:#0f0;box-ordinal-group:3;}.ordinal-group-4{flex:2;background:#ff0;box-ordinal-group:4;}.ordinal-group-2{flex:2;background:#00f;box-ordinal-group:2;}
 .pagination{display:box;}
 .wrap{display:inline-flex;}
