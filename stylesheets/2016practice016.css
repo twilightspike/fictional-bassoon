@@ -1,6 +1,6 @@
 body{background:rgba(227,218,201,.5);}
 .flex{display:flex;}
-.fixed{position:fixed;}
+.fixed{position:fixed;bottom:0;}
 .header,.footer{background:#2c3e50;height:40px;width:822px;color:#ecf0f1;}
 .none{text-decoration:none;}
 .timeline{background:#27ae60;background-size:cover;height:256px;width:822px;}
