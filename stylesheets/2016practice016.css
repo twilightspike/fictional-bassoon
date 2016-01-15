@@ -2,7 +2,7 @@ body{background:rgba(227,218,201,.5);}
 .flex{display:flex;}
 .fixed{position:fixed;bottom:0;}
 .header,.footer{background:#2c3e50;height:40px;width:822px;color:#ecf0f1;}
-.none{text-decoration:none;}
+.none{text-decoration:none;color:rgba(248,248,255,.6);}
 .timeline{background:#27ae60;background-size:cover;height:256px;width:822px;}
 .icon-container{height:256px;width:210px;}
 .title{height:256px;width:612px;}
@@ -15,10 +15,11 @@ body{background:rgba(227,218,201,.5);}
 .toggle:nth-child(3n){height:100px;width:100px;border-radius:50%;}
 
 .icon-menu{height:64px;width:64px;display:grid;margin-right:3px;font-weight:bold;color:white;}
-.icon-menu:nth-child(n){background:rgba(203,65,84,.6);}
-.icon-menu:nth-child(2n){background:rgba(29,172,214,.4);}
-.icon-menu:nth-child(3n){background:rgba(102,255,0,.5);}
-.icon-menu:nth-child(4n){background:rgba(191,148,228,.5);}
+.icon-menu:nth-child(n){background:rgba(255,0,64,.6);}
+.icon-menu:nth-child(2n){background:rgba(0,112,255,.6);}
+.icon-menu:nth-child(3n){background:rgba(85,107,47,.6);}
+.icon-menu:nth-child(4n){background:rgba(139,0,139,.6);}
+.icon-menu:nth-child(5n){background:rgba(72,60,50,.6);}
 .icon-menu::before{background:rgba(46,204,113,.5);height:7.2px;width:4.5px;z-index:1;content:'Hi!';border-radius:1.5px;margin-right:1px;margin-bottom:5px;padding:5px;color:#eee;}
 .container{background:#bdc3c7;height:2140px;width:calc(70%);}
 .cardHeader{background:#2980b9;height:64px;width:535px;}
