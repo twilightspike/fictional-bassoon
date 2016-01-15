@@ -9,7 +9,7 @@ body{background:rgba(227,218,201,.5);}
 .icon-title{background:#ffae32;height:170px;width:170px;}
 .article{background:rgba(241,196,15,.5);height:2140px;width:822px;}
 /*.toggle{background:#f39c12;height:1934px;width:252px;display:box;}*/
-.icon-menu{height:410px;width:calc(33%+3px);display:box;}
+.icon-menu{height:410px;width:calc(33%+3px);display:box;margin-right:30px;}
 .icon-menu:nth-child(n){background:rgba(203,65,84,.5);}
 .icon-menu:nth-child(2n){background:rgba(29,172,214,.5);}
 .icon-menu:nth-child(3n){background:rgba(102,255,0,.5);}
