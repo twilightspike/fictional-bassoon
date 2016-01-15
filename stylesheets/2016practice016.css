@@ -6,10 +6,10 @@ body{background:rgba(227,218,201,.5);}
 .icon-container{height:256px;width:210px;}
 .title{height:256px;width:612px;}
 .icon-title{background:#ffae32;height:170px;width:170px;}
-.article{background:#f1c40f;height:17751px;width:822px;display:block;}
-.toggle{background:#f39c12;height:209px;width:252px;display:inline-block;}
+.article{background:#f1c40f;height:17751px;width:822px;}
+.toggle{background:#f39c12;height:1934px;width:252px;display:inline-block;}
 .icon-menu{background:#9b59b6;height:410px;width:252px;}
-.icon-menu::before{background:#2ecc71;height:72px;width:calc(33%-10px);z-index:1;content:'Hi!';border-radius:15px;margin:5px;padding:20px;color:#eee;}
+.icon-menu::before{background:#2ecc71;height:72px;width:calc(33%-10px);z-index:1;content:'Hi!';border-radius:15px;margin-right:10px;margin-bottom:10px;padding:20px;color:#eee;}
 .container{background:#bdc3c7;height:17701px;width:719px;margin-left:30px;}
 .cardHeader{background:#2980b9;height:64px;width:535px;}
 .video{background:#95a5a6;height:535px;width:535px;}
