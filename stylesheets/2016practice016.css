@@ -11,8 +11,8 @@ body{background:rgba(227,218,201,.5);}
 
 .toggle{display:list-item;}
 .toggle:nth-child(n){height:80px;width:160px;}
-.toggle:nth-child(2n){height:240px;width:80px;}
-.toggle:nth-child(3n){height:100px;width:100px;border-radius:50%;}
+.toggle:nth-child(2n){height:240px;width:calc(33%-5px);}
+.toggle:nth-child(3n){height:100px;width:calc(33%-5px);border:5px solid #0000cd;border-radius:50%;}
 
 .icon-menu{height:64px;width:64px;display:grid;margin-right:3px;font-weight:bold;color:white;}
 .icon-menu:nth-child(n){background:rgba(255,0,64,.6);}
