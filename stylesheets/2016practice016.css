@@ -1,4 +1,5 @@
 body{background:rgba(227,218,201,.5);}
+.flex{display:flex;}
 .header,.footer{background:#2c3e50;height:40px;width:822px;color:#ecf0f1;}
 .none{text-decoration:none;}
 .article{background:#f1c40f;height:17751px;width:822px;}
