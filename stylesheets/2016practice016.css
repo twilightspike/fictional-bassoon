@@ -8,8 +8,8 @@ body{background:rgba(227,218,201,.5);}
 .icon-title{background:#ffae32;height:170px;width:170px;}
 .article{background:#f1c40f;height:17751px;width:822px;}
 .toggle{background:#f39c12;height:209px;width:70px;}
-.icon-menu{background:#9b59b6;height:150px;width:70px;}
-.icon-menu::before{background:#2ecc71;height:44px;width:44px;z-index:1;content:'Hi!';border-radius:15px;margin:5px;padding:20px;color:#eee;box-orient:vertical;}
+.icon-menu{background:#9b59b6;height:410px;width:252px;}
+.icon-menu::before{background:#2ecc71;height:72px;width:73px;z-index:1;content:'Hi!';border-radius:15px;margin:5px;padding:20px;color:#eee;box-orient:vertical;}
 .container{background:#bdc3c7;height:17701px;width:535px;}
 .cardHeader{background:#2980b9;height:64px;width:535px;}
 .video{background:#95a5a6;height:535px;width:535px;}
