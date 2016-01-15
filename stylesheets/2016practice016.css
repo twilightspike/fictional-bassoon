@@ -7,7 +7,7 @@ body{background:rgba(227,218,201,.5);}
 .title{height:256px;width:612px;}
 .icon-title{background:#ffae32;height:170px;width:170px;}
 .article{background:#f1c40f;height:17751px;width:822px;}
-.toggle{background:#f39c12;height:209px;width:252px;}
+.toggle{background:#f39c12;height:209px;width:252px;margin:10px 0;}
 .icon-menu{background:#9b59b6;height:410px;width:252px;}
 .icon-menu::before{background:#2ecc71;height:72px;width:calc(33%-10px);z-index:1;content:'Hi!';border-radius:15px;margin:5px;padding:20px;color:#eee;display:inline-block;}
 .container{background:#bdc3c7;height:17701px;width:535px;}
