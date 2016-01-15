@@ -1,7 +1,7 @@
 body{background:rgba(227,218,201,.5);}
 .flex{display:flex;}
+.fixed{position:fixed;}
 .header,.footer{background:#2c3e50;height:40px;width:822px;color:#ecf0f1;}
-.footer{position:fixed;}
 .none{text-decoration:none;}
 .timeline{background:#27ae60;background-size:cover;height:256px;width:822px;}
 .icon-container{height:256px;width:210px;}
