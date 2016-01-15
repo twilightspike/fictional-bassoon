@@ -14,9 +14,9 @@ body{background:rgba(227,218,201,.5);}
 .toggle:nth-child(2n){height:240px;width:80px;}
 .toggle:nth-child(3n){height:100px;width:100px;border-radius:50%;}
 
-.icon-menu{height:64px;width:64px;display:grid;margin-right:3px;}
-.icon-menu:nth-child(n){background:rgba(203,65,84,.5);}
-.icon-menu:nth-child(2n){background:rgba(29,172,214,.5);}
+.icon-menu{height:64px;width:64px;display:grid;margin-right:3px;font-weight:bold;color:white;}
+.icon-menu:nth-child(n){background:rgba(203,65,84,.6);}
+.icon-menu:nth-child(2n){background:rgba(29,172,214,.4);}
 .icon-menu:nth-child(3n){background:rgba(102,255,0,.5);}
 .icon-menu:nth-child(4n){background:rgba(191,148,228,.5);}
 .icon-menu::before{background:rgba(46,204,113,.5);height:7.2px;width:4.5px;z-index:1;content:'Hi!';border-radius:1.5px;margin-right:1px;margin-bottom:5px;padding:5px;color:#eee;}
