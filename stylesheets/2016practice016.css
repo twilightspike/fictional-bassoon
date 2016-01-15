@@ -2,6 +2,10 @@ body{background:rgba(227,218,201,.5);}
 .flex{display:flex;}
 .header,.footer{background:#2c3e50;height:40px;width:822px;color:#ecf0f1;}
 .none{text-decoration:none;}
+.timeline{background:#27ae60;height:256px;width:822px;}
+.icon-container{height:256px;width:210px;}
+.title{height:256px;width:612px;}
+
 .article{background:#f1c40f;height:17751px;width:822px;}
 .toggle{background:#f39c12;height:209px;width:70px;}
 .icon-menu{background:#9b59b6;height:70px;width:70px;}
