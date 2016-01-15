@@ -3,8 +3,10 @@ body{background:rgba(227,218,201,.5);}
 .none{text-decoration:none;}
 .line,.footer{font-size:18px;font-weight:bold;}
 .lastUnit{background:rgba(49,140,231,.5);color:white;}
-.size1of1{background:rgba(13,152,186,.5);height:877px;width:164.391px;}
+.size1of1{background:rgba(10,186,181,.5);height:877px;width:164.391px;}
 .size1of2{background:rgba(210,105,30,.5);height:245px;width:246px;}
-.size1of3{background:rgba(222,49,99,.5);height:553px;width:164.391px;}
+.size1of3{background:rgba(252,137,172,.5);height:553px;width:164.391px;}
 .size2of3{height:197px;width:328px;}
 .size1of4{background:rgba(255,255,102,.5);height:357px;width:328px;}
+.size3of4{height:324px;width:164px;}
+.size2of5{background:rgba(255,110,74,.5);}
