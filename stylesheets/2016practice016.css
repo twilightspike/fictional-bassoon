@@ -9,7 +9,7 @@ body{background:rgba(227,218,201,.5);}
 .icon-title{background:#ffae32;height:170px;width:170px;}
 .article{background:rgba(241,196,15,.5);height:2140px;width:822px;}
 
-.toggle{background:rgba(255,0,127,.4);height:8px;width:15px;display:box;}
+.toggle{border:.5em solid rgba(255,0,127,.4);height:80px;width:150px;display:box;}
 
 .icon-menu{height:64px;width:64px;display:grid;margin-right:3px;}
 .icon-menu:nth-child(n){background:rgba(203,65,84,.5);}
