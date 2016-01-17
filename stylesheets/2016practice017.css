@@ -1,0 +1,8 @@
+body{
+  backgorund:transparent;
+  background-image:
+    linear-gradient(to right rgba(239,152,170,.5) 50% transparent 50%),
+    linear-gradient(to left rgba(229,183,59,.5) 50% transparent 50%);
+  background-size:50px 100px;
+  }
+  .none{color:white;font-weight:bold;text-align:center;text-decoration:none;}
