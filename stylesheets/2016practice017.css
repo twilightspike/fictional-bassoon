@@ -1,8 +1,8 @@
 body{
-  backgorund:transparent;
+  backgorund:#f90;
   background-image:
-    linear-gradient(to right rgba(239,152,170,.5) 50% transparent 50%),
-    linear-gradient(to left rgba(229,183,59,.5) 50% transparent 50%);
-  background-size:50px 100px;
+    linear-gradient(45deg rgba(239,152,170,.5) 50% transparent 50%),
+    linear-gradient(45deg rgba(229,183,59,.5) 50% transparent 50%);
+  background-size:50px 50px;
   }
   .none{color:white;font-weight:bold;text-align:center;text-decoration:none;}
