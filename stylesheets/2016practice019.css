@@ -4,7 +4,7 @@
   position: relative;
   background: #fff;
   float: left;}
-.footer:before,.none{content: '';
+.footer:before,.none:before{content: '';
       z-index: -1;
       position: absolute;
       width: 220px;
