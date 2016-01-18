@@ -1,15 +1,3 @@
-.footer,.none:before{margin: 80px 30px;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  background: #fff;
-  float: left;}
-.footer:before,.none{content: '';
-      z-index: -1;
-      position: absolute;
-      width: 220px;
-      height: 220px;
-      top: -10px;
-      left: -10px;
-      background-image: linear-gradient(90deg, yellow, gold);}
+.footer{margin: 80px 30px;width: 200px;height: 200px;position: relative;background: #fff;float: left;}
+.footer:before,.none{content: '';z-index: -1;position: absolute;width: 220px;height: 220px;top: -10px;left: -10px;background-image: linear-gradient(90deg, yellow, gold);}
 .none{bottom:0;color:white;font-weight:bold;position:fixed;right:0;text-align:center;text-decoration:none;}
