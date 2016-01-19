@@ -2,5 +2,5 @@
 .footer{float:left;}
 .nav{float:right;}
 .footer:before,.nav:before,.none{content: '';z-index: -1;position: absolute;width: 220px;height: 220px;top: -10px;left: -10px;background-image: linear-gradient(90deg, yellow, gold);}
-.nav:after{content:'text';z-index:2;position:absolute;width:677px;height:440px;top:10px;right:10px;border:10px solid linear-gradient(45deg, rgba(246,173,198,.5), rgba(246,173,198) 8px, rgba(0,119,190,.5) 9px, rgba(0,119,190) 20px);background-size:20px 20px;background-repeat:repeat-x;}
+.nav:after{content:'text';z-index:2;position:absolute;width:677px;height:440px;top:10px;right:10px;border:10px solid rgba(0,119,190,.6);}
 .none{bottom:0;color:white;font-weight:bold;position:fixed;right:0;text-align:center;text-decoration:none;}
