@@ -1,6 +1,6 @@
 body{
   background:linear-gradient(to right,#ffdb58 11%,#21421e 11%,#21421e 22%,#f6adc6 22%,#f6adc6 33%,#2a8000 33%,#2a8000 44%,#fada5e 44%,#fada5e 55%,#000080 55%,#000080 66%,#ffa343 66%,#ffa343 77%,#fe59c2 77%,#fe59c2 88%,#0077be 88%);
-  background-repeat:repeat-x;
+  background-repeat:repeat-y;
   background-position:center 0, center 86px, center 172px;
   background-size:774px 86px;
 }
