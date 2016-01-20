@@ -32,3 +32,12 @@ h1::after {
  font-family:'Three';
  color: rgba(180,150,50,.5);
 }
+
+div {
+ position: relative;
+ top:10px;
+ left:5px;
+ background-color: rgba(200,150,150,0.2);
+ border-radius: 10px;
+ max-width:1190px;
+}
