@@ -2,4 +2,4 @@
 .none{background:rgba(15,15,15,.7);color:rgba(253,245,230,.5);font-weight:bold;text-align:center;text-decoration:none;}
 /*background-related*/
 .flex:nth-child(2n){background:#fff796;}
-.flex:nth-child(2n)::before{padding:16px;background:#0f0;}
+.flex:nth-child(3n){padding:16px;background:#0f0;}
