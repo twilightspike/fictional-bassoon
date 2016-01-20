@@ -6,3 +6,5 @@
 .flex:nth-child(3n){padding:16px;background-image:linear-gradient(to bottom, #f2718b, #f2718b 10px,#bbaaee 10px, #bbaaee 50px, #ffc1c1 50px, #ffc1c1);}
 .flex:nth-child(4n){background-image:linear-gradient(to bottom, #f2718b, #f2718b 10%,#bbaaee 10%, #bbaaee 50%, #ffc1c1 50%, #ffc1c1 100%);}
 .flex:nth-child(5n){padding:80px;background-image:linear-gradient(to bottom, #f2718b, #f2718b 10px,#bbaaee 10px, #bbaaee 50px, #ffc1c1 50px, #ffc1c1);}
+.flex:nth-child(6n){padding:16px;background-image:linear-gradient(to bottom, #f2718b, #f2718b 10%,#bbaaee 10%, #bbaaee 50%, #ffc1c1 50%, #ffc1c1 100%);}
+.flex:nth-child(7n){padding:16px 80px;background-image:linear-gradient(to bottom, #f2718b, #f2718b 10px,#bbaaee 10px, #bbaaee 50px, #ffc1c1 50px, #ffc1c1);}
