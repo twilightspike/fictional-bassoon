@@ -1,0 +1,21 @@
+#first, #second, #third{
+ display: block;
+ position:absolute;
+ top:10px;
+ left:5px;
+}
+h1 {
+ font:5em 'One';
+ color:rgba(200,0,0,.85);
+}
+#second h1 {
+ font-family:'Two';
+ color:rgba(0,200,0,.85);
+ }
+#third h1 {
+ font-family:'Three';
+ color:rgba(0,0,200,.85);
+}
+.flex{display:flex;}
+.fixed{display:fixed;}
+.none{color:white;font-weight:bold;text-align:center;text-decoration:none;}
