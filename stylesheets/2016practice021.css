@@ -1,10 +1,10 @@
 #first,#second,#third{
  display: block;position:absolute;top:10px;left:5px;
 }
-h1 {
+/*h1 {
  font:5em 'One';
  color:rgba(200,0,0,.85);
-}
+}*/
 #second h1 {
  font-family:'Two';
  color:rgba(0,200,0,.85);
@@ -16,6 +16,11 @@ h1 {
 
 .fixed{display:fixed;}
 .none{color:white;font-weight:bold;text-align:center;text-decoration:none;}
+
+h1 {
+ font: 5em ‘Display’;
+ color:rgba(100,60,20,1);
+}
 
 h1::before {
  content: attr(text);
