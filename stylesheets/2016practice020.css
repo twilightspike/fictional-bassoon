@@ -1,2 +1,2 @@
-.flex{border:10px solid rgba(128,128,0,.8);display:flex;padding-top:100px dotted purple;padding-right:20px solid blue;padding-bottom:50px dotted yellow;padding-left:60px solid red;}
+.flex{display:flex;border-top:100px dotted purple;border-right:20px solid blue;border-bottom:50px dotted yellow;border-left:60px solid red;}
 .none{background:rgba(15,15,15,.7);color:rgba(253,245,230,.5);font-weight:bold;text-align:center;text-decoration:none;}
