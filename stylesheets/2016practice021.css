@@ -1,43 +1,11 @@
-#first,#second,#third{
- display: block;position:absolute;top:10px;left:5px;
-}
-/*h1 {
- font:5em 'One';
- color:rgba(200,0,0,.85);
-}*/
-#second h1 {
- font-family:'Two';
- color:rgba(0,200,0,.85);
- }
-#third h1 {
- font-family:'Three';
- color:rgba(0,0,200,.85);
-}
-
+body{background:rgba(255,245,238,.7);}
 .fixed{display:fixed;}
 .none{color:white;font-weight:bold;text-align:center;text-decoration:none;}
 
-h1 {
- font: 5em ‘Display’;
- color:rgba(100,60,20,1);
-}
-
-h1::before {
- content: attr(text);
- font-family:'Two';
- color:rgba(150,150,100,.5);
-}
-h1::after {
- content: attr(text);
- font-family:'Three';
- color: rgba(180,150,50,.5);
-}
-
-div {
- position: relative;
- top:10px;
- left:5px;
- background-color: rgba(200,150,150,0.2);
- border-radius: 10px;
- max-width:1190px;
-}
+.article{border:10px solid rgba(255,36,0,.6);height:41px;width:844px;}
+.head{border:10px solid rgba(255,216,0,.6);height:48px;width:844px;}
+.container{border:10px solid rgba(50,20,20,.8);height:422px;width:844px;}
+.flex{display:flex;}
+.flex:nth-child(1n){border:10px solid rgba(118,255,122,.8);height:81px;width:844px;}
+.flex:nth-child(2n){border:10px solid rgba(0,105,148,.8);height:422px;width:844px;}
+.flex:nth-child(3n){border:10px solid rgba(46,139,87,.8);height:142px;width:844px;}
