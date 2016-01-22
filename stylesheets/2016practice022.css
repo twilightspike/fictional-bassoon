@@ -1,4 +1,4 @@
 body{background:rgba(255,245,238,.8);font-family: 'Tangerine', serif;font-size: 48px;}
 .container{border:5px solid rgba(203,65,11,.4);height:410px;width:890px;}
-.flex{border:10px solid rgba(203,65,11,.8);height:250px;width:320px;margin:20px;}
+.flex{border:10px solid rgba(203,65,11,.8);display:flex;height:250px;width:320px;margin:20px;}
 .none{font-weight:bold;text-align:center;text-decoration:none;}
