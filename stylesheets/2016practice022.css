@@ -2,3 +2,4 @@ body{background:rgba(255,245,238,.8);font-family: 'Tangerine', serif;font-size: 
 .container{border:5px solid rgba(203,65,11,.4);height:410px;width:890px;}
 .flex{border:10px solid rgba(203,65,11,.8);display:inline-box;height:250px;width:320px;margin:20px;text-align:-webkit-match-parent;}
 .none{font-weight:bold;text-align:center;text-decoration:none;}
+.container .none{border:10px solid rgba(203,65,11,.8);display:inline-box;height:25px;width:32px;}
