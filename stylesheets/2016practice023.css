@@ -11,5 +11,8 @@ body{background:rgba(255,250,250,.8);font-family: 'Tangerine', sans-serif;font-s
 .list-link{color:rgba(224,141,60,.7);text-decoration:none;}
 .list-link:hover{background:rgba(219,215,210,.5);}
 /*qr-wrap*/
+.qr-wrap{border:5px solid rgba(255,99,71,.5);}
+/*qr*/
+.qr{display:inline-box;border:2px dotted rgba(116,108,192,.5);margin:1.5px;}
 /*qr-top*/
 /*qr-bottom*/
