@@ -7,3 +7,4 @@ body{background:rgba(255,250,250,.8);font-family: 'Tangerine', sans-serif;font-s
 .list-arrow::after{content:'';border-right:20px solid rgba(252,137,172,.8);border-top:20px solid rgba(10,186,181,.8);display:inline-block;height:80px;margin:-40px 0 0;position:absolute;right:10px;top:50%;transform:rotate(45deg);width:80px;}
 /*list-link*/
 .list-link{color:rgba(224,141,60,.7);text-decoration:none;}
+.list-link:hover{background:rgba(219,215,210,.5);}
