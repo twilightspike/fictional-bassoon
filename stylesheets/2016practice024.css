@@ -1,1 +1,1 @@
-body{background:rgba(253,14,53,.4);background-image:linear-gradient(right, rgba(255,200,124,.8), rgba(255,200,124,.6));}
+body{background:rgba(253,14,53,.4);background-image:linear-gradient(right, rgba(255,200,124,.8) 50%, rgba(255,200,124,.6) 50%);background-size:30px 100%;}
