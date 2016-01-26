@@ -3,3 +3,4 @@ body{background:rgba(154,205,50,.8);}
 .mainNav{position:absolute;top: 65px;left: 650px;width: 250px;padding: 10px 0;overflow: hidden;}
 .menu{display: block;list-style: none;margin: 0 0 6px;padding: 0;width: 220px;}
 .none{color:rgba(99,81,71,.6);font-weight:bold;text-align:center;text-decoration:none;}
+p{display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
