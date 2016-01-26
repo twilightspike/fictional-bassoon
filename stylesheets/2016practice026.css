@@ -1,4 +1,4 @@
-body{background:rgba(154,205,50,.8);}
+body{background:rgba(154,205,50,.8);border:5px solid rgba(211,0,63,.7);}
 .header{display:block;font-size:20px;height:167px;margin:3px 18px;padding:0 22px;width:650px;}
 .mainNav{position:absolute;top: 65px;left: 650px;width: 250px;padding: 10px 0;overflow: hidden;}
 .menu{display: block;list-style: none;margin: 0 0 6px;padding: 0;width: 220px;}
@@ -10,3 +10,5 @@ p{display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-ma
 .outbound{height:2em;width:230px;margin: 20px 0 0 20px;padding: 0 12px;border: 0;line-height: 2em;background: #FFF;color: #00AEEF;-webkit-box-shadow: #777 0 0 10px;-moz-box-shadow: #777 0 0 10px;box-shadow: #777 0 0 10px;
     cursor: pointer;display: block;position: relative;text-align: right;text-decoration: none;font-size: 19px;font-weight: normal;font-family: 'MuseoSans500', sans-serif;}
 strong{background: rgba(255,255,102,.8) 50%, rgba(91,146,229,.8) 100%, no-repeat 0 2px;padding-left: 30px;font-weight: normal;}
+.pageContent{display:block;padding: 20px 0 0;margin: 20px 0 0;background: #FFF repeat-x 0 0;color: #666;font-family: 'MuseoSans500', sans-serif;text-align: center;font-size: 0.9em;}
+    
