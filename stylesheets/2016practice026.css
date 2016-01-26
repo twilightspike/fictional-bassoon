@@ -4,7 +4,10 @@ body{background:rgba(154,205,50,.8);}
 .menu{display: block;list-style: none;margin: 0 0 6px;padding: 0;width: 220px;}
 .none{color:rgba(99,81,71,.6);font-weight:bold;text-align:center;text-decoration:none;}
 p{display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
-form{display: block;margin: 0;padding: 0;}
 .social{float: right;display: inline;margin-right: 10px;margin-top: 10px;list-style: none;}
 .rss{float: right;display: inline;margin-right: 10px;margin-top: 10px;list-style: none;}
 .rss a{background-position: 50% -79px;display: block;position: relative;width: 30px;height: 30px;line-height: 30px;border: 1px solid #FFF;background: #666 url(../img/icons.png) no-repeat 50% -45px;white-space: nowrap;text-indent: 30px;overflow: hidden;}
+.outbound{height:2em;width:230px;margin: 20px 0 0 20px;padding: 0 12px;border: 0;line-height: 2em;
+    background: #FFF;color: #00AEEF;-webkit-box-shadow: #777 0 0 10px;-moz-box-shadow: #777 0 0 10px;box-shadow: #777 0 0 10px;
+    cursor: pointer;display: block;position: relative;
+    text-align: right;text-decoration: none;font-size: 19px;font-weight: normal;font-family: 'MuseoSans500', sans-serif;}
