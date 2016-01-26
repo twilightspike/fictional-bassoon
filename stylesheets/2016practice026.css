@@ -7,3 +7,4 @@ p{display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-ma
 form{display: block;margin: 0;padding: 0;}
 .social{float: right;display: inline;margin-right: 10px;margin-top: 10px;list-style: none;}
 .rss{float: right;display: inline;margin-right: 10px;margin-top: 10px;list-style: none;}
+.rss a{background-position: 50% -79px;display: block;position: relative;width: 30px;height: 30px;line-height: 30px;border: 1px solid #FFF;background: #666 url(../img/icons.png) no-repeat 50% -45px;white-space: nowrap;text-indent: 30px;overflow: hidden;}
