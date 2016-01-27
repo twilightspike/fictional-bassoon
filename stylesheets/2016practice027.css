@@ -4,3 +4,4 @@
 h1{font-size:3em;padding:0 0 5px;font-family: 'MuseoSans500', sans-serif;margin: .75em 0 .5em 0;font-weight: normal;color: #666;line-height: normal;position: relative;}
 h1 a{color:rgba(162,173,208,.6);text-decoration:none;}
 .pageContent{background:rgba(252,108,133,.4);border:.75em solid rgba(245,222,179,.8);}
+patternGallery li {display: block;list-style: none;clear: both;margin: 0;padding: 20px 0;border-top: 1px solid #ccc;}
