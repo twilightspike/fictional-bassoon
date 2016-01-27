@@ -1,5 +1,6 @@
 .content{display:block;}
 .gallery{margin:0;padding:0;display: block;list-style-type: disc;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
+.gallery li {display: block;list-style: none;clear: both;margin: 0;padding: 20px 0;border-top: 1px solid #ccc;}
 .header{background:rgba(245,222,179,.3);border:.5em solid rgba(252,108,133,.8);}
 h1{font-size:3em;padding:0 0 5px;font-family: 'MuseoSans500', sans-serif;margin: .75em 0 .5em 0;font-weight: normal;color: #666;line-height: normal;position: relative;}
 h1 a{color:rgba(162,173,208,.6);text-decoration:none;}
@@ -7,5 +8,4 @@ h2{margin:0;font-size: 2em;color: #666;line-height: normal;position: relative;di
 h3{}
 .pageContent{background:rgba(252,108,133,.4);border:.75em solid rgba(245,222,179,.8);}
 p{}
-patternGallery li {display: block;list-style: none;clear: both;margin: 0;padding: 20px 0;border-top: 1px solid #ccc;}
 pre{margin: 0 240px 0 0;max-height: 250px;width: 344px;overflow: auto;background: rgba(245,245,245,.5);border: 1px solid rgba(15,77,146,.6);padding: .5em 1em;}
