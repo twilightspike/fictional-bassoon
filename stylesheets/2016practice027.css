@@ -1,3 +1,4 @@
+body{display:inline-flex;}
 .content{display:block;}
 .gallery{margin:0;padding:0;display: inline-flex;list-style-type: disc;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
 .gallery li {flex-wrap:wrap;align-content:center;display: block;list-style: none;clear: both;margin: 0;padding: 20px 0;border-top: 1px solid #ccc;}
