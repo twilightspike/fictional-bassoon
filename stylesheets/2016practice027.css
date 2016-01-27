@@ -8,4 +8,4 @@ h3{}
 .pageContent{background:rgba(252,108,133,.4);border:.75em solid rgba(245,222,179,.8);}
 p{}
 patternGallery li {display: block;list-style: none;clear: both;margin: 0;padding: 20px 0;border-top: 1px solid #ccc;}
-pre{}
+pre{margin: 0 240px 0 0;max-height: 250px;width: 344px;overflow: auto;background: rgba(245,245,245,.5);border: 1px solid rgba(15,77,146,.6);padding: .5em 1em;}
