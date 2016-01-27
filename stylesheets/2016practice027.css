@@ -4,9 +4,9 @@
 .header{background:rgba(245,222,179,.3);border:.5em solid rgba(252,108,133,.8);}
 h1{font-size:3em;padding:0 0 5px;font-family: 'MuseoSans500', sans-serif;margin: .75em 0 .5em 0;font-weight: normal;color: #666;line-height: normal;position: relative;}
 h1 a{color:rgba(162,173,208,.6);text-decoration:none;}
-h2{margin:0;font-size: 2em;color: #666;line-height: normal;position: relative;display: block;font-size: 1.5em;-webkit-margin-before: 0.83em;-webkit-margin-after: 0.83em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+h2{margin:0;font-size: 2em;color: #666;line-height: normal;position: relative;display: inline-block;font-size: 1.5em;-webkit-margin-before: 0.83em;-webkit-margin-after: 0.83em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
 h3{color: #666;margin: 0;font-size: 1em;}
-.demo{background-size:50px 50px;border-radius:25%;box-shadow:0 1px 8px rgba(100,84,82,.5);display:justify;height:200px;width:200px;position:relative;}
+.demo{background-size:50px 50px;border-radius:25%;box-shadow:0 1px 8px rgba(100,84,82,.5);height:200px;width:200px;position:relative;}
 .demo:nth-child(1){}
 .demo:nth-child(2){}
 .pageContent{background:rgba(252,108,133,.4);border:.75em solid rgba(245,222,179,.8);}
