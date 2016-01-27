@@ -6,7 +6,9 @@ h1{font-size:3em;padding:0 0 5px;font-family: 'MuseoSans500', sans-serif;margin:
 h1 a{color:rgba(162,173,208,.6);text-decoration:none;}
 h2{margin:0;font-size: 2em;color: #666;line-height: normal;position: relative;display: block;font-size: 1.5em;-webkit-margin-before: 0.83em;-webkit-margin-after: 0.83em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
 h3{color: #666;margin: 0;font-size: 1em;}
-li div{background-size:50px 50px;border-radius:25%;box-shadow:0 1px 8px rgba(100,84,82,.5);display:flex;height:200px;width:200px;position:relative;}
+.demo{background-size:50px 50px;border-radius:25%;box-shadow:0 1px 8px rgba(100,84,82,.5);display:float right;height:200px;width:200px;position:relative;}
+.demo:nth-child(1){}
+.demo:nth-child(2){}
 .pageContent{background:rgba(252,108,133,.4);border:.75em solid rgba(245,222,179,.8);}
 p{display: block;margin: 0 0 1.5em;}
 pre{margin: 0 240px 0 0;max-height: 250px;width: 344px;overflow: auto;background: rgba(245,245,245,.5);border: 1px solid rgba(15,77,146,.6);padding: .5em 1em;}
