@@ -1,4 +1,4 @@
-.wave{position:absolute;bottom:calc((100% - 30px)/2);right:calc((100% - 30px)/2);height:250px;width:250px;border-radius:50%;}
+.wave{position:absolute;bottom:calc((100% - 30px)/2);right:calc((100% - 30px)/2);height:25px;width:25px;border-radius:50%;}
 .wave0{background:rgba(220,20,60,.2);z-index:2;background-size:auto 106%;-webkit-animation:w 1s forwards;}
 .wave1{background:rgba(220,20,60,.3);z-index:3;-webkit-animation:w 1s .2s forwards;}
 .wave2{background:rgba(220,20,60,.4);z-index:4;-webkit-animation:w 1s .4s forwards;}
