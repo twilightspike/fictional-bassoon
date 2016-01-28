@@ -1,4 +1,7 @@
-.wave{position:absolute;bottom:calc((100% + 30px)/2);right:calc((100% + 30px)/2);height:200px;width:200px;border-radius:50%;}
+.wave{position:absolute;bottom:calc((100% + 30px)/2);right:calc((100% + 30px)/2);height:500px;width:500px;border-radius:50%;}
 .wave0{
   background:#f00;z-index:2;background-size:auto 106%;-webkit-animation:w 1s forwards;
+}
+.wave1{
+  background:#d00;z-index:3;-webkit-animation:w 1s .2s forwards;
 }
