@@ -1,6 +1,6 @@
 body{background:rgba(89,39,32,.05);background-image:linear-gradient(50% 40%, rgba(255,166,201,5) 0, rgba(255,166,201,.25) 100%);background-size:50px 50px;}
 .header{background:rgba(89,39,32,.1);border:.5px solid rgba(89,37,33,.15);margin-top:0;height:40px;width:98vw;}
-.footer{background:rgba(89,39,32,.1);border:.25px solid rgba(89,39,32,.25);margin:.25em;padding-bottom:.55vh;padding-top:0;position:fixed;bottom:.55vh;height:40px;width:98vw;}
+.footer{background:rgba(89,39,32,.1);border:.25px solid rgba(89,39,32,.25);margin:.25em;padding:0;position:fixed;bottom:.55vh;height:40px;width:98vw;}
 .none{text-align:center;text-decoration:none;}
 .tooltip {position: relative;display: inline-block;border-bottom: 1px dotted black;}
 .tooltip .tooltiptext {visibility: hidden;width: 120px;background-color: black;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;/* Position the tooltip */position: absolute;z-index: 1;}
