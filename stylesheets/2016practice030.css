@@ -6,7 +6,7 @@ h6{right:calc((100% - 30px)/2;}
 .none{text-align:center;text-decoration:none;}
 .tooltip {position: relative;display: flex;border-bottom: 1px dotted black;}
 .tooltip .tooltiptext {visibility: hidden;width: 120px;background-color: black;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;/* Position the tooltip */position: absolute;z-index: 1;}
-.tooltip:hover .tooltiptext {visibility: visible;}
+.tooltip:hover:.tooltiptext {visibility: visible;}
 /*common*/
 .header div,.none{font-weight:bold;}
 /*edit from here*/
