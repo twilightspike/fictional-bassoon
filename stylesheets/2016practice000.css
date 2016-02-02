@@ -4,12 +4,15 @@ body{
   background-color: #f7cac9;
 }
 .pack{
-  display:flex;flex-wrap:wrap;/*display: inline-box;*/
+  display:flex;/*display: inline-box;*/
   height: 100%;
   margin: 0;
   position: relative;
   width: 160px;
   background-color: #92a8d1;
+}
+.pack li{
+  flex-wrap:wrap;
 }
 .face {
   background-color: #f0f4f8;
