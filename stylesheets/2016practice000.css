@@ -12,7 +12,7 @@ body{
   background-color: #92a8d1;
 }
 .pack li{
-  flex-wrap:wrap;
+  flex-wrap:wrap;padding:0 10px 25px;
 }
 .face {
   background-color: #f0f4f8;
