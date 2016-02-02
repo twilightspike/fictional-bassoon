@@ -4,7 +4,7 @@ body{
   background-color: #f7cac9;
 }
 .pack{
-  display: inline-box;
+  display:flex;flex-wrap:wrap;/*display: inline-box;*/
   height: 100%;
   margin: 0;
   position: relative;
