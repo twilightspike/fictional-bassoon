@@ -1,2 +1,4 @@
 body{background:rgba(250,214,165,.5);}
 .none{font-weight:bold;text-align:center;text-decoration:none;}
+.flex{border:5px solid rgba(255,20,147,.5);display:flex;margin-left:0;}
+.inline{border:2px solid rgba(204,255,0,.5);flex-wrap:wrap;border-radius:25%;}
