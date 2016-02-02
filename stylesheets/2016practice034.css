@@ -1,2 +1,5 @@
-.header{border:5px solid rgba(168,228,160,.5);}
+.header{
+  border:5px solid rgba(168,228,160,.5);
+  box-shadow:2px 2px 2px rgba(20%,20%,40%,0.6),4px 4px 6px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+}
 .none{text-align:center;text-decoration:none;}
