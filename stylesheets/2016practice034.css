@@ -5,3 +5,4 @@
 .none{text-align:center;text-decoration:none;}
 .block{display:block;border:5.5px solid rgba(34,139,34,.5);}
 .border-box{box-sizing:border-box;border:2.5px solid rgba(246,74,138,.5);}
+.table{display:table;}
