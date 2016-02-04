@@ -3,4 +3,4 @@
 .justify{border:4.5px solid rgba(255,247,0,.5);position:relative;}
 .align-item{align-item:flex-end;border:4.5px solid rgba(150,123,182,.5);}
 .align-self{align-self:baseline;border:4.5px solid rgba(191,255,0,.5);}
-.wrap{flex-wrap:nowrap;border:4.5px solid rgba(253,213,177,.5);}
+.wrap{display:flex;flex-wrap:nowrap;border:4.5px solid rgba(253,213,177,.5);}
