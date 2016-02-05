@@ -1,4 +1,4 @@
-body{background: radial-gradient(circle, #1a82f7, #2F2727);}
+body{background: radial-gradient(circle, rgba(255,250,205,.6), rgba(255,247,0,.3));}
 body,.none{font-size:bold;text-align:center;text-decoration:none;color:rgba(245,105,145,.6);}
 .header{display:block;background:rgba(240,128,128,.3);height:200px;width:200px;border-radius:50%;}
 .inline-flex{display:inline-flex;border:5px solid rgba(191,255,0,.5);}
