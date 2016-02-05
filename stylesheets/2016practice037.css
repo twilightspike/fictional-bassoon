@@ -1,2 +1,3 @@
+.inline-flex{display:inline-flex;}
 .none{font-size:bold;text-align:center;text-decoration:none;color:rgba(245,105,145,.6);}
-.justify{border:5.5px solid rgba(230,103,113,.5);display:flex;justify-content:space-between;width:60px;}
+.justify{border:5.5px solid rgba(230,103,113,.5);justify-content:space-between;width:60px;}
