@@ -3,4 +3,4 @@
 .none{font-size:bold;text-align:center;text-decoration:none;color:rgba(245,105,145,.6);}
 .justify{border:5.5px solid rgba(230,103,113,.5);justify-content:space-between;width:60px;}
 .space-around{justify-content:space-around;background:rgba(250,250,210,.5);}
-.nowrap{flex-wrap:nowrap;}
+.nowrap{flex-wrap:nowrap;background:rgba(245,105,145,.25);}
