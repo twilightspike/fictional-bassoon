@@ -4,4 +4,5 @@
 .overline{font-size:25px bold;text-align:center;color:rgba(150,123,182,.5);text-decoration:overline;}
 .wrap{border:5.5px solid rgba(230,103,113,.5);display:wrap;}
 .overline span{color:rgba(238,130,238,.5);text-decoration: line-through;}
-.overline span span{color:#0f0;text-decoration: underline;}
+.overline span span{color:#f0f;text-decoration: underline;}
+.overline  span span span{color:#000;text-decoration: none;}
