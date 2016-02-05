@@ -2,3 +2,4 @@
 .header{display:block;background:rgba(240,128,128,.3);height:200px;width:200px;border-radius:50%;}
 .inline-flex{display:inline-flex;border:5px solid rgba(191,255,0,.5);}
 .overline{font-size:25px bold;text-align:center;color:rgba(150,123,182,.5);text-decoration:overline;}
+.wrap{border:5.5px solid rgba(230,103,113,.5);display:wrap;}
