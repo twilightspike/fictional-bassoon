@@ -13,3 +13,4 @@ article{color:white;font-size:bold;background:rgba(177,156,217,.5);border-radius
 .block:nth-child(2) .checkmark{background:rgba(249,132,239,.8);}
 .wrap{flex-wrap:wrap;}
 .date{flex-grow:1 2 auto;}
+.checkmark{border:5.5px solid rgba(254,209,0,.6);}
