@@ -1,2 +1,2 @@
 .none{text-align:center;text-decoration:none;}
-.flex{display:flex;border:5.5px solid rgba(255,32,82,.5);flex:3 2 auto;}
+.flex{display:flex;display: -webkit-flex;border:5.5px solid rgba(255,32,82,.5);flex:3 2 auto;}
