@@ -1,3 +1,7 @@
 .flex{display:flex;border:5.5px solid rgba(255,191,0,.5);}
-.inline{display:inline-flex;background:rgba(153,102,204,.5);}
+.inline{background:rgba(153,102,204,.5);
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;}
 .none{font-size:bold;text-decoration:none;}
