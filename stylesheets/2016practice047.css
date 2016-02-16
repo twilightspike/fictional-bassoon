@@ -6,9 +6,7 @@
 .height2{height:200px;}
 .height3{height:300px;}
 .height4{height:400px;}
-.white{border:6.5px solid rgba(191,255,0,.5);display:flex;flex-direction:column;}
+.white{border:6.5px solid rgba(191,255,0,.5);display:flex;flex-direction:row;}
 .center{align-items:center;}
 .flex1{flex:1;}
 .flex2{flex:2;}
-.white:nth-child(1){flex-grow:2;}
-.white:nth-child(2){flex-grow:1;}
