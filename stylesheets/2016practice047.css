@@ -8,3 +8,5 @@
 .height4{height:400px;}
 .white{border:6.5px solid rgba(191,255,0,.5);display:flex;}
 .center{align-items:center;}
+.flex1{flex:1;}
+.flex2{flex:2;}
