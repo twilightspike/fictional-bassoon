@@ -1,6 +1,6 @@
 .none{text-decoration:none;}
-.ear{background:rgba(255,250,205,.5);border:50px solid rgba(245,105,145,.5);display:flex;margin:5px;align-self:center;}
-.left,.right{height:20px;width:20px;}
+.ear{background:rgba(255,250,205,.5);border:5px solid rgba(245,105,145,.5);display:flex;margin:5px;align-self:center;}
+.left,.right{height:20px;width:20px;border:50px solid rgba(251,174,210,.5);}
 .height1,.height2,.height3,.height4{background:rgba(173,216,230,.5);margin:5px;display:inline-flex;width:50px;align-self:center;}
 .height1{height:100px;}
 .height2{height:200px;}
