@@ -1,4 +1,9 @@
 .none{text-decoration:none;}
 .ear{background:rgba(255,250,205,.5);border:6.5px solid rgba(245,105,145,.5);display:flex;}
 .left,.right{height:200px;width:200px;}
-.height1,.height2,.height3,.height4{background:rgba(173,216,230,.5);width:50px;}
+.height1,.height2,.height3,.height4{background:rgba(173,216,230,.5);width:50px;margin:5px;}
+.height1{height:100px;}
+.height2{height:200px;}
+.height3{height:300px;}
+.height4{height:400px;}
+.white{border:6.5px solid rgba(191,255,0,.5);display:flex;}
