@@ -10,3 +10,5 @@
 .center{align-items:center;}
 .flex1{flex:1;}
 .flex2{flex:2;}
+.white:nth-child(1){flex:2;}
+.white:nth-child(2){flex:1;}
