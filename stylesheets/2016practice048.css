@@ -7,4 +7,4 @@ ul{list-style:none;margin:0;padding:0;-webkit-margin-before: 1em;-webkit-margin-
 .drawer-nav ul li{display: list-item;text-align: -webkit-match-parent;}
 .drawer-nav ul{border-bottom:1px solid rgba(255,153,153,.8);margin-bottom:1.25rem;}
 .close{right:40%;position:absolute;font-size:12px;top:1.75rem;line-height:27px;vertical-align:middle;}
-.header-sprite{height:20px;width:20px;background:rgba(255,182,193,.8);display:inline-block;margin-left:0.625rem;}
+.header-sprite{height:20px;width:20px;background:rgba(255,182,193,.8);display:inline-block;margin-left:0.625rem;margin-top:0.25rem;}
