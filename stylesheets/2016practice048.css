@@ -3,5 +3,5 @@ body{background:rgba(191,255,0,.8);}
 .drawer-nav{display:block;right:-100px;background:rgba(25,89,5,.5);position:absolute;top:0;height:100%;width:50%;font-family:Helvetica,Arial,sans-serif;padding: 0rem 0rem 0rem 3.125rem;z-index:999;line-height:1.3em;font-size:0.75em;}
 .container{position:relative;max-width: 37.5rem;}
 .drawer-nav ul:first-child {padding-top: 100px;padding-top: 6.25rem;}
-ul{list-style:none;margin:0;padding:0;}
+ul{list-style:none;margin:0;padding:0;display:block;}
 .drawer-nav ul li{display: list-item;text-align: -webkit-match-parent;}
