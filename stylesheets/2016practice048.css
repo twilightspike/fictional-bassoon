@@ -4,3 +4,4 @@ body{background:rgba(191,255,0,.8);}
 .container{position:relative;max-width: 37.5rem;}
 .drawer-nav ul:first-child {padding-top: 100px;padding-top: 6.25rem;}
 ul{list-style:none;}
+.drawer-nav ul li{display: list-item;text-align: -webkit-match-parent;}
