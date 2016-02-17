@@ -1,2 +1,2 @@
 .none{color:rgba(50,205,50,.5);font-size:bold;text-decoration:none;}
-.drawer-nav{display:block;right:-100px;background:rgba(25,89,5,.5);position:absolute;}
+.drawer-nav{display:block;right:-100px;background:rgba(25,89,5,.5);position:absolute;top:0;height:100%;width:50%;font-family: 'Gotham_SSm_5r',Helvetica,Arial,sans-serif;}
