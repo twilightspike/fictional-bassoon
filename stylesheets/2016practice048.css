@@ -6,4 +6,4 @@ body{background:rgba(191,255,0,.8);}
 ul{list-style:none;margin:0;padding:0;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
 .drawer-nav ul li{display: list-item;text-align: -webkit-match-parent;}
 .drawer-nav ul{border-bottom:1px solid rgba(255,153,153,.8);margin-bottom:1.25rem;}
-.close{right:40%;}
+.close{right:40%;position:absolute;}
