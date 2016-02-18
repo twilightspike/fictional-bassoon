@@ -2,4 +2,4 @@ body{background:rgba(251,236,93,.8);}
 .none{font-weight:bold;text-decoration:none;}
 .nav-right{display:block;right:-100px;background:rgba(151,154,170,.85);position:absolute;top:0;height:100%;width:50%;font-family:Helvetica,Arial,sans-serif;padding: 0rem 0rem 0rem 3.125rem;z-index:999;line-height:1.3em;font-size:0.75em;}
 .index-article{margin:12px 0;border:5.5px solid rgba(96,80,220,.8);}
-.index-article li{border:3.5 solid rgba(251,236,93,.8);}
+.index-article li{border:3.5px solid rgba(192,64,0,.8);}
