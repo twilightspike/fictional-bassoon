@@ -1,3 +1,3 @@
 .none{font-weight:bold;text-decoration:none;}
 body{background:rgba(102,2,60,.85);}
-.drawer-nav{position:absolute;right:-300px;background:rgba(255,179,0,.85);height:auto;width:50%;z-index:999;}
+.drawer-nav{position:absolute;right:-500px;background:rgba(255,179,0,.85);height:auto;width:50%;z-index:-999;}
