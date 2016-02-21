@@ -1,4 +1,4 @@
 .none{color:rgba(253,245,230,.85);font-weight:bold;text-decoration:none;}
 .container{margin:5px;border:4.5px solid rgba(128,128,0,.25);}
 #container{position:absolute;height:100%;}
-#container::before{content:'';height:100%;width:0;display:inline-block;position:relative;vertical-align:center;background:rgba(192,128,129,.5);}
+#container::before{content:'';height:50%;width:0;display:inline-block;position:relative;vertical-align:center;background:rgba(192,128,129,.5);}
