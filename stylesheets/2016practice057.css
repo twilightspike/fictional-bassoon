@@ -1,5 +1,5 @@
 body{background:rgba(204,85,0,.85);width:768px;height:512px;display:flex;flex-wrap:wrap;}
-.container{display:flex;}
+.container{display:flex;flex-wrap:wrap;}
 .flex{display:flex;flex-wrap:nowrap;background:rgba(128,0,32,.8);}
 .none{font-weight:bold;text-decoration:none;}
 .same-height-left,.same-height-right,.height200{height:200px;border-radius:25%;justify-content:center;width:200px;margin:0 10px 40px;}
