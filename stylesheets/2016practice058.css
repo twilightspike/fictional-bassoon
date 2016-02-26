@@ -1,3 +1,3 @@
 body{background:rgba(255,248,231,.85);}
 .flex{display:flex;flex-wrap:wrap;background:rgba(251,236,93,.85);border:4.5px solid rgba(154,206,235,.85);height:150px;width:85%;}
-.none{color:rgba(100,149,237,.85);font-weight:bold;line-height:18px;text-decoration:none;}
+.none{color:rgba(100,149,237,.85);font-weight:bold;line-height:18px;text-align:center;text-decoration:none;}
