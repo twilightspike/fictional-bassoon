@@ -1,14 +1,10 @@
 body{
-  margin: 0;
-  height: 50%;
-  background-color: #f7cac9;
+  margin: 0;height: 50%;
+  background-color: rgba(247,202,201,.65);
 }
 .pack{
   display:flex;/*display: inline-box;*/
-  height: 100%;
-  margin: 0;
-  position: relative;
-  width: 160px;
+  height: 100%;margin: 0;position: relative;width: 160px;
   background-color: #92a8d1;
 }
 .pack ul{flex-wrap:wrap;padding:1.5px 5px;}
@@ -17,26 +13,8 @@ body{
 .row3{background:rgba(255,167,0,.5);}
 .face {
   background-color: #f0f4f8;
-  font-family: sans-serif, bold, #d1bb92;
-  z-index: 1;
+  font-family: sans-serif, bold, #d1bb92;z-index: 1;
 }
-.face .left {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top:0;
-  left:150px;
-  border-radius: 30% 45%;
-}
-.face .right {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  right:0;
-  bottom:0;
-  border-radius: 100%;
-}
-.mark {
-  background-color: #a3a3a3;
-  font-family: sans-serif, bold, #d192a8;
-}
+.face .left {height: 50px;width: 50px;position: absolute;top:0;left:150px;border-radius: 30% 45%;}
+.face .right {height: 250px;width: 250px;position: absolute;right:0;bottom:0;border-radius: 100%;}
+.mark {background-color: #a3a3a3;font-family: sans-serif, bold, #d192a8;}
