@@ -17,4 +17,5 @@ body{
 }
 .face .left {height: 50px;width: 50px;position: absolute;top:0;left:150px;border-radius: 30% 45%;}
 .face .right {height: 250px;width: 250px;position: absolute;right:0;bottom:0;border-radius: 100%;}
-.mark {background-color: #a3a3a3;font-family: sans-serif, bold, #d192a8;}
+.mark {background-color: #a3a3a3;/*font-family: sans-serif, bold, #d192a8*/;}
+.slogan{color:rgba(201,246,247,.85);font-family:sans-serif;}
