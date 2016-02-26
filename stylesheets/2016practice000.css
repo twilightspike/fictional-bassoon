@@ -12,7 +12,7 @@ body{
 .row1{background:rgba(127,255,0,.5);}
 .row3{background:rgba(255,167,0,.5);}
 .face {
-  background-color: rgba(201,247,202,.5)/*#f0f4f8*/;
+  background-color: rgba(201,247,202,.85)/*#f0f4f8*/;
   font-family: sans-serif, bold, #d1bb92;z-index: 1;
 }
 .face .left {height: 50px;width: 50px;position: absolute;top:0;left:150px;border-radius: 30% 45%;}
