@@ -1,1 +1,2 @@
 .none{font-weight:bold;text-decoration:none;}
+.triangle{display:flex;align-items:center;border:5.5px solid rgba(0,51,153,.85);border-bottom:150px;border-left:150px;border-top:150px;}
