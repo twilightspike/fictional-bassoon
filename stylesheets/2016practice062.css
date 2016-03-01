@@ -1,1 +1,1 @@
-.container{background:rgba(255,168,18,.85);}
+.container{background:rgba(255,168,18,.85);display:flex;flex-wrap:nowrap;height:500px;width:250px;}
