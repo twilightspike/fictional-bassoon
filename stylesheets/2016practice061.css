@@ -1,4 +1,5 @@
 .none{font-weight:bold;text-decoration:none;}
-.triangle{display:flex;border:5.5px solid rgba(0,51,153,.85);border-bottom:150px solid rgba(0,51,153,.85);border-left:150px;border-top:150px;}
+.triangle{display:flex;border-bottom:150px solid rgba(0,51,153,.85);border-left:150px solid rgba(231,84,128,.85);border-top:150px solid rgba(139,0,0,.85);}
 .tri-1{background:rgba(233,150,122,.65);}
 .tri-2{background:rgba(143,188,143,.65);}
+.tri-3{background:rgba(194,59,34,.65);}
