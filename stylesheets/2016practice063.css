@@ -1,7 +1,7 @@
 body{background:rgba(204,255,0,.95);}
 .box,.none{color:rgba(191,0,255,.85);font-weight:bold;text-decoration:none;}
 .box{border:3.5px solid rgba(63,0,255,.75);display:flex;height:300px;width:200px;}
-.box-1,.box-2,.box-3{font-weight:900;padding:0;text-align:center;}
+.box-1,.box-2,.box-3{font-weight:900;text-align:center;}
 .container{display:flex;align-self:center;flex-wrap:wrap;}
 .box-1{margin-left:15%;margin-right:10%;}
 .box-2{margin-left:5%;margin-right:5%;}
