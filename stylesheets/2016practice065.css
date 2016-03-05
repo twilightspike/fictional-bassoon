@@ -1,3 +1,4 @@
 .flex{display:flex;border:5.5px solid rgba(255,0,101,.85);}
 .none{color:rgba(251,159,159,.85);text-decoration:none;}
-.block{display:block;background:rgba(251,88,88,.85);border-radius:25%;}
+.block{display:block;background:rgba(251,88,88,.85);margin-left:3px;}
+.inline-flex{display:inline-flex;}
