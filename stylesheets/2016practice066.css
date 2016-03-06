@@ -1,5 +1,5 @@
 body{background:rgba(130,237,184,.85);}
-.container{margin:0px auto;}
+.container{height:250px;margin:0px auto;width:250px;}
 .none{color:rgba(239,222,248,.85);font-weight:bold;text-decoration:none;}
 .triangle{height:0;width:0;border-style:groove;}
 .tri-bottom{border-width:0 100px 200px 100px;border-color:transparent transparent rgba(237,130,130,.95) transparent;}
