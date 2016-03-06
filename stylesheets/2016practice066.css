@@ -1,7 +1,7 @@
 body{background:rgba(130,237,184,.85);}
 .container{height:250px;margin:0px auto;width:250px;background:rgba(252,137,172,.65);}
 .container:nth-child(odd){height:300px;background:rgba(15,192,252,.85);border:5.5px solid rgba(238,230,0,.95);}
-.none{color:rgba(239,222,248,.85);font-weight:bold;font-size:5em;text-decoration:none;}
+.none{color:rgba(239,222,248,.85);font-weight:bold;font-size:16px;text-decoration:none;}
 .triangle{height:0;width:0;border-style:groove;}
 .triangle:nth-child(2),.triangle:nth-child(3){display:inline;}
 .tri-bottom{border-width:0 100px 200px 100px;border-color:transparent transparent rgba(237,130,130,.95) transparent;}
