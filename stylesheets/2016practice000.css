@@ -4,7 +4,7 @@ body{
 }
 .pack{
   display:flex;/*display: inline-box;*/
-  height: 100%;margin: 0;position: relative;width: 160px;
+  height: 100%;margin: 0 auto;position: relative;width: 160px;
   background-color: #92a8d1;
 }
 .pack ul{flex-wrap:wrap;padding:1.5px 5px;}
