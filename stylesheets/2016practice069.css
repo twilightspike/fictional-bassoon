@@ -6,6 +6,6 @@
 .grid[data-grid-item="7"]{position:absolute;right:0;top:0;width:25%;}
 .grid-container{display:table;list-style:none;}
 .grid-pic{height:100%;position:relative;}
-.grid-pic:nth-child(1){background-image:linear-gradient(top, rgba(255,3,3,.95), rgba(255,240,0,.95), rgba(255,211,0,.95), rgba(0,210,255,.95), rgba(0,0,0,.95));}
+.grid-pic:nth-child(1){background-image:linear-gradient(top, rgba(255,3,3,.95) 20%, rgba(255,240,0,.95) 20%, rgba(255,211,0,.95) 20%, rgba(0,210,255,.95) 20%, rgba(0,0,0,.95) 20%);}
 .fixed{border-top:1px solid rgba(237,130,130,.95);display:fixed;}
 .none{color:rgba(234,108,108,.95);font-size:20px;font-weight:bold;text-align:center;text-decoration:none;}
