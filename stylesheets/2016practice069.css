@@ -1,5 +1,6 @@
 .container,.fixed{margin-left,margin-right:auto;line-height:1.5;width:980px;}
 .grid{display:block;float:left;padding:10px;position:absolute;width:50%;}
+.grid[data-grid-item="0"]{height:245px;width:50%;}
 .grid[data-grid-item="1"],.grid[data-grid-item="2"]{margin-left:50%;margin-right:25%;}
 .grid-container{display:table;list-style:none;}
 .fixed{border-top:1px solid rgba(237,130,130,.95);display:fixed;}
