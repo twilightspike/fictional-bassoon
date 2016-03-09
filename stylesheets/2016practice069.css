@@ -1,3 +1,4 @@
+*{box-sizing:border-box;}
 .container,.fixed{margin-left,margin-right:auto;line-height:1.5;width:980px;}
 .grid{display:block;float:left;padding:10px;position:absolute;width:50%;}
 .grid[data-grid-item="0"],.grid[data-grid-item="3"],.grid[data-grid-item="4"]{height:245px;width:50%;}
