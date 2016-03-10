@@ -3,7 +3,7 @@ body{background-image:repeating-linear-gradient(top, rgba(247,83,140,.25) 0, rgb
 .none{color:rgba(247,83,148,.95);font-size:20px;font-weight:bold;text-align:center;text-decoration:none;}
 /*flex-item-setting*/
 .container{display:flex;}
-.flex-item{flex-wrap:nowrap;margin:0 auto;}
+.flex-item{flex-wrap:nowrap;margin:auto 0;}
 .main{flex:1 1 150px;background:rgba(251,255,53,.75);}
 .nav .nav-left{flex:1 1 45%;background:rgba(255,57,53,.75);}
 .nav .nav-right{flex:1 1 55%;background:rgba(53,251,255,.75);}
