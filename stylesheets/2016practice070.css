@@ -8,8 +8,8 @@ body{background-image:repeating-linear-gradient(top, rgba(247,83,140,.25) 0, rgb
 .nav .nav-left{flex:1 1 45%;background:#ffc;}
 .nav .nav-right{flex:1 1 55%;background:#cff;}
 /*item-setting*/
-.nav-left,.nav-right{color:rgba(255,32,82,.85);font-size:16px;list-style:none;text-align:center;padding:2.5px 1.5px;position:relative;}
-.nav-left{border:1px double rgba(132,132,130,.75);display:flex;flex-wrap:wrap;height:40px;left:0;width:40px;}
-.nav-right{border:1px outset rgba(110,127,128,.55);height:45px;right:0;width:45px;}
+.nav-left-item,.nav-right-item{color:rgba(255,32,82,.85);font-size:16px;list-style:none;text-align:center;padding:2.5px 1.5px;position:relative;}
+.nav-left-item{border:1px double rgba(132,132,130,.75);display:flex;flex-wrap:wrap;height:40px;left:0;width:40px;}
+.nav-right-item{border:1px outset rgba(110,127,128,.55);height:45px;right:0;width:45px;}
 /*item-effect*/
 .item-y:hover{background:rgba(253,238,0,.85);}
