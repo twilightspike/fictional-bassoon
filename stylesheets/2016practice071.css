@@ -1,1 +1,9 @@
+.fixed{position:absolute;bottom:0;}
 .none{text-align:center;text-decoration:none;}
+/*flex-setting*/
+.flex{height:120px;margin-left,margin-right:2px;}
+/*flex-item-setting*/
+.check,.content{height:60px;}
+.date,.list{height:40px;}
+.icon{height:20px;margin:0.5px;}
+.list{margin-bottom:1px;}
