@@ -1,3 +1,9 @@
 body{background-image:repeating-linear-gradient(top, rgba(247,83,140,.25) 0, rgba(247,83,140,.25) 4.5px, rgba(91,146,229,.65) 4.5px, rgba(91,146,229,.65) 13.5px), repeating-linear-gradient(right, rgba(255,255,102,.65), rgba(255,255,102,.65) 10px, transparent 10px, transparent 20px);margin:auto 0;}
 .fixed{bottom:0;position:fixed;border-top:1px solid rgba(247,83,140,.95);margin-top,margin-bottom:20px;}
 .none{color:rgba(247,83,148,.95);font-size:20px;font-weight:bold;text-align:center;text-decoration:none;}
+/*item-setting*/
+.nav-left,.nav-right{color:rgba(255,32,82,.85);font-size:16px;list-style:none;text-align:center;padding:2.5px 1.5px;}
+.nav-left{border:1px double rgba(132,132,130,.75);display:flex;flex-wrap:wrap;height:20px;position:relative;width:20px;}
+.nav-right{border:1px outset rgba(110,127,128,.55);height:25px;width:25px;}
+/*item-effect*/
+.item-y:hover{background:rgba(253,238,0,.85);}
