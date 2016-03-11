@@ -3,7 +3,7 @@
 .none{text-align:center;text-decoration:none;}
 /*flex-setting*/
 .container{display:flex;flex-wrap:nowrap;}
-.flex{align-items:stretch;height:120px;margin-left,margin-right:2px;}
+.flex{align-self:stretch;height:120px;margin-left,margin-right:2px;}
 /*flex-item-setting*/
 .check,.content{height:60px;}
 .date,.list{height:40px;}
