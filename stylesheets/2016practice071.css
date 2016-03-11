@@ -9,3 +9,5 @@
 .date,.list{height:40px;}
 .icon{height:20px;margin:0.5px;}
 .list{margin-bottom:1px;}
+/*icon-item-setting*/
+.icon-item{display:flex;flex-wrap:wrap;}
