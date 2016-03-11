@@ -7,7 +7,7 @@
 /*flex-item-setting*/
 .check,.content{height:60px;}
 .date,.list{height:40px;}
-.icon{height:22px;margin:0.5px;width:22px;}
+.icon{display:flex;height:22px;margin:0.5px;width:22px;}
 .list{margin-bottom:1px;}
 /*icon-item-setting*/
 .icon-item{display:flex;flex-wrap:wrap;height:10px;width:10px;}
