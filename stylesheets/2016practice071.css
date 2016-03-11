@@ -10,5 +10,5 @@
 .icon{height:20px;margin:0.5px;}
 .list{margin-bottom:1px;}
 /*icon-item-setting*/
-.icon-item{display:flex;flex-wrap:wrap;}
+.icon-item{display:flex;flex-wrap:wrap;height:10px;width:10px;}
 .icom-item-1{background:rgba(153,204,255,.95);}
