@@ -2,8 +2,8 @@
 .fixed{background:rgba(255,255,153,.95);bottom:0;height:100px;margin-left,margin-right:0;position:absolute;text-align:center;width:840px;}
 .none{text-align:center;text-decoration:none;}
 /*flex-setting*/
-.container{background:rgba(204,204,153,.45);display:flex;flex-wrap:nowrap;justify-content:center;height:400px;max-width:840px;position:relative;}
-.flex{height:120px;margin-left,margin-right:2px;padding:20px;width:100%;}
+.container{background:rgba(204,204,153,.45);display:flex;flex-wrap:nowrap;height:400px;max-width:840px;position:relative;}
+.flex{display:flex;height:120px;justify-content:center;margin-left,margin-right:2px;padding:20px;width:100%;}
 /*flex-item-setting*/
 .check,.content{height:60px;}
 .date,.list{height:40px;}
