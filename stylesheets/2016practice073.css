@@ -1,0 +1,4 @@
+.fixed{display:fixed;width:98%;border:1px solid transparent;}
+.fixed:nth-child(1){height:320px;background:rgba(255,0,85,.95);}
+.fixed:nth-child(2){height:160px;background:rgba(255,255,0,.95);}
+.none{color:rgba(255,255,255,.95);font-size:20px;text-decoration:none;}
