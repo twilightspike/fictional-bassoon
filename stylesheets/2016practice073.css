@@ -4,9 +4,9 @@
 .fixed:nth-child(2){height:40vh;background:rgba(255,255,0,.95);bottom:0;}
 .none{color:rgba(255,255,255,.95);font-size:20px;text-decoration:none;}
 /*pack*/
-.container{display:block;}
-.flex{display:inline;min-height:500px;width:calc(98%/3);z-index:1;}
-.pink-1,.pink-2,.pink-3{z-index:0;}
+.container{background:green;display:block;z-index:0;}
+.flex{display:flex;min-height:500px;width:calc(98%/3);z-index:1;}
+.pink-1,.pink-2,.pink-3{flex-pack:distribute;}
 .pink-1{background:rgba(255,0,85,.95);}
 .pink-2{background:rgba(255,59,124,.75);}
 .pink-3{background:rgba(255,0,213,.65);}
