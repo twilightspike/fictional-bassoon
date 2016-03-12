@@ -5,7 +5,7 @@
 .none{color:rgba(255,255,255,.95);font-size:20px;text-decoration:none;}
 /*pack*/
 .container{display:block;}
-.flex{display:flex;flex-wrap:nowrap;height:stretch;width:calc(98%/3);z-index:1;}
+.flex{display:flex;flex-wrap:nowrap;min-height:500px;width:calc(98%/3);z-index:1;}
 .pink-1,.pink-2,.pink-3{z-index:0;}
 .pink-1{background:rgba(255,0,85,.95);}
 .pink-2{background:rgba(255,59,124,.75);}
