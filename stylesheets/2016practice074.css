@@ -1,5 +1,7 @@
 /*background-setting*/
 body{background:rgba(255,186,31,.95);}
-.fixed{background:rgba(169,30,105,.95);height:10vh;position:fixed;width:98%;border:medium dashed transparent;}
-.none{color:transparent;font-size:20px;text-align:center;text-decoration:none;}
-/**/
+.fixed{background:rgba(169,30,105,.95);bottom:0;height:10vh;position:fixed;width:98%;border:medium dashed transparent;}
+.none{color:rgba(248,252,103,.95);font-size:20px;line-height:1.5px;text-align:center;text-decoration:none;width:98%;}
+/*item-setting*/
+.center,.middle{verticle-align:center;}
+.inline{background:rgba(245,101,70,.65);display:flex;flex-flow:row;min-height:300px;width:90px;}
