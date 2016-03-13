@@ -1,0 +1,5 @@
+/*background-setting*/
+body{background:rgba(255,186,31,.95);}
+.fixed{background:rgba(169,30,105,.95);height:10vh;position:fixed;width:98%;border:medium dashed transparent;}
+.none{color:transparent;font-size:20px;text-align:center;text-decoration:none;}
+/**/
