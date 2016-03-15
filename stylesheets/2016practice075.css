@@ -7,8 +7,8 @@ body{margin:0;}
 .footer-right,.nav-right{right:0;}
 .grid{display:grid;grid-columns:3;grid-rows:3;padding:1em;}
 .grid .card:not(:nth-child(4)),.none{color:rgba(240,240,2400,.95);text-align:center;text-decoration:none;}
-.nav-right{background:rgba(255,199,132,.85);bottom:10%;padding:5.5vh;}
-.nav-right::before{border-top,border-bottom:solid 2.5vh transparent;border-right:solid 5.5vh rgba(255,199,132,.85);content:'';display:block;position:absolute;}
+.nav-right{background:rgba(255,199,132,.85);bottom:20%;padding:5.5vh;}
+.nav-right::before{border-top,border-bottom:solid 2.5vh transparent;border-right:solid 5.5vh rgba(255,199,132,.85);content:'';display:block;position:absolute;z-index:999;}
 /*item-setting*/
 .color-1{background:rgba(245,196,190,.95);}
 .color-2{background:rgba(239,106,182,.95);}
