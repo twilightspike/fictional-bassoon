@@ -1,6 +1,6 @@
 body{margin:0;}
 .fixed{background:rgba(255,204,0,.95);bottom:0;display:fixed;}
-.grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-row:100vh;}
 .grid .card:not(:nth-child(4)),.none{color:rgba(240,240,2400,.95);text-align:center;text-decoration:none;}
 .color-4{color:rgba(255,205,0,.95);text-align:center;text-decoration:none;}
 /*item-setting*/
