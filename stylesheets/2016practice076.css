@@ -1,5 +1,6 @@
-.fixed{position:dixed;text-align:center;}
-.none{font-size:150%;text-decoration:none;}
+body{background:rgba(255,255,102,.85);}
+.fixed{bottom:0;height:10vh;left:-50%;position:fixed;text-align:center;}
+.none{color:rgba(65,102,245,.85);font-size:150%;text-decoration:none;}
 .stamp{display:grid;grid-columns:1fr 1fr;grid-rows:50% 50%;margin:1em;}
 /*each*/
 .stamp-1{
