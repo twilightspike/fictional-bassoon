@@ -1,3 +1,4 @@
+body{margin:0;}
 .grid{display:grid;}
 .card,.none{color:rgba(255,204,0,.95);text-align:center;text-decoration:none;}
 /*item-setting*/
