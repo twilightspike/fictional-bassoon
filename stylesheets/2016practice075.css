@@ -8,3 +8,5 @@ body{margin:0;}
 .color-2{background:rgba(239,106,182,.95);}
 .color-3{background:rgba(218,27,169,.95);}
 .color-4{background:rgba(248,252,103,.95);}
+/*resize*/
+@media screen and (max-width:1024px){.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-row:50vh 50vh;}}
