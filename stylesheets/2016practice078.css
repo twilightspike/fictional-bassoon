@@ -4,10 +4,10 @@ body{margin:0;padding:.5em;background:rgba(65,102,245,.75);color:rgba(255,255,10
 .fixed{border:2.5px groove rgba(245,245,245,.85);background:rgba(255,255,102,.75);position:fixed;}
 .fixed-footer{bottom:0;height:10vh;width:98%;}
 .fixed-nav{height:60vh;width:calc(100% / 3);}
-.nav-left{vertical-align:middle;top:50%;}
+.nav-left{vertical-align:middle;top:50%;margin-left,margin-right:10%;}
 .nav-left{left:0;}
 .nav-right{right:0;}
 /*inside*/
 .container{display:flex;}
 .container .nav-center-items{flex-wrap:nowrap;}
-.nav-center-items,.nav-left-items,.nav-right-items{background:rgba(91,146,229,.85);border:2px dotted rgba(255,204,0,.85);padding:100px;}
+.nav-center-items,.nav-left-items,.nav-right-items{background:rgba(91,146,229,.85);border:2px dotted rgba(255,204,0,.85);padding:50px;}
