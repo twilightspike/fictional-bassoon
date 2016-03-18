@@ -11,4 +11,4 @@ body{margin:0;padding:.5em;background:rgba(65,102,245,.75);color:rgba(255,255,10
 .container{display:flex;}
 .container .nav-center-items{flex-wrap:nowrap;}
 .nav-center-items,.nav-left-items,.nav-right-items{background:rgba(91,146,229,.85);border:2px dotted rgba(255,204,0,.85);padding:0;height:50px;width:50px;}
-.nav-center-items{margin-left:30px;}
+.nav-center-items{margin-left:30px;line-height:50px;}
