@@ -10,5 +10,5 @@ body{margin:0;padding:.5em;background:rgba(65,102,245,.75);color:rgba(255,255,10
 /*inside*/
 .container{display:flex;}
 .container .nav-center-items{flex-wrap:nowrap;}
-.nav-center-items,.nav-left-items,.nav-right-items{background:rgba(91,146,229,.85);border:2px dotted rgba(255,204,0,.85);padding:50px;display:grid;grid-columns:1 1;grid-rows:50% 50%;}
-.nav-left-items{height:calc(100% / 3);width:20%;}
+.nav-center-items,.nav-left-items,.nav-right-items{background:rgba(91,146,229,.85);border:2px dotted rgba(255,204,0,.85);padding:50px;}
+.nav-center-items{width:20%;}
