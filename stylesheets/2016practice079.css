@@ -1,2 +1,2 @@
-.fixed{bottom:5vh;position:fixed;}
+.fixed{bottom:5vh;position:fixed;height:10vh;width:98%;background:-webkit-gradient(470 25%, 20, 500 25%, 40, from(1,68,33,.85), to(60,208,112,.85)) rgba(217,0,76,.85);}
 .none{color:rgba(244,244,245,.85);font-size:bold;text-align:center;text-decoration:none;}
