@@ -1,4 +1,5 @@
 body{background:rgba(33,117,217,.45);display:block;margin:0;text-align:center;}
 .fixed-footer{background:rgba(33,117,217,.85);position:fixed;bottom:5vh;height:60px;width:98%;}
+.flex{display:flex;border:1vh double rgba(0,48,143,.85);padding:1vh;}
 .none{color:rgba(255,153,0,.95);font-size:5vh;text-decoration:none;}
 p{width:80%;max-with:50vh;background:rgba(227,0,116,.85);border-radius:5px;margin:1vh auto;}
