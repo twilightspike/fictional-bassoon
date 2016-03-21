@@ -1,4 +1,4 @@
-.block{background:rgba(255,204,92,.85);display:block;height:15vh;width:80%;}
+.block{background:rgba(255,204,92,.85);display:block;height:15vh;margin:1.5em auto;width:80%;}
 .block-nav{background:rgba(136,216,176,.75);width:20%;}
 body{background:rgba(150,206,180,.75);height:100%;margin:0;padding:0;width:100%;}
 .content-main{background:rgba(255,238,173,.95);left:0;width:60%;}
