@@ -7,4 +7,4 @@ body{background:rgba(255,111,105,.75);height:100%;margin:0;padding:0;width:100%;
 .none{color:rgba(255,111,105,.95);font-size:20px;font-weight:bold;text-align:center;text-decoration:none;}
 .right-col{width:40%;right:0;}
 .row{background:rgba(255,238,173,.85);margin:0 auto;width:100%;}
-.table-cell{border-radius:50px;display:table-cell;left:10%;}
+.table-cell{border-radius:50px;display:table-cell;margin-left:10%;}
