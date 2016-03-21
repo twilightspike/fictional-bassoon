@@ -1,10 +1,10 @@
 .block{background:rgba(255,204,92,.85);display:block;height:15vh;margin:1.5em auto;width:80%;}
 .block-nav{background:rgba(136,216,176,.75);width:20%;}
-body{background:rgba(255,111,105,.75);height:100%;line-height:1.5em;margin:0;padding:0;width:100%;}
+body{background:rgba(255,111,105,.75);height:100%;margin:0;padding:0;width:100%;}
 .content-main{background:rgba(255,238,173,.95);left:0;width:60%;}
 .fixed-header{background:rgba(255,238,173,.95);display:table-header-group;width:98%;}
-.fixed-footer{background:rgba(255,238,173,.85);border:1.5px double rgba(255,111,105,.85);display:table-footer-group;height:10vh;margin:.05vh .25vw;text-align:center;width:98%;}
-.none{color:rgba(255,111,105,.95);font-size:20px;font-weight:bold;text-decoration:none;}
+.fixed-footer{background:rgba(255,238,173,.85);border:1.5px double rgba(255,111,105,.85);display:table-footer-group;height:10vh;margin:.05vh .25vw;width:98%;}
+.none{color:rgba(255,111,105,.95);font-size:20px;font-weight:bold;text-align:center;text-decoration:none;}
 .right-col{width:40%;right:0;}
 .row{background:rgba(255,238,173,.85);margin:0 auto;width:100%;}
 .table-cell{border-radius:50px;display:table-cell;}
