@@ -1,3 +1,4 @@
 body{background:rgba(251,249,201,.85);margin:0;}
+.box{background:rgba(138,54,152,.85);border-radius:5px;}
 .container{background:rgba(236,128,65,.85);display:grid;grid-gap:10px;}
 .none{color:rgba(46,48,63,.95);font-size:20px;font-weight:bold;text-align:center;text-decoration:none;}
