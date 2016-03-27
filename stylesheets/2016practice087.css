@@ -1,4 +1,4 @@
 body{background:rgba(81,192,190,.95);margin:0;}
 .col{background:rgba(225,34,83,.95);display:flex;line-height:1.2em;margin:0px 0px 20px 0px;min-height:1px;}
 .container{background:rgba(243,245,19,.95);display:block;float:left;overflow:auto;max-width:767px;min-width:480px;width:465px;}
-.none{font-size:20px;font-weight:bold;text-decoration:none;}
+.none{font-size:20px;font-weight:normal;text-decoration:none;}
