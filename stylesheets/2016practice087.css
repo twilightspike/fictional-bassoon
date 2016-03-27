@@ -1,2 +1,3 @@
-.container{overflow:auto;width:465px;}
+body{background:rgba(81,192,190,.95);margin:0;}
+.container{background:rgba(243,245,19,.95);overflow:auto;max-width:767px;min-width:480px;width:465px;}
 .none{font-size:20px;font-weight:bold;text-decoration:none;}
