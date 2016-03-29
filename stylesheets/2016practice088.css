@@ -6,4 +6,5 @@
 .task{height:30px;}
 /*to be checked*/
 .justify{background:rgba(243,187,188,.55);}
-.flex1{background:rgba(210,224,78,.55);justify:center;}
+.flex1{background:rgba(210,224,78,.55);justify-content:flex-start;}
+.flex2{background:rgba(60,189,255,.55);margin:5px;}
