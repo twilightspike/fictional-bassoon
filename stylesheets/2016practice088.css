@@ -3,5 +3,7 @@
 .none{font-size:20px;font-weight:normal;text-align:center;text-decoration:none;}
 .feature,.task{display:flex;flex-wrap:wrap;width:90px;margin:2px auto;border:1px solid rgba(253,19,68,.95);border-radius:5px;}
 .feature{height:60px;}
-.justify{background:rgba(243,187,188,.95);}
 .task{height:30px;}
+/*to be checked*/
+.justify{background:rgba(243,187,188,.55);}
+.flex1{background:rgba(210,224,78,.55);justify:center;}
