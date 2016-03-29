@@ -1,4 +1,5 @@
 .flex{display:flex;flex-wrap:nowrap;border:1px solid rgba(243,245,19,.95);height:25%;top:5%;width:200px;}
+.flex1,.flex2{display:inline;}
 .none{font-size:20px;font-weight:normal;text-decoration:none;}
 .feature,.task{display:flex;flex-wrap:wrap;width:90px;margin:2px auto;border:1px solid rgba(253,19,68,.95);border-radius:5px;}
 .feature{height:60px;}
