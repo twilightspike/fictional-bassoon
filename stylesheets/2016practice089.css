@@ -1,5 +1,6 @@
+body{background:rgba(47,47,47,.95);margin:0;}
 .container li{position:relative;border:1px double rgba(236,255,77,.85);height:100px;width:100px;float:left;margin-right:10px;}
 .container label{background:rgba(254,202,88,.85);border:1px solid rgba(252,169,65,.95);display:block;height:100px;width:200px;}
 .fixed-footer{background:rgba(239,146,112,.45);position:fixed;right:0;margin-right:1em;margin-bottom,margin-top:.5em;width:150px;height:50%;}
-.none{background:rgba(47,47,47,.95);color:rgba(179,192,185,.95);cursor:pointer;font-size:20px;font-weight:normal;list-style:none;text-align:center;text-decoration:none;}
+.none{color:rgba(179,192,185,.95);cursor:pointer;font-size:20px;font-weight:normal;list-style:none;text-align:center;text-decoration:none;}
 .wrapper span{background:rgba(115,206,66,.85);border:1px solid rgba(98,143,37,.95);display:block;height:200px;width:100px;position:absolute;top:0;}
