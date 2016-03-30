@@ -1,4 +1,5 @@
 body{background:rgba(138,116,128,.95);height:100%;}
 body::before{content:'hello!';display:inline-block;height:150%;border:1.5em double rgba(255,147,30,.95);vertical-align:middle;}
 .container{display:inline-block;border:1.5em double rgba(243,245,19,.95);}
+.container2{display:block;border:1.5em solid rgba(243,245,19,.95);}
 .none{color:rgba(179,192,185,.95);cursor:pointer;font-size:20px;font-weight:normal;list-style:none;text-align:center;text-decoration:none;}
