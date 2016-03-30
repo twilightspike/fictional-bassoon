@@ -3,6 +3,6 @@ body::before{content:'hello!';display:inline-block;height:150%;border:1.5em doub
 .container{display:inline-block;border:1.5em double rgba(243,245,19,.95);}
 .container2{display:block;border:1.5em solid rgba(243,245,19,.95);}
 input{position:absolute;left:-9999px;}
-label{position:relative;cursor:pointer;display:block;height:100%;transform-style:preserve-3d;perspective:0;transform-origin:150px 0 -150px;transition:500ms ease;}
+label{background:rgba(243,187,188,.95);position:relative;cursor:pointer;display:block;height:100%;transform-style:preserve-3d;perspective:0;transform-origin:150px 0 -150px;transition:500ms ease;}
 .none{color:rgba(179,192,185,.95);cursor:pointer;font-size:20px;font-weight:normal;list-style:none;text-align:center;text-decoration:none;}
 .task{background:rgba(81,192,190,.75);display:block;height:5em;transition:500ms ease;}
