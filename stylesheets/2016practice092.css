@@ -5,3 +5,4 @@
 .filter a.active:before{border-color:rgba(179,192,185,.95) transparent transparent transparent;border-width:15px 15px 0 0;border-style:double;content:'hohoho';display:inline-block;height:0;left:0;position:absolute;width:0;top:0;}
 /*recall*/
 .boxes{display:flex;flex-wrap:wrap;}
+.boxes a{border:2px double rgba(254,202,88,.85);margin:0 1% 20px 1%;width:23%;}
