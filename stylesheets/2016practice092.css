@@ -1,4 +1,4 @@
-.boxes,.filter{border:1px solid rgba(243,128,81,.85);display:inline-block;height:25em;left:100px;width:40%;}
+.boxes,.filter{border:1px solid rgba(243,128,81,.85);display:inline-block;height:25em;margin-left:100px;width:40%;}
 .none{color:rgba(243,128,81,.95);font-weight:bold;line-height:1.5em;text-decoration:none;}
 /*check*/
 .filter a{position:relative;}
