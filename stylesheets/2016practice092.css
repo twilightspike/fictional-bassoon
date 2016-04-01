@@ -3,3 +3,5 @@
 /*check*/
 .filter a{position:relative;}
 .filter a.active:before{border-color:rgba(179,192,185,.95) transparent transparent transparent;border-width:15px 15px 0 0;border-style:double;content:'hohoho';display:inline-block;height:0;left:0;position:absolute;width:0;top:0;}
+/*recall*/
+.boxes{display:flex;flex-wrap:wrap;}
