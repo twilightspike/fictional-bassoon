@@ -6,3 +6,10 @@
 /*recall*/
 .boxes{display:flex;flex-wrap:wrap;}
 .boxes a{border:2px double rgba(254,202,88,.85);line-height:60px;margin:0 1% 20px 1%;width:23%;}
+/*set keyframes*/
+@keyframes zoom-in{0%{transform:scale(.1);}100%{transform:none;}}
+@keyframes rotate-right{0%{transform:translate(-100%);}100%{transform:none;}}
+.is-animated{
+  animation:.6s zoom-in;
+  // animation:.6s rotate-right;
+}
