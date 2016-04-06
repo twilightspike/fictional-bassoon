@@ -1,5 +1,5 @@
 body{background:rgba(47,47,47,.85);margin:5px;}
 .none{color:rgba(179,192,185,.95);font-weight:bold;text-align:center;text-decoration:none;}
-.wrapper{display:inline-block;vertical-align:middle;height:100%;width:200px;border:.05em dotted rgba(243,187,188,.95);border-radius:30%;margin:1em;padding:30px;}
+.wrapper{display:inline-block;vertical-align:middle;height:100%;width:98%;border:.05em dotted rgba(243,187,188,.95);border-radius:30%;margin:1em;padding:30px;}
 /*inside*/
-.circle{height:50px;width:50px;border:rgba(47,47,47,.75);border-radius:100%;margin:5px;position:relative;}
+.circle{height:50px;width:50px;border:rgba(47,47,47,.75);border-radius:50%;margin:5px;position:relative;}
