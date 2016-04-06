@@ -1,4 +1,5 @@
 body{background:rgba(47,47,47,.85);margin:5px;}
+.fixed-footer{float:right;display:block;padding-right:1.875rem;}
 .none{color:rgba(179,192,185,.95);font-weight:bold;text-align:center;text-decoration:none;}
 .wrapper{display:inline-block;vertical-align:middle;height:100%;width:90%;border:.05em dotted rgba(243,187,188,.95);border-radius:30%;margin:1em;padding:30px;left:5%;top:50em;}
 /*inside*/
