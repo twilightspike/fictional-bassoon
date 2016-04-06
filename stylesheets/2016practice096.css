@@ -3,4 +3,4 @@ body{background:rgba(47,47,47,.85);margin:5px;}
 .none{color:rgba(179,192,185,.95);font-weight:bold;text-align:center;text-decoration:none;}
 .wrapper{display:inline-block;vertical-align:middle;height:100%;width:90%;border:.05em dotted rgba(243,187,188,.95);border-radius:30%;margin:1em;padding:30px;left:5%;top:50em;}
 /*inside*/
-.circle{height:50px;width:50%;border:rgba(47,47,47,.75);border-radius:50%;margin:5px;float:left;}
+.circle{height:50px;width:calc(90% / 3);border:1px solid rgba(47,47,47,.75);border-radius:50%;margin:5px;float:left;}
