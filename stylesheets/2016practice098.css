@@ -4,5 +4,6 @@ div,.header,.footer{display:block;font-size:15px;}
 .state{background:rgba(227, 206, 33,.85);box-sizing:border-box;left:0;top:0;width:100%;}
 /*in header*/
 .header{color:rgba(0,0,0,95);text-align:right;}
+.header .container{padding:0 10px;}
 .p-img{position:absolute;height:100px;width:100px;top:-5px;border-radius:0 0 7px 7px;border-top:none;box-shadow:1px 1px 1px rgba(203,198,186,.95);}
 .p-form{display:inline-block;position:relative;margin-top:0;}
