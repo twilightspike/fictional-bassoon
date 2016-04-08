@@ -9,3 +9,4 @@ div,.header,.footer{display:block;font-size:15px;}
 .p-form{display:inline-block;position:relative;margin-top:0;}
 /*in nav*/
 .nav{background:rgba(236,229,215,.95);}
+.tag{display:block;list-style:none;text-transform:uppercase;margin:0;padding-left:150px;}
