@@ -7,3 +7,5 @@ div,.header,.footer{display:block;font-size:15px;}
 .header .container{padding:0 10px;}
 .p-img{position:absolute;height:100px;width:100px;top:-5px;border-radius:0 0 7px 7px;border-top:none;box-shadow:1px 1px 1px rgba(203,198,186,.95);}
 .p-form{display:inline-block;position:relative;margin-top:0;}
+/*in nav*/
+.nav{background:rgba(236,229,215,.95);}
