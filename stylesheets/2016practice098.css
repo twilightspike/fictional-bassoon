@@ -9,7 +9,7 @@ div,.header,.footer{display:block;font-size:15px;}
 .p-img{position:absolute;height:100px;width:100px;top:-5px;border-radius:0 0 7px 7px;border-top:none;box-shadow:1px 1px 1px rgba(203,198,186,.95);}
 .p-form{display:inline-block;position:relative;margin-top:0;}
 /*in nav*/
-.nav{background:rgba(236,229,215,.95);}
+.nav{background:rgba(236,229,215,.95);padding:30px 0 35px;}
 .tag{display:block;list-style:none;text-transform:uppercase;margin:0;padding-left:150px;}
 .tag-alpha,.tag-color,.tag-date,.tag-star,.tag-type{display:inline-block;}
 .tag a{font-weight:bold;}
