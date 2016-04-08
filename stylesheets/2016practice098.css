@@ -11,3 +11,4 @@ div,.header,.footer{display:block;font-size:15px;}
 /*in nav*/
 .nav{background:rgba(236,229,215,.95);}
 .tag{display:block;list-style:none;text-transform:uppercase;margin:0;padding-left:150px;}
+.tag-alpha,.tag-color,.tag-date,.tag-star,.tag-type{display:inline-block;}
