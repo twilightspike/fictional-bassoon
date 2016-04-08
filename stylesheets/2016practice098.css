@@ -1,4 +1,4 @@
 body{background:rgba(236,229,215,.85);margin:2.5px;}
-div{display:block;}
+div,.header,.footer{display:block;font-size:15px;}
 .none{color:rgba(243,245,19,.85);text-align:center;text-decoration:none;}
 .state{background:rgba(227, 206, 33,.85);box-sizing:border-box;left:0;top:0;width:100%;}
