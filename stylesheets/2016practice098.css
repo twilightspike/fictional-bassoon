@@ -13,6 +13,6 @@ div,.header,.footer{display:block;font-size:15px;}
 .tag{display:block;list-style:none;text-transform:uppercase;margin:0;padding-left:150px;}
 .tag-alpha,.tag-color,.tag-date,.tag-star,.tag-type{display:inline-block;}
 .tag a{font-weight:bold;}
-/**/
+/*in content*/
 /*in footer*/
-.footer{background:rgba(239, 234, 221,.95);}
+.footer{background:rgba(239, 234, 221,.95);padding:40px 0;}
