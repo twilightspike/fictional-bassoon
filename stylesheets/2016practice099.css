@@ -1,6 +1,6 @@
 .container{border:1px solid rgba(45,45,45,.95);display:table;left:10%;top:5%;}
 .container,.describe{left:10%;max-width:600px;border-top:1em double rgba(228,207,180,.95);}
-.container td{border:1px dotted rgba(47,47,47,.95);margin:5.5px;padding:30px;}
+.container td,.section td{border:1px dotted rgba(47,47,47,.95);margin:5.5px;padding:30px;}
 .describe-list{line-height:1.5em;list-style:none;margin:0 auto;}
 li{display:inline-block;font-weight:20px;margin-right:3px;padding:25px;}
 .top{vertical-align:top;}
