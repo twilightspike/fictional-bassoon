@@ -1,5 +1,5 @@
-.container{border:1px solid rgba(45,45,45,.95);left:-20px;padding:10px;top:5%;max-width:600px;}
-.container li{border:1px dotted rgba(47,47,47,.95);display:table;margin:5.5px;padding:30px;}
+.container{border:1px solid rgba(45,45,45,.95);display:table;left:-20px;padding:10px;top:5%;max-width:600px;}
+.container li{border:1px dotted rgba(47,47,47,.95);margin:5.5px;padding:30px;}
 .describe-list{line-height:1.5em;list-style:none;margin:0 auto;}
 li{display:inline-block;font-weight:20px;margin-right:3px;padding:25px;}
 .top{vertical-align:top;}
