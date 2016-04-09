@@ -1,1 +1,1 @@
-input{border:1px wave rgba(47,47,47,.95);}
+input{border:1px dotted rgba(47,47,47,.95);display:flex;flex-wrap:nowrap;height:100px;width:200px;top:0;}
