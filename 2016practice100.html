@@ -7,6 +7,16 @@
  <link rel="stylesheet" href="stylesheets/2016practice098.css">
  <link rel="stylesheet" href="stylesheets/2016practice100.css">
  <title>Fictional-Bassoon</title>
+ <script type="text/javascript">
+  var c=0;
+  function timedCount(){
+   document.getElementById('txt').value=c;
+   c=c+1;
+   setTimeOut("timedCount()",1000);
+  }
+  var nowtime = new Date();
+  var time = "About it" + nowtime.getFullYear() + "Let's say, " + (nowtime.getMonth()+1) + "or also, " + nowtime.getDate() + "is good for" + document.write(time);
+ </script>
 </head> 
 <body>
   <form>
