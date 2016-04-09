@@ -1,1 +1,2 @@
-input{border:1px dotted rgba(47,47,47,.95);display:flex;flex-wrap:nowrap;height:100px;width:200px;}
+form{border:2px solid rgba(58,58,58,.95);display:flex;flex-wrap:nowrap;}
+input{border:1px dotted rgba(47,47,47,.95);margin:10px 5px 2px;height:100px;width:200px;}
