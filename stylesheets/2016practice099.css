@@ -1,2 +1,3 @@
+.container li{border:1px dotted rgba(47,47,47,.95);margin:5.5px;padding:30px;}
 .describe-list{line-height:1.5em;list-style:none;margin:0 auto;}
 li{display:inline-block;font-weight:20px;margin-right:3px;}
