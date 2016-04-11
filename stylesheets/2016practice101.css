@@ -6,3 +6,5 @@ body{background:rgba(180,225,228,.75);color:rgba(239,146,112,.95);margin:1px;}
 /*icon*/
 .inline{display:inline-block;margin-top,margin-bottom:2px;vertical-align:middle;}
 .mouth{background:rgba(253,19,68,.95);border-left:10px;border-right:10px;border-top:20px;border-bottom:none;border-color:(rgba(253,25,64,.95), transparent, transparent, transparent);margin:1px;}
+/*play*/
+#my-timeline{height: 350px; border: 1px solid #aaa}
