@@ -1,5 +1,5 @@
 body{background:rgba(180,225,228,.75);color:rgba(239,146,112,.95);margin:1px;}
-.footer,.header{background:rgba(239,234,221,.95);display:fixed;height:10vh;width:80%;left:10px;}
+.footer,.header{background:rgba(239,234,221,.95);position:fixed;height:10vh;width:80%;left:10px;}
 .footer{bottom:0;line-height:1.5;margin-bottom:5%;}
 .header{top:0;line-height:18px;margin-top:1%;}
 .none{font-weight:bold;text-align:center;text-decoration:none;}
