@@ -1,2 +1,3 @@
-.footer{display:fixed;bottom:0;line-height:1.5;margin-bottom:5%;}
+body{background:rgba(180,225,228,.75);color:rgba(239,146,112,.95);margin:1px;}
+.footer{display:fixed;bottom:0;line-height:1.5;margin-bottom:5%;height:10vh;width:80%;left:10%;}
 .none{font-weight:bold;text-align:center;text-decoration:none;}
