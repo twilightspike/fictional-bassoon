@@ -1,3 +1,7 @@
 body{background:rgba(180,225,228,.75);color:rgba(239,146,112,.95);margin:1px;}
-.footer{display:fixed;bottom:0;line-height:1.5;margin-bottom:5%;height:10vh;width:80%;left:10%;}
+.footer{bottom:0;line-height:1.5;margin-bottom:5%;}
+.footer,.header{background:rgba(239,234,221,.95);display:fixed;height:10vh;width:80%;left:10%;}
+.header{top:0;line-height:18px;margin-top:1%;}
 .none{font-weight:bold;text-align:center;text-decoration:none;}
+/*icon*/
+.mouth{background:rgba(253,19,68,.95);border-left:10px;border-right:10px;border-top:20px;border-bottom:none;margin:1px;}
