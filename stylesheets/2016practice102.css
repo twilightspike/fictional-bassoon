@@ -1,1 +1,2 @@
-body{background:rgba(47,47,47,.95);color:rgba(254,202,88,.95);margin:5px;}
+body{background:rgba(47,47,47,.95);color:rgba(254,202,88,.95);line-height:18px;margin:5px;}
+.footer a{color:rgba(254,204,90,.95);font-weight:20px;text-align:center;text-decoration:none;}
