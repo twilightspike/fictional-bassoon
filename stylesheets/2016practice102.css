@@ -1,3 +1,5 @@
 body{background:rgba(47,47,47,.95);color:rgba(254,202,88,.95);line-height:18px;margin:5px;}
 .footer a{color:rgba(254,204,90,.95);font-weight:20px;text-align:center;text-decoration:none;}
 table{border:1px dotted rgba(228,207,180,.95);}
+td input:nth-child(odd){background:rgba(228,183,180,.65);}
+td input:nth-child(even){background:rgba(180,225,228,.65);}
