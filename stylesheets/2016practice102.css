@@ -2,7 +2,7 @@ body{background:rgba(47,47,47,.95);border:1.5px double rgba(253,238,0,.95);color
 .block{display:block;width:100%;}
 .block input{line-height:1.5px;font-weight:bold;height:100px;text-align:center;width:100%;}
 .flex{display:flex;flex-wrap:wrap;}
-.flex input{height:calc((300px / 4) + 10px);width:100px;}
+.flex input{height:calc((300px / 4) + 10px);width:calc((400px / 4) + 5px);}
 .flex input:nth-child(odd){background:rgba(228,183,180,.85);}
 .flex input:nth-child(even){background:rgba(180,225,228,.85);}
 form{width:100%;}
