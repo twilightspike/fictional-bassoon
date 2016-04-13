@@ -1,2 +1,3 @@
+*{box-sizing:border-box;margin:0;padding:0;}
 a,body,.none{color:rgba(255,255,255,.95);list-style:none;text-decoration:none;}
 body{background:rgba(255,131,0,.85);font-weight:large;line-height:1.8;margin:1.5;}
