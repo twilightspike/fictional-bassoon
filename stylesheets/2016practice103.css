@@ -1,2 +1,2 @@
 body{background:rgba(255,131,0,.85);color:rgba(255,255,255,.95);font-weight:large;line-height:1.8;margin:1.5;}
-.none{text-decoration:none;}
+.none{list-style:none;text-decoration:none;}
