@@ -6,6 +6,16 @@
  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine"> 
  <link rel="stylesheet" href="stylesheets/2016practice104.css">
  <title>Fictional-Bassoon</title>
+ <script>
+  (function(){
+   $('.list-link').bind('touchstart', function(){
+    $(this).addClass("tap");
+   });
+   $('.list-link').bind('touched', function(){
+    $(this).removeClass("tap");
+   });
+  })();
+ </script>
 </head>
 <body>
  <nav class="wrapper">
