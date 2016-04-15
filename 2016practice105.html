@@ -7,8 +7,14 @@
  <link rel="stylesheet" href="stylesheets/2016practice104.css">
  <link rel="stylesheet" href="stylesheets/2016practice105.css">
  <title>Fictional-Bassoon</title>
+ <script type="text/javascript">
+  function draw(){
+   var canvas = document.getElementById('C1');
+   var ctx = canvas.getContext('2d');
+  }
+ </script>
 </head>
-<body>
+<body onload="draw();">
  <nav class="wrapper">
   <ul class="list">
    <li class="list-wrap none">
@@ -37,7 +43,9 @@
    </li>
   </ul>
  </nav>
- <section class="section"></section>
+ <section class="section">
+  <canvas id="C1"></canvas>
+ </section>
  <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">C37</a></footer>
 </body>
 </html>
