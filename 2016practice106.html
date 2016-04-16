@@ -19,6 +19,17 @@
    ctx.fillStyle = "rgba(127,255,0,.65)";
    ctx.fillReact(175,75,50,50);
   }
+  function draw(){
+   var canvas = document.getElementById('C2');
+   if(canvas.getContext){
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(75,100);
+    ctx.lineTo(150,180);
+    ctx.lineTo(150,20);
+    ctx.fill();
+   }
+  }
  </script>
 </head>
 <body onload="draw();">
@@ -52,6 +63,7 @@
  </nav>
  <section class="section">
   <canvas id="C1"></canvas>
+  <canvas id="C2"></canvas>
  </section>
  <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">D31</a></footer>
 </body>
