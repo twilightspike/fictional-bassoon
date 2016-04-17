@@ -8,7 +8,21 @@
  <link rel="stylesheet" href="stylesheets/2016practice107.css">
   <title>Fictional-Bassoon</title>
  <script type="text/javascript">
-  </script>
+  var text = ['L', 'O', 'V', 'E'];
+  var a = 0;
+  var canvas, ctx;
+  function run(){
+   canvas = document.getElementById('C1');
+   ctx = canvas.getContext('2d');
+   setInterval(drawText, 750);
+  }
+  function drawText(){
+   ctx.clearRect(0, 0, 300, 150);
+   ctx.font = '36pt Helvetica Neue';
+   ctx.strokeText(text[a], 100, 100);
+   if(a<3){a++;};else{a = 0;}
+  }
+ </script>
 </head>
 <body onload="draw();">
  <nav class="wrapper">
