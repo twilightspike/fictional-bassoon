@@ -1,3 +1,4 @@
+*{font-family: Helvetica Neue;}
 .section{border:1.5em double rgba(242,142,152,.85);height:600px;width:50%;top:20%;left:20%;}
 .c1,.c2,.c3{background:rgba(231,228,211,.85);margin:5px;width:200px;}
 .c1,.c2{height:200px;}
