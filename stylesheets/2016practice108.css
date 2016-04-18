@@ -5,4 +5,4 @@
 .spin{background:rgba(255,204,0,.95);margin:3.5px;}
 .spin-base{background:rgba(245,255,250,.95);height:30px;}
 .spin-list{height:10px;width:2.5px;}
-.wrapper{display:block;}
+.wrapper{display:block;margin:10px;}
