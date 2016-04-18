@@ -2,7 +2,7 @@
 .oh img{background-position:center center;background-size:cover;background-repeat: no-repeat;}
 .section{border:1em double rgba(242,142,152,.85);height:600px;margin:3px;width:50%;top:20%;left:20%;}
 /*spin setting*/
-.spin{background:rgba(255,204,0,.95);display:inline;height:10px;list-style:none;margin:3.5px;width:2.5px;}
+.spin{background:rgba(255,204,0,.95);display:flex;height:10px;list-style:none;margin:5.5px;width:25px;}
 .spin-base{background:rgba(245,255,250,.95);height:30px;}
 .spin-list{height:10px;padding:5px;width:2.5px;}
 .wrapper{display:block;margin:10px;}
