@@ -7,5 +7,5 @@
 .spin-base{background:rgba(245,255,250,.95);height:60px;right:5%;width:45%;}
 .spin-base,.spin-list{display:flex;}
 .spin-base::before,.spin-base::after{background:rgba(255,222,173,.95);content:'oh';height:30px;position:relative;}
-.spin-list{height:40px;padding:5px;width:180px;}
+.spin-list{height:40px;padding:5px;}
 .wrapper{display:block;height:400px;margin:10px;}
