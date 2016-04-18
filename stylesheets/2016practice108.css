@@ -1,3 +1,4 @@
 .oh{dusplay:flex;height:100px;justify-content:center;margin:0;width:50%;}
 .oh img{background-position:center center;background-size:cover;background-repeat: no-repeat;}
 .section{border:1em double rgba(242,142,152,.85);height:600px;margin:3px;width:50%;top:20%;left:20%;}
+.spin{background:rgba(255,204,0,.95);height:10em;width:2.5em;}
