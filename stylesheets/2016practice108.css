@@ -9,7 +9,7 @@
 .spin:nth-child(3){background:rgba(229,59,81,.95);}
 .spin:nth-child(4){background:rgba(255,254,255,.95);}
 .spin:nth-child(5){background:rgba(236,108,32,.95);}
-.spin-base{background:rgba(245,255,250,.95);height:60px;}
+.spin-base{background:rgba(32,252,217,.95);height:60px;}
 .spin-base::before,.spin-base::after{background:rgba(255,222,173,.95);content:'oh';height:30px;position:relative;}
 .spin-list{height:40px;justify-content:space-between;padding:5px;}
 .wrapper{display:block;height:400px;margin:10px;}
