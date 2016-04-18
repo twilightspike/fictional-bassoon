@@ -1,1 +1,2 @@
-.oh{background-image:url('https://goo.gl/nfRRH4');background-position:center center;background-size:cover;background-repeat: no-repeat;}
+.oh{height:100px;margin:0 auto;position:relative;width:100px;}
+.oh img{background-position:center center;background-size:cover;background-repeat: no-repeat;}
