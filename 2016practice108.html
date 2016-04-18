@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <meta charset='utf-8'> 
+ <meta name="viewport" content="width=640"> 
+ <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine"> 
+ <link rel="stylesheet" href="stylesheets/2016practice104.css">
+ <link rel="stylesheet? href="stylesheets/2016practice108.css">
+   <title>Fictional-Bassoon</title>
+ <script type="text/javascript">
+  var text = ['L', 'O', 'V', 'E'];
+  var a = 0;
+  var canvas, ctx;
+  function run(){
+   canvas = document.getElementById('C1');
+   ctx = canvas.getContext('2d');
+   setInterval(drawText, 750);
+  }
+  function drawText(){
+   ctx.clearRect(0, 0, 300, 150);
+   ctx.font = '36pt Helvetica Neue';
+   ctx.strokeText(text[a], 100, 100);
+   if(a<3) a++;
+   else a = 0;
+  }
+ </script>
+</head>
+<body onload="run();">
+ <nav class="wrapper">
+  <ul class="list">
+   <li class="list-wrap none">
+    <a href="#" class="list-link">
+     <div class="list-image">&#128147;</div>
+     <div class="list-main">Letter</div>
+    </a>
+   </li>
+   <li class="list-wrap none">
+    <a href="#" class="list-link">
+     <div class="list-image">&#10083;</div>
+     <div class="list-main">Good to ask</div>
+    </a>
+   </li>
+   <li class="list-wrap none">
+    <a href="#" class="list-link">
+     <div class="list-image">&#10086;</div>
+     <div class="list-main">Awaited</div>
+    </a>
+   </li>
+   <li class="list-wrap none">
+    <a href="#" class="list-link">
+     <div class="list-image">&#x1F49F;</div>
+     <div class="list-main">Stickers</div>
+    </a>
+   </li>
+  </ul>
+ </nav>
+ <section class="section">
+  <canvas id="C1" height="150" width="300"></canvas>
+  <div class="c1 flex"><p class="none">This is C1 placed in head.</p></div>
+  <div class="c2 flex"><canvas id="C2"></canvas><p class="none">This is C2 placed in bottom.</p></div>
+  <div class="c3 flex"><p class="none">This is c3 with no C3 now.</p></div>
+ </section>
+ <section class="section">
+  <p class="none">oh my.</p>
+ </section>
+ <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">D34</a></footer>
+</body>
+</html>
