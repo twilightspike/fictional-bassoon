@@ -2,9 +2,10 @@
 .oh img{background-position:center center;background-size:cover;background-repeat: no-repeat;}
 .section{border:1em double rgba(242,142,152,.85);height:600px;margin:3px;width:50%;top:20%;left:20%;}
 /*spin setting*/
+.spin,.spin-base,.spin-list,.wrapper{border:2.5px dotted rgba(255,222,173,.85);}
 .spin{background:rgba(255,204,0,.95);flex-wrap:nowrap;height:40px;list-style:none;margin:5.5px;width:25px;}
 .spin-base{background:rgba(245,255,250,.95);height:30px;position:absolute;}
 .spin-base,.spin-list{display:flex;}
 .spin-base::before,.spin-base::after{background:rgba(255,222,173,.95);height:30px;position:relative;}
 .spin-list{height:10px;padding:5px;width:2.5px;}
-.wrapper{border:2.5px dotted rgba(255,222,173,.85);display:block;height:600px;margin:10px;}
+.wrapper{display:block;height:500px;margin:10px;}
