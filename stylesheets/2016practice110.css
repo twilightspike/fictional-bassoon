@@ -1,0 +1,4 @@
+body{background:rgba(248,231,153,.85);margin:0;}
+canvas{border:1.5px dotted rgba(248,146,.121,.95);}
+.canvas{border:1px solid rgba(223,78,85,.95);dislpay:flex;}
+.none{color:rgba(69,55,72,.95);font-weight:bold;text-align:center;text-decoration:none;}
