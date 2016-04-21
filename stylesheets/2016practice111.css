@@ -1,2 +1,3 @@
-code{background:rgba(141,182,0,.85);border-radius:5%;}
+code{background:rgba(141,182,0,.85);border-radius:30px;margin:3px;padding:5px;text-weight:bold;}
 header h2{border-bottom:1px solid rgba(248,146,121,.95);}
+nav{margin:5px;}
