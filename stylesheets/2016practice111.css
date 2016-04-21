@@ -1,6 +1,6 @@
 canvas{border:1px dotted rgba(0,128,0,.95);margin:5px;}
 code{background:rgba(141,182,0,.85);border-radius:30px;margin:3px;padding:5px;text-weight:bold;}
 .footer{background:rgba(255,153,102,.95);bottom:5%;line-height:1.5;position:fixed;width:99%;}
-.footer a{left:500px;line-height:1.6;}
+footer a{float:right;line-height:1.6;}
 header h2{border-bottom:1px solid rgba(248,146,121,.95);}
 nav{margin:10px;}
