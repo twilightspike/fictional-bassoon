@@ -22,6 +22,15 @@
    ctx.stroke();
   }
  </script>
+ <script type="text/javascript">
+  function draw(){
+   var canvas = document.getElementById('C3');
+   var ctx = canvas.getContext('2d');
+   ctx.beginPath();
+   ctx.arc(50,50,65,0,2.5*Math.PI);
+   ctx.stroke();
+  }
+ </script>
 </head>
 <body onload="draw();">
  <header class="header none">
@@ -53,7 +62,8 @@
  </nav>
  <p class="none">Next one <code>nav</code> is going to include the onload itself inside.</p>
  <nav class="canvas">
-  <canvas id="C2" height="200" width="200" onload="draw();"></canvas>
+  <p class="none">Here I create another canvas with an id of C3. With putting it in another script.</p>
+  <canvas id="C3" height="200" width="200" onload="draw();"></canvas>
  </nav>
  <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">D36</a></footer>
 </body>
