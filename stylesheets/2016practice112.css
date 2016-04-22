@@ -7,3 +7,7 @@ body{background:rgba(250,247,85,.85);margin:0 auto;}
 input[type="checkbox"]{-webkit-apperance:none;appearance:none;cursor:pointer;display:inline-block;height:40px;margin:0;width:100%;}
 /*input name checkbox*/
 input[type="checkbox"] + .text{display:inline-block;right:10px;line-height:40px;position:absolute;}
+/*hover*/
+input[type="checkbox"]:hover{background:rgba(110,193,250,.85);}
+/*checked*/
+input[type="checkbox"]:checked{background:rgba(110,250,167,.85);}
