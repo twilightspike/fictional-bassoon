@@ -3,5 +3,5 @@ body{background:rgba(250,247,85,.85);margin:0 auto;}
 .nav{border:1.5px dotted rgba(4,167,76,.85);float:right;height:1.5;top:5%;right:2.5%;width:400px;}
 .none{color:rgba(250,110,123,.95);font-weight:20px;line-height:1.5;text-align:center;text-decoration:none;}
 .section{border:1.8px dotted rgba(4,167,76,.85);display:flex;margin:40px;vertical-align:middle;}
-/*ul checklisi*/
-input[type="checkbox"]{-webkit-apperance:none;appearance:none;}
+/*ul checklisi original*/
+input[type="checkbox"]{-webkit-apperance:none;appearance:none;cursor:pointer;display:inline-block;height:40px;width:100%;}
