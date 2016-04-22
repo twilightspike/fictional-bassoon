@@ -6,4 +6,4 @@ body{background:rgba(250,247,85,.85);margin:0 auto;}
 /*ul checklisi original*/
 input[type="checkbox"]{-webkit-apperance:none;appearance:none;cursor:pointer;display:inline-block;height:40px;margin:0;width:100%;}
 /*input name checkbox*/
-input[type="checkbox"] + .text{display:inline-block;left:10px;line-height:40px;position:absolute;}
+input[type="checkbox"] + .text{display:inline-block;right:10px;line-height:40px;position:absolute;}
