@@ -2,5 +2,5 @@
 .code{background:rgba(237,229,226,.65);border-radius:5px;margin:1.5px;padding:0.35rem;}
 .collapse{border-collapse:collapse;}
 nav{float:right;right:10em;}
-section{display:flex;flex-wrap:wrap;left:10em;}
+section{display:flex;flex-wrap:wrap;left:10em;margin:30px;}
 td,th{border:1.5px dotted rgba(69,168,237,.85);padding:0.5rem;}
