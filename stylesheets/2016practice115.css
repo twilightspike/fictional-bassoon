@@ -1,6 +1,7 @@
 .bottom{border-bottom:1px dashed rgba(234,53,86,.85);}
 .code{background:rgba(237,229,226,.65);border-radius:5px;margin:1.5px;padding:0.35rem;}
 .collapse{border-collapse:collapse;}
+.march{background:rgba(5,45,84,.85);color:rgba(227,221,135,.95);}
 nav{float:right;right:10em;}
 section{display:flex;flex-wrap:wrap;left:10em;margin:30px;}
-td,th{border:1.5px dotted rgba(69,168,237,.85);padding:0.5rem;}
+td,th{border:5px dotted rgba(69,168,237,.85);padding:0.5rem;}
