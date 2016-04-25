@@ -2,7 +2,6 @@
 .code{background:rgba(237,229,226,.65);border-radius:5px;margin:1.5px;padding:0.35rem;}
 .collapse{border-collapse:collapse;}
 .march{background:rgba(5,45,84,.85);color:rgba(227,221,135,.95);}
-nav{float:right;}
 nav td,nav th{padding:30px;}
-section{display:flex;flex-wrap:wrap;left:10%;margin:30px;}
+section{display:flex;left:10%;margin:30px;}
 td,th{border:3.5px solid rgba(69,168,237,.85);padding:0.5rem;}
