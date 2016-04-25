@@ -4,5 +4,6 @@
 .march{background:rgba(5,45,84,.85);color:rgba(227,221,135,.95);}
 nav td:hover,nav th:hover{padding:30px;}
 body:not(footer){display:flex;justify-content:space-around;margin:30px;}
-.section-wrapper{flex-direction:row;}
+.section:nth-child(1){flex:1 1 20em;}
+.section:nth-child(2){flex:2 2 20em;}
 td,th{border:3.5px solid rgba(69,168,237,.85);padding:0.5rem;}
