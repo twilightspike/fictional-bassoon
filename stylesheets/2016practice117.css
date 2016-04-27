@@ -1,5 +1,7 @@
 body{background:rgba(231,231,49,.65);margin:3px;}
-code{background:rgba(0,40,90,.85);border-radius:30%;color:rgba(255,215,0,.85);font-weight:bold;margin:1px;}
-.footer{background:rgba(49,231,140,.85);}
+code{background:rgba(0,40,90,.85);border-radius:20%;color:rgba(255,215,0,.85);font-weight:bold;margin:.5px;padding:2px;}
+.footer,.header{background:rgba(107,154,191,.85);margin:10px;padding:3px;position:fixed;width:80vw;}
+.footer{bottom:0;}
+.header{top:0;}
 .none{color:rgba(49,140,231,.95);font-weight:bold;text-align:center;text-decoration:none;}
 section{border:1px double rgba(27,127,228,.95);display:flex;flex:1 1 auto;}
