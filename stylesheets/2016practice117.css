@@ -1,0 +1,4 @@
+body{background:rgba(118,178,239,.65);margin:3px;}
+.footer{background:rgba(49,231,140,.85);}
+.none{color:rgba(49,140,231,.95);font-weight:bold;text-align:center;text-decoration:none;}
+.test{border:1px double rgba(27,127,228,.95);display:flex;flex:1 1 auto;}
