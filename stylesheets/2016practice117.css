@@ -1,4 +1,5 @@
 body{background:rgba(231,231,49,.65);margin:3px;}
+code{background:rgba(0,40,90,.85);border-radius:30%;color:rgba(255,215,0,.85);font-weight:bold;margin:1px;}
 .footer{background:rgba(49,231,140,.85);}
 .none{color:rgba(49,140,231,.95);font-weight:bold;text-align:center;text-decoration:none;}
-.test{border:1px double rgba(27,127,228,.95);display:flex;flex:1 1 auto;}
+section{border:1px double rgba(27,127,228,.95);display:flex;flex:1 1 auto;}
