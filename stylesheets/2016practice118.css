@@ -2,4 +2,6 @@ body{background:linear-gradient(rgba(247,187,151,.65), rgba(151,211,247,.65));}
 .section{background:rgba(247,235,151,.85);display:flex;flex-direction:column;justify-content:center;margin:10px;}
 .wrapper{background:rgba((0,40,90,.65);border:1px dotted rgba(151,247,187,.85);border-radius:50%;display:block;margin:10px;padding:20px;}
 /*setting on input*/
-input[type="range"]{background:rgba((255,173,157,.65);border:1px dashed rgba(151,247,187,.86);border-radius:50%;margin:10px;padding:20px;}
+input[type="range"]{background:rgba(255,173,157,.65);border:1px dashed rgba(151,247,187,.86);border-radius:50%;margin:10px;padding:20px;}
+/*using -webkit-apperance*/
+/*input[type="range"]{background:rgba();}*/
