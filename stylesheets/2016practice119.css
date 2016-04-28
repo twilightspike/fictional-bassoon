@@ -1,3 +1,5 @@
+.nav{background:rgba(151,247,187,.45);display:block;}
+/*tictag*/
 table{border:3px solid rgba(247,151,163,.75);display:table;}
 textarea{background:rgba(247,151,211,.65);display:none;}
 /*label*/
