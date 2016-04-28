@@ -1,5 +1,5 @@
 table{border:3px solid rgba(247,151,163,.75);display:table;}
-textarea{display:none;}
+textarea{background:rgba(247,151,211,.65);display:none;}
 /*label*/
 label:nth-child(odd){background:rgba(151,247,187,.55);}
 label:nth-child(even){background:rgba(151,211,247,.45);}
