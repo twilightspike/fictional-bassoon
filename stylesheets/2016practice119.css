@@ -1,6 +1,6 @@
-.nav{background:rgba(151,247,187,.45);display:flex;margin:20px;min-width:200px;}
+.nav{background:rgba(151,247,187,.45);display:flex;flex-direction:row;margin:20px;min-width:200px;}
 .nav-1{flex:1;left:5vw;max-width:250px;}
-.nav-2{flex:2;right:5vw;max-width:750px;}
+.nav-2{flex:2;right:5vw;}
 /*tictag*/
 table{border:3px solid rgba(247,151,163,.75);display:table;}
 textarea{background:rgba(247,151,211,.65);display:none;}
