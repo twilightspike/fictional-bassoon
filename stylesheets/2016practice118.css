@@ -1,3 +1,3 @@
 body{background:linear-gradient(rgba(247,187,151,.65), rgba(151,211,247,.65));}
-.code{background:rgba((0,40,90,.65);border-radius:30px;margin:20px;padding:30px;}
+.code{background:rgba((0,40,90,.65);border-radius:50%;margin:10px;padding:30px;}
 .section{background:rgba(247,235,151,.85);display:flex;flex-direction:column;justify-content:center;margin:10px;}
