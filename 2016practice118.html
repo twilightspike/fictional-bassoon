@@ -11,12 +11,12 @@
  <header class="header none">Today's topic is <code>range</code>, which is a type of <code>input</code> tag.</header>
  <section class="section none">
   <p class="none">These four inputs has the same <code>type</code> of <code>range</code>, same <code>min</code> as 5, same <code>max</code> as 50, but with different <code>step</code>.</p>
+  <p class="none">Notice that we don't set their <code>value</code> yet. Besides that, we also want to show each of their scale visually.</p>
   <input type="range" min="5" max="50" step="10">
   <input type="range" min="5" max="50" step="5">
   <input type="range" min="5" max="50" step="15">
   <input type="range" min="5" max="50" step=".5">
   <p class="none">If we refresh this page, it turns out four initial setting of different positions. Do they vary as the <code>step</code> alter? Got to find out.</p>
-  <p class="none">Notice that we don't set their <code>value</code> yet. Besides that, we also want to show each of their scale visually.</p>
  </section>
  <section class="section none">
   <p class="none">Now we're going to add <code>value</code> on to the same examples. Given the <code>value</code> be 20.</p>
@@ -25,6 +25,7 @@
   <input type="range" min="5" max="50" step="15" value="20">the value is 20 with step is 15
   <input type="range" min="5" max="50" step=".5" value="20">the value is 20 with stpe is .5
   <p class="none">So guess what?</p>
+  <p class="none">Weirdly that the rest last three <code>range</code> sliders have the same positions. I thought they would differ from each other.</p>
  </section>
  <section class="section none">
   <p class="none">This area would explore into the potential of loud interface a <code>range</code> could be. Hopefully we have enough time to do the experiment at the end of the day.</p>
