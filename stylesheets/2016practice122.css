@@ -1,6 +1,6 @@
 .article{color:rgba(201,102,106,.85);font-size:30px;font-weight:200;line-height:1.5;text-align:justify;}
 body{background:rgba(252,209,67,.75);margin:0 auto;}
-.column{border:.25rem dotted rgba(237,143,27,.75);display:flex;height:100px;left:5%;margin-left:3px;margin-right:2.5px;width:150px;}
+.column{border:.25rem dotted rgba(237,143,27,.75);display:flex;height:200px;left:5%;margin-left:3px;margin-right:2.5px;width:250px;}
 .footer{background:rgba(184,144,160,.65);bottom:30%;font-weight:300;height:100px;margin:10px;position:fixed;text-align:center;width:98.5%;}
 input[type="checkbox"]{border:.25rem solid rgba(238,142,25,.85);height:60px;width:80px;}
 .none{color:rgba(116,78,88,.95);font-size:30px;font-weight:bold;line-height:1.5;text-decoration:none;}
