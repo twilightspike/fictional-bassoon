@@ -1,3 +1,4 @@
 .center{list-style:none;text-align:center;}
 header .none{font-weight:300;}
 .none{color:rgba(85,8,11,.85);font-size:30px;font-weight:200;text-decoration:none;}
+ul li{display:inline;}
