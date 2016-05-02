@@ -1,4 +1,5 @@
 body{background:rgba(252,209,67,.75);margin:0 auto;}
-.footer{background:rgba(184,144,160,.65);bottom:30%;font-weight:300;height:200px;margin:10px;position:fixed;text-align:center;width:98.5%;}
+.footer{background:rgba(184,144,160,.65);bottom:30%;font-weight:300;height:100px;margin:10px;position:fixed;text-align:center;width:98.5%;}
+input[type="checkbox"]{border:.25rem solid rgba(238,142,25,.85);height:60px;width:80px;}
 .none{color:rgba(116,78,88,.95);font-size:30px;font-weight:bold;line-height:1.5;text-decoration:none;}
 .section{border:1.5em dashed rgba(239,141,38,.85);display:block;left:10vw;margin:10px;}
