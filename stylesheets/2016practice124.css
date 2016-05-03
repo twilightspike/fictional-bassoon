@@ -1,0 +1,6 @@
+body{background:rgba(234,235,149,.45);margin:0 auto;}
+.footer{bottom:45vh;position:fixed;}
+.footer,.header{background:rgba(194,195,4,.65);height:150px;line-height:1.5;width:98%;}
+.header{top:5%;}
+.none{color:rgba(113,122,106,.95);font-size:26px;font-weight:120;text-decoration:none;}
+.section{border:.25rem dotted rgba(165,159,177,.65);margin:40px;}
