@@ -16,7 +16,7 @@ ul{display:flex;flex-direction:row;}
 .warning{background:rgba(215,12,51,.75);color:rgba(253,207,209,.85);font-weight:bold;margin:0 auto;}
 /*external practice*/
 .tomato,.melon,.asparagus,.onion{display:flex;margin:30px;padding:30px;}
-.tomato{background:rgba(0,84,100,.85);height:32px;width:88px;}
-.melon{background:rgba();height:90px;width:728px;}
-.asparagus{background:rgba;();height:100px;width:160px;}
-.onion{background:rgba();height:250px;width:300px;}
+.tomato{background:rgba(255,99,71,.85);height:32px;width:88px;}
+.melon{background:rgba(171,210,85,.85);height:90px;width:728px;}
+.asparagus{background:rgba;(162,178,17,.85);height:100px;width:160px;}
+.onion{background:rgba(207,47,66,.85);height:250px;width:300px;}
