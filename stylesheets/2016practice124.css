@@ -7,7 +7,7 @@ li{color:rgba(113,122,106,.65);font-size:20px;font-weight:bold;list-style:none;t
 .section{border:.25rem dotted rgba(165,159,177,.65);margin:40px;}
 /*canvas setting*/
 canvas,.what{border:.125rem dotted rgba(150,203,209,.85);margin:30px;}
-.what{height:200px;width:200px;}
+.what{height:120px;width:120px;}
 /*description*/
 .nav{background:rgba(247,237,141,.85);display:inline;left:30%;margin:0 auto;}
 ul{display:flex;flex-direction:row;}
