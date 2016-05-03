@@ -8,9 +8,12 @@
  <script type="text/javascript">
   function draw(){
    var canvas = document.getElementById('tomato');
-   var ctx = tomatoCanvas.getContext('2d');
-   ctx.fillStyle = 'red';
-   ctx.fillRect(10, 10, 50, 50);
+   var tCtx = tomatoCanvas.getContext('2d');
+   tCtx.fillStyle = '#ff6347';
+   tCtx.beginPath();
+   tCtx.arc(50,50,30,0,0);
+   tCtx.stroke();
+   
    var canvas = document.getElementById('melon');
    var canvas = document.getElementById('asparagus');
    var canvas = document.getElementById('onion');
