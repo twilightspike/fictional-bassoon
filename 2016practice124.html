@@ -46,24 +46,24 @@
   <h3 class="none">Progress Recording</h3>
   <article class="none">
    <h4>Part1:</h4>
-   <p>I create total 4 <code>canvas</code> tag as each of them stands for a particular item.</p>
+   <p>I create total 4 <code>canvas</code> tags as each of them stands for a particular item.</p>
    <p>The code does not work as follow:</p>
    <code>
-  function draw(){
-   var canvas = document.getElementById('tomato');
-   var canvas = document.getElementById('melon');
-   var canvas = document.getElementById('asparagus');
-   var canvas = document.getElementById('onion');
-   
-   var tCtx = tomatoCanvas.getContext('2d');
+  <p>function draw(){</p>
+   <p>var canvas = document.getElementById('tomato');</p>
+   <p>var canvas = document.getElementById('melon');</p>
+   <p>var canvas = document.getElementById('asparagus');</p>
+   <p>var canvas = document.getElementById('onion');</p>
+   <span></span>
+   <p>var tCtx = tomatoCanvas.getContext('2d');</p>
    var mCtx = melonCanvas.getContext('2d');
    var aCtx = asparagusCanvas.getContext('2d');
    var oCtx = onionCanvas.getContext('2d');
-   
-   if(tCtx){
+   <span></span>
+   <p>if(tCtx){</p>
     tCtx.fillStyle = "rgba(255,99,71,.85)";
     tCtx.fillRect(10, 10, 55, 50);
-   }
+   <p>}</p>
   }
    </code>
    <p>Now I'm going to name the action (which means drawing here) right after I name the <code>var</code> and see if it works.</p>
