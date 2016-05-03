@@ -42,6 +42,35 @@
    <li>You Are What You Eat</li>
   </ul>
  </nav>
+ <section class="section">
+  <h3 class="none">Progress Recording</h3>
+  <article class="none">
+   <h4>Part1:</h4>
+   <span>I create total 4 <code>canvas</code> tag as each of them stands for a particular item.</span>
+   <span>The code does not work as follow:</span>
+   <code>
+     <script type="text/javascript">
+  function draw(){
+   var canvas = document.getElementById('tomato');
+   var canvas = document.getElementById('melon');
+   var canvas = document.getElementById('asparagus');
+   var canvas = document.getElementById('onion');
+   
+   var tCtx = tomatoCanvas.getContext('2d');
+   var mCtx = melonCanvas.getContext('2d');
+   var aCtx = asparagusCanvas.getContext('2d');
+   var oCtx = onionCanvas.getContext('2d');
+   
+   if(tCtx){
+    tCtx.fillStyle = "rgba(255,99,71,.85)";
+    tCtx.fillRect(10, 10, 55, 50);
+   }
+  }
+ </script>
+   </code>
+   <span>Now I'm going to name the action (which means drawing here) right after I name the <code>var</code> and see if it works.</span>
+  </article>
+ </section>
  <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B45</a></footer>
 </body>
 </html>
