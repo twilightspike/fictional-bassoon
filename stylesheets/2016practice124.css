@@ -2,10 +2,12 @@ body{background:rgba(234,235,149,.45);margin:0 auto;}
 .footer{bottom:45vh;position:fixed;}
 .footer,.header{background:rgba(194,195,4,.65);height:150px;line-height:1.5;width:98%;}
 .header{top:5%;z-index:-1;}
-li, .none{color:rgba(113,122,106,.95);font-size:26px;font-weight:120;text-decoration:none;}
+.none{color:rgba(113,122,106,.95);font-size:26px;font-weight:120;text-decoration:none;}
+li{color:rgba(113,122,106,.65);font-size:20px;font-weight:bold;list-style:none;text-align:center;}
 .section{border:.25rem dotted rgba(165,159,177,.65);margin:40px;}
 /*canvas setting*/
 canvas,.what{border:.125rem dotted rgba(150,203,209,.85);margin:30px;}
-.what{height:200px;width:400px;}
+.what{height:200px;width:300px;}
 /*description*/
 .nav{background:rgba(247,237,141,.85);display:inline;margin:0 auto;}
+ul{display:flex;flex-direction:row;margin-left:40px;}
