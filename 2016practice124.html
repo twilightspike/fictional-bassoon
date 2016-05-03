@@ -5,9 +5,28 @@
  <meta name="viewport" content="width=640">
  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
  <link rel="stylesheet" type="text/css" href="stylesheets/2016practice124.css">
+ <script type="text/javascript">
+  function draw(){
+   var canvas = document.getElementById('tomato');
+   var canvas = document.getElementById('melon');
+   var canvas = document.getElementById('asparagus');
+   var canvas = document.getElementById('onion');
+   
+   var tCtx = tomatoCanvas.getContext('2d');
+   var mCtx = melonCanvas.getContext('2d');
+   var aCtx = asparagusCanvas.getContext('2d');
+   var oCtx = onionCanvas.getContext('2d');
+  }
+ </script>
 </head>
-<body>
+<body onload="draw();">
  <header class="header none">Wishing List</header>
+ <section class="section">
+  <canvas id="tomato" height="100" width="100"></canvas>
+  <canvas id="melon" height="200" width="200"></canvas>
+  <canvas id="asparagus" height="150" width="300"></canvas>
+  <canvas id="onion" height="50" width="50"></canvas>
+ </section>
  <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B45</a></footer>
 </body>
 </html>
