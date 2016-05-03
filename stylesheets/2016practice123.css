@@ -1,5 +1,5 @@
 .bar{height:200px;width:50px;}
-.center{left:50%;line-height:1.5;list-style:none;text-align:center;}
+.center{line-height:1.5;list-style:none;text-align:center;}
 .cirlce{border-radius:50%;}
 .eye{height:50px;width:100px;}
 .head{background:rgba(255,207,208,.75);display:flex;height:400px;width:400px;}
@@ -9,3 +9,4 @@ header .none{font-weight:300;}
 .none{color:rgba(85,8,11,.85);font-size:30px;font-weight:200;text-decoration:none;}
 .section{border:1rem dotted rgba(226,60,87,.85);display:flex;height:600px;width:98%;top:5%;left:10vw;}
 .wrapper{display:flex;height:300px;width:300px;}
+.wrapper ul{display:inline;}
