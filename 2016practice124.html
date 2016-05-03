@@ -8,19 +8,22 @@
  <script type="text/javascript">
   function draw(){
    var canvas = document.getElementById('tomato');
+   var tCtx = tomatoCanvas.getContext('2d');
+   tCtx.fillStyle = "rgba(255,99,71,.85)";
+   tCtx.fillRect(10, 10, 55, 50);
    var canvas = document.getElementById('melon');
    var canvas = document.getElementById('asparagus');
    var canvas = document.getElementById('onion');
    
-   var tCtx = tomatoCanvas.getContext('2d');
+   /*var tCtx = tomatoCanvas.getContext('2d');*/
    var mCtx = melonCanvas.getContext('2d');
    var aCtx = asparagusCanvas.getContext('2d');
    var oCtx = onionCanvas.getContext('2d');
    
-   if(tCtx){
+   /*if(tCtx){
     tCtx.fillStyle = "rgba(255,99,71,.85)";
     tCtx.fillRect(10, 10, 55, 50);
-   }
+   }*/
   }
  </script>
 </head>
