@@ -10,6 +10,7 @@ li{border:1px solid rgba(80,92,55,.65);color:rgba(113,122,106,.65);font-size:20p
 canvas,.what{border:.125rem dotted rgba(150,203,209,.85);margin:30px;}
 .what{height:120px;width:120px;}
 /*description*/
+.highlight{border-bottom:.25rem dotted rgba(215,12,51,.85);}
 .nav{background:rgba(247,237,141,.85);display:inline;left:30%;margin:0 auto;}
 ul{display:flex;flex-direction:row;}
 .warning{background:rgba(215,12,51,.75);color:rgba(253,207,209,.85);font-weight:bold;margin:0 auto;}
