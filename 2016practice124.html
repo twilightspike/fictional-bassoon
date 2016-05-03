@@ -22,6 +22,17 @@
     tCtx.fillRect(10, 10, 55, 50);
    }
   }
+  function draw(ctx)
+{
+    var grd=ctx.createLinearGradient(0,0,175,50);
+    grd.addColorStop(0,"#E05D1B");
+    grd.addColorStop(1,"#00FF00");
+    ctx.fillStyle=grd;
+    ctx.fillRect(0,0,275,50);
+}
+
+draw(document.getElementById("canvas_1").getContext("2d"));
+draw(document.getElementById("canvas_2").getContext("2d"));
  </script>
 </head>
 <body onload="draw();">
