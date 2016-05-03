@@ -12,3 +12,4 @@ canvas,.what{border:.125rem dotted rgba(150,203,209,.85);margin:30px;}
 /*description*/
 .nav{background:rgba(247,237,141,.85);display:inline;left:30%;margin:0 auto;}
 ul{display:flex;flex-direction:row;}
+.warning{background:rgba(215,12,51,.75);color:rgba(253,207,209,.85);font-weight:bold;margin:0 auto;}
