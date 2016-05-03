@@ -7,4 +7,5 @@ header .none{font-weight:300;}
 .inline{display:inline;}
 .mouth{background:rgba(148,46,45,.85);height:50px;width:200px;}
 .none{color:rgba(85,8,11,.85);font-size:30px;font-weight:200;text-decoration:none;}
+.section{border:1rem dotted rgba(226,60,87,.85);display:block;height:600px;width:98%;top:5%;left:10vw;}
 .wrapper{display:flex;height:300px;width:300px;}
