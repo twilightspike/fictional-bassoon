@@ -1,5 +1,5 @@
 .bar{height:200px;width:50px;}
-.center{list-style:none;text-align:center;}
+.center{left:50%;line-height:1.5;list-style:none;text-align:center;}
 .cirlce{border-radius:50%;}
 .eye{height:50px;width:100px;}
 .head{background:rgba(255,207,208,.75);display:flex;height:400px;width:400px;}
