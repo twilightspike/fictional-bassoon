@@ -45,7 +45,7 @@
  <section class="section">
   <h3 class="none">Progress Recording</h3>
   <article class="none">
-   <h4>Part1:</h4>
+   <h4>Stage 1:</h4>
    <p>I create total 4 <code>canvas</code> tags as each of them stands for a particular item.</p>
    <p>The code does not work as follow:</p>
   <code>function draw(){</code>
@@ -75,6 +75,19 @@
    <p>Making the code description above takes much time beyond my expectation. Not the good one, though.</p>
    <p>Seems that I should stop altering its look and back to the main.</p> 
   </div>
+  <article class="none">
+   <h4>Stage 2:</h4>
+   <p>Here I <span class="highlight">adjusted the order</span> of the code I previous pasted as stage 1.</p>
+   <p>Piece of it would goes like this:</p>
+   <code>
+    function draw(){<br>
+    var canvas = document.getElementById('tomato');<br>
+    var tCtx = tomatoCanvas.getContext('2d');<br>
+    tCtx.fillStyle = "rgba(255,99,71,.85)";<br>
+    tCtx.fillRect(10, 10, 55, 50);<br>
+   </code>
+   <p>Let's check out.</p>
+  </article>
  </section>
  <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B45</a></footer>
 </body>
