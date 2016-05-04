@@ -1,4 +1,4 @@
-body{background:rgba(234,235,149,.45);margin:0 auto;}
+body{background:rgba(234,235,149,.25);margin:0 auto;}
 code{background:rgba(243,239,195,.65);border-bottom:1px solid rgba(150,203,209,.75);border-radius:45%;margin:1px 2px;}
 .footer{bottom:45vh;position:fixed;}
 .footer,.header{background:rgba(194,195,4,.65);height:150px;line-height:1.5;width:98%;}
