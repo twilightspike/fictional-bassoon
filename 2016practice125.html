@@ -83,6 +83,33 @@
         canvas id="melon" height="300" width="300"/canvas<br>
        /div<br>
       </code>
+      <p class="none">Next step is crucial: we have two testing directions. One is writing in the same <code>draw()</code> function and the other is to create another one tag.</p>
+      <p class="none">In the beginning, we write in <span class="highlight">the same/span> tag of <code>draw()</code>:</p>
+      <code>
+        function draw(){<br>
+        var t = document.getElementById('tomato');<br>
+        if(t.getContext){<br>
+        var tCtx = t.getContext('2d');<br>
+        <span></span>
+        tCtx.fillStyle = "rgb(251,93,120)";<br>
+        tCtx.fillRect (10,10,50,50);<br>
+        <span></span>
+        tCtx.fillStyle = "rgb(93,199,251)";<br>
+        tCtx.fillRect (30,30,55,50);<br>
+        }else{<br>
+        console.log("the picture fails to show");<br>
+        }<br>
+        var m = document.getElementById('melon');<br>
+        if(m.getContext){<br>
+        var mCtx = m.getContext('2d');<br>
+        <span></span>
+        mCtx.fillStyle = "rgb(244,115,32)";<br>
+        mCtx.fillRect (20,20,45,90);<br>
+        }else{<br>
+        console.log("we can not see the melon");<br>
+        }<br>
+      }<br>
+      </code>
     </article>
   </section>
   <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B46</a></footer>
