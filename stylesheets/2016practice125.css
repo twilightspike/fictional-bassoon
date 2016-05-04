@@ -1,2 +1,3 @@
 .article{background:rgba(209,208,242,.55);border-radius:25%;margin:30px;}
 .button{-webkit-appearance:none;appearance:none;cursor:pointer;}
+ol li:hover{background:rgba(253,168,182,.45);}
