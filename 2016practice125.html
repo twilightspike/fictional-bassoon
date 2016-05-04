@@ -23,6 +23,15 @@
       }else{
         console.log("the picture fails to show");
       }
+      var m = document.getElementById('melon');
+      if(m.getContext){
+        var mCtx = m.getContext('2d');
+        
+        mCtx.fillStyle = "rgb(244,115,32)";
+        mCtx.fillRect (20,20,45,90);
+      }else{
+        console.log("we can not see the melon");
+        }
     }
   </script>
 </head>
@@ -84,7 +93,7 @@
        /div<br>
       </code>
       <p class="none">Next step is crucial: we have two testing directions. One is writing in the same <code>draw()</code> function and the other is to create another one tag.</p>
-      <p class="none">In the beginning, we write in <span class="highlight">the same/span> tag of <code>draw()</code>:</p>
+      <p class="none">In the beginning, we write in <span class="highlight">the same</span> tag of <code>draw()</code>:</p>
       <code>
         function draw(){<br>
         var t = document.getElementById('tomato');<br>
