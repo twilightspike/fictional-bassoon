@@ -1,7 +1,7 @@
 body{background:rgba(234,235,149,.25);margin:0 auto;}
 code{background:rgba(243,239,195,.65);border-bottom:1px solid rgba(150,203,209,.75);border-radius:45%;margin:1px 2px;}
 .footer{bottom:45vh;position:fixed;}
-.footer,.header{background:rgba(194,195,4,.65);height:150px;line-height:1.5;width:98%;}
+.footer,.header{background:rgba(194,195,4,.65);height:80px;line-height:1.5;width:98%;}
 .header{top:5%;z-index:-1;}
 .none{color:rgba(113,122,106,.95);font-size:26px;font-weight:120;text-decoration:none;}
 li{border:1px solid rgba(80,92,55,.65);color:rgba(113,122,106,.65);font-size:20px;font-weight:bold;list-style:none;text-align:center;margin:0 30px;}
