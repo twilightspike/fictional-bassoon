@@ -6,11 +6,52 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
   <link rel="stylesheet" type="text/css" href="stylesheets/2016practice124.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/2016practice125.css">
-  <script type="text/javascript"></script>
+  <script type="text/javascript">
+    function draw(){
+      var t = document.getElementById('tomato');
+      if(t.getContext){
+        var tCtx = t.getContext('2d');
+        
+        tCtx.fillStyle = "rgb(251,93,120)";
+        tCtx.fillRect (10,10,50,50);
+        
+        tCtx.fillStyle = "rgb(93,199,251)";
+        tCtx.fillRect (30,30,55,50);
+      }else{
+        console.log("the picture fails to show");
+      }
+    }
+  </script>
 </head>
-<body>
+<body onload="draw();">
   <header class="header none"><h2 class="none">Continue</h2></header>
-  <section class="section"></section>
+  <section class="section">
+    <article class="article">
+      <h4 class="none">Stage 1:</h4>
+      <p class="none">This time I want to fullfill both graph and color. Here's the <code>canvas</code> below:</p>
+      <canvas id="tomato" height="200" width="200"></canvas>
+      <div class="none">
+        <p class="none">The code is as follow:</p>
+        <code>
+              function draw(){<br>
+      var t = document.getElementById('tomato');<br>
+      if(t.getContext){<br>
+        var tCtx = t.getContext('2d');<br>
+        <span></span>
+        tCtx.fillStyle = "rgb(251,93,120)";<br>
+        tCtx.fillRect (10,10,50,50);<br>
+        <span></span>
+        tCtx.fillStyle = "rgb(93,199,251)";<br>
+        tCtx.fillRect (30,30,55,50);<br>
+      }else{<br>
+        console.log("the picture fails to show");<br>
+      }<br>
+    }<br>
+        </code>
+      </div>
+      <p class="none">Let's see what would happen.</p>
+    </article>
+  </section>
   <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B46</a></footer>
 </body>
 </html>
