@@ -34,6 +34,19 @@
         }
     }
   </script>
+  <script type="text/javascript">
+    function drawPixel(){
+      var o = document.getElementById('onion');
+      if(o.getContext){
+        var oCtx = o.getContext('2d');
+        
+        oCtx.fillStyle = "rgb(207,47,66)";
+        oCtx.fillRect (10,10,55,50);
+      }else{
+        console.log("we can not see the drawPixel method");
+      }
+    }
+  </script>
 </head>
 <body onload="draw();">
   <header class="header none"><h2 class="none">Continue</h2></header>
@@ -127,6 +140,11 @@
       <p class="none">Since I've accidently fixed the problem that different <code>variable</code> can be defind <span class="highlight">using the same</span> <code>draw()</code> function, I can test the outcome writing the drawing function <span class="highlight">twice</span>.</p>
       <p class="none">To be the safe, I ought to look for function other than <code>draw()</code>. This is <span class="highlight">beyond my current familiar zone</span>, and thus I have no confidence in, either. It may takes time to search, but I promise you guys I would try!</p>
       <div class="section">Here's a doubt: what exactly mean "not using draw()"? Clearly I am using a <code>canvas</code> tag to help me draw something. Maybe I shoud clarify my wonder more specifically: can I use such as <code>drawGrid()</code> as another function which would work as well?</div>
+      <p class="none">Here, I create <span class="highlight">new function named "drawPixel()"</span> with a new id as "onion". This time I'll wrap it with a <code>div</code> plus an <code>onload()</code> on it:</p>
+      <div onload="drawPixel();">
+        <canvas id="onion" height="200" width="200"></canvas>
+      </div>
+      <p class="none">A little bit nervous, isn't it? Let's find out!</p>
     </article>
   </section>
   <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B46</a></footer>
