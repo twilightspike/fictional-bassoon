@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=640">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" type="text/css" href="stylesheets/2016practice124.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/2016practice126.css">
+  <script type="text/javascript">
+    function draw(){
+    var t = document.getElementById('tomato');
+    if(t.getContext){
+      var tCtx = t.getContext('2d');
+      
+      tCtx.fillStyle = "rgb(251,93,120)";
+      tCtx.fillRect (10,10,60,60);
+    }else{
+      console.log("who ate the tomato");
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="header none"><h2 class="none">Continue</h2></header>
+  <section class="section">
+    <h4 class="none">Stage 1:</h4>
+    <p class="none">Here's the first <code>canvas</code> of today's!</p>
+    <div onload="draw();">
+      <canvas id="tomato" height="300" width="400"></canvas>
+    </div>
+    <p class="none">This time we set the <code>onload</code> inside the <code>div</code> rather than <code>body</code> we used to put.</p>
+  </section>
+  <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B47</a></footer>
+</body>
+</html>
