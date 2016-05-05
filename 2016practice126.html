@@ -27,6 +27,20 @@
     <div onload="draw();">
       <canvas id="tomato" height="300" width="400"></canvas>
     </div>
+    <p class="none">With the following code:</p>
+    <code>
+          function draw(){<br>
+    var t = document.getElementById('tomato');<br>
+    if(t.getContext){<br>
+      var tCtx = t.getContext('2d');<br>
+      <span></span>
+      tCtx.fillStyle = "rgb(251,93,120)";<br>
+      tCtx.fillRect (10,10,60,60);<br>
+    }else{<br>
+      console.log("who ate the tomato");<br>
+      }<br>
+    }<br>
+    </code>
     <p class="none">This time we set the <code>onload</code> inside the <code>div</code> rather than <code>body</code> we used to put.</p>
   </section>
   <section class="section">
