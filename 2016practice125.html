@@ -145,6 +145,21 @@
         <canvas id="onion" height="200" width="200"></canvas>
       </div>
       <p class="none">A little bit nervous, isn't it? Let's find out!</p>
+      <code>
+        function drawPixel(){<br>
+      var o = document.getElementById('onion');<br>
+      if(o.getContext){<br>
+        var oCtx = o.getContext('2d');<br>
+        <span></span>
+        oCtx.fillStyle = "rgb(207,47,66)";<br>
+        oCtx.fillRect (10,10,55,50);<br>
+      }else{<br>
+        console.log("we can not see the drawPixel method");<br>
+      }<br>
+    }<br>
+      </code>
+      <p class="none">Oh no, there does exists a canvas area <span class="highlight">but neither graph we created nor the <code>console</code> texting!</span> Perhaps this phenomenon relates to one thing that <code>drawPixel()</code> is not a valid function?</p>
+      <div class="section">Therefore an extention pops up: if we want to use the <code>canvas</code> tag, how many limited choices we actually own speaking of <span class="highlight">different functions</span> which works?</div>
     </article>
   </section>
   <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B46</a></footer>
