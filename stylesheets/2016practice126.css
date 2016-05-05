@@ -1,7 +1,7 @@
 body{background:rgba(255,255,255,.85);margin:0 auto;}
 canvas{border:.125rem dotted rgba(0,15,70,.75);}
 code{background:rgba(178,222,189,.75);color:rgba(214,15,116,.85);font-size:22px;line-height:30px;}
-.flex{display:flex;flex-direction:column;}
+.flex{display:flex;flex-flow:row wrap;align-content:space-around;}
 .footer,.header{font-weight:normal;text-align:center;position:fixed;}
 .footer{background:rgba(221,97,107,.55);cursor:auto;font-size:48px;height:50px;width:60px;bottom:10%;padding-top:5.5%;padding-bottom:5.5%;right:10%;}
 .header{border-bottom:1px solid rgba(249,248,253,.85);font-size:50px;height:47px;line-height:36px;min-width:700px;top:0;left:0;right:0;}
