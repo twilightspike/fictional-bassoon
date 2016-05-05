@@ -47,6 +47,25 @@
       }
     }
   </script>
+  <script type="text/javascript">
+    function drawPixel(){
+      var  t = document.getElementById('tomato');
+      if(t.getContext){
+        var tCtx = t.getContext('2d');
+        
+        tCtx.fillStyle = "rgb(251,93,120)";
+        tCtx.fillRect (10,10,50,50);
+        
+        tCtx.fillStyle = "rgba(93,199,251,0.6)";
+        tCtx.fillRect (30,30,55,50);
+        
+        tCtx.fillStyle = "rgb(93,251,145)";
+        tCtx.fillRect (60,60,70,30);
+      }else{
+        console.log("the picture fails to show");
+      }
+    }
+  </script>
 </head>
 <body onload="draw();">
   <header class="header none"><h2 class="none">Continue</h2></header>
@@ -165,7 +184,8 @@
     <article class="article">
       <h4 class="none">Stage 4:</h4>
       <p class="none">Given a function named <code>drawGrid()</code> and see what could happen?</p>
-      <p class="none highlight">Or just retest our very first canvas. We 'll remain all setting except for renaming it as "drawPixel()".</p>
+      <p class="none">How about just retest our very first canvas! We 'll <span class="highlight">remain all setting except for remaning it as <code>"drawPixel()"</code>.</span></p>
+      <canvas id="tomato" height="200" width="200" onload="drawPixel();"></canvas>
     </article>
   </section>
   <footer class="footer none"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B46</a></footer>
