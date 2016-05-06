@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/2016practice127.css">
   <script type="text/javascript">
     function draw(){
-      var t = t.getElementById('tomato');
+      var t = document.getElementById('tomato');
       if(t.getContext){
         var tCtx = t.getContext('2d');
         tCtx.fillStyle = "rgb(251,93,120)";
@@ -27,6 +27,13 @@
     <p class="none">Firstly is our familiar bro.</p>
     <canvas id="tomato" height="200" width="200"></canvas>
     <p class="none">With <code>tomato</code> equals to "tomato" along with the scale of 200 * 200.</p>
+  </section>
+  <section class="section">
+    <h4 class="none">Memo:</h4>
+    <ol class="memo">
+      <li class="none">The corect expression is <code>var t = document.getElementById('tomato');</code>, not<code>var t = t.getElementById('tomato');</code>.</li>
+      <li class="none">So what <code>document</code> exactly stands for?</li>
+    </ol>
   </section>
   <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">C41</a></footer>  
 </body>
