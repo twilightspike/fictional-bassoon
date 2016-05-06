@@ -12,12 +12,15 @@
       if(t.getContext){
         var tCtx = t.getContext('2d');
         tCtx.fillStyle = "rgb(251,93,120)";
-
         tCtx.beginPath();
         tCtx.arc(50,50,60,0,Math.PI*2);
         tCtx.moveTo(80,70);
+
+        tCtx.fillStyle = "rgb(246,243,10)";
         tCtx.arc(50,50,45,0,Math.PI*2);
         tCtx.moveTo(30,40);
+
+        tCtx.fillStyle = "rgb(110,162,243)";
         tCtx.arc(30,40,15,0,Math.PI*2);
         tCtx.stroke();
       }else{
