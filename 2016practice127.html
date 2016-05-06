@@ -6,14 +6,25 @@
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro'>
   <link rel="stylesheet" type="text/css" href="stylesheets/2016practice126.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/2016practice127.css">
+  <script type="text/javascript">
+    function draw(){
+      var t = t.getElementById('tomato');
+      if(t.getContext){
+        var tCtx = t.getContext('2d');
+        tCtx.fillStyle = "rgb(251,93,120)";
+        tCtx.fillRect (20,20,55,85);
+      }else{
+        console.log("who ate the tomato");}
+    }
+  </script>
 </head>
 <body>
   <header class="header"><h2 class="none">Continue</h2></header>
-  <p class="none>Today's missions:</p>
-  <h4 class="none">Simply enjoy using <code>canvas</code>.</h4>
-  <h4 class="none">DOM related-issues must be done.</h4>
-  <section class="section>
-    <p class="none">Firstly is our familiar bro:</p>
+  <p class="none">Today's missions:</p>
+  <h4 class="none pop">Simply enjoy using <code>canvas</code>.</h4>
+  <h4 class="none pop">DOM related-issues must be done.</h4>
+  <section class="section">
+    <p class="none">Firstly is our familiar bro.</p>
     <canvas id="tomato" height="200" width="200"></canvas>
     <p class="none">With <code>tomato</code> equals to "tomato" along with the scale of 200 * 200.</p>
   </section>
