@@ -1,3 +1,4 @@
-.highlight{outline:.25rem double rgba(136,216,176,55);padding:50px;pointer:auto;}
+.highlight{animation-name:ball;animation-duration:2.5s;padding:50px;pointer:auto;}
 .highlight:hover{background:rgba(255,111,105,.75);}
 .section .hightlight{display:flex;flex-wrap:wrap;}
+@keyframes ball{from{backgrond:rgba(255,104,92,.75);}to{background:rgba(136,216,176,.65);}}
