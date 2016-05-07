@@ -1,3 +1,4 @@
 .highlight{padding:50px;pointer:auto;}
+.highlight:active{background:rgba(136,216,176,.55);}
 .highlight:hover{background:rgba(255,111,105,.75);}
 .section .hightlight{display:flex;flex-wrap:wrap;}
