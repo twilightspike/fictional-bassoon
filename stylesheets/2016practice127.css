@@ -1,2 +1,3 @@
 .highlight{margin-left:5em;cursor:auto;}
 .highlight:hover{background:rgba(255,111,105,.75);}
+.section div{display:flex;flex-wrap:wrap;}
