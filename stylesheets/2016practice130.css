@@ -1,4 +1,5 @@
 body{background:rgba(254,251,217,.35);margin:0 auto;}
+.flex{display:flex;justify-content:center;}
 .footer{background:rgba(254,251,217,.85);bottom:5.5%;height:100px;margin:10px;position:fixed;right:7.5%;width:120px;}
 .footer .none{font-weight:bold;text-align:center;}
 .h{color:rgba(164,144,86,.75);font-weight:bold;line-height:3.5;}
