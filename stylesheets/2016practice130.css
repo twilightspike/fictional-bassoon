@@ -7,3 +7,7 @@ body{background:rgba(254,251,217,.35);margin:0 auto;}
 .highlight{background:rgba(233,87,63,.85);color:rgba(243,243,243,.85);}
 .none{color:rgba(192,177,135,.75);font-size:18px;line-height:2.5;text-decoration:none;}
 .section{background:rgba(242,242,242,.65);border-bottom:1.3px dashed rgba(84,48,53,.75);margin:20px;}
+/*resize*/
+@media screen and (max-width:320px){
+  .pic{width:50%;}
+}
