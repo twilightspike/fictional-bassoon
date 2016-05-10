@@ -1,3 +1,4 @@
 body{background:rgba(254,251,217,.35);margin:0 auto;}
 .footer{background:rgba(254,251,217,.85);bottom:5.5%;height:100px;margin:10px;position:fixed;right:7.5%;width:120px;}
+.footer .none{font-weight:bold;text-align:center;}
 .none{color:rgba(192,177,135,.75);font-size:18px;line-height:2.5;text-decoration:none;}
