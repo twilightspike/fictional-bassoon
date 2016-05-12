@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=640">
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/2016practice130.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/2016practice132.css">
+</head>
+<body>
+  <h1 class="h">Continue</h1>
+  <header class="header none"><h1 class="h">Comparing different Embeded:</h1></header>
+  <section class="section">
+    <div class="flex">
+      <h3 class="h">Using <code class="highlight">iframe</code> tag as it provides:</h3>
+      <div class="container">
+        <iframe class="hide" width="420" height="315" src="https://www.youtube.com/embed/nA6V-igRM1w" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="flex">
+      <h3 class="h">Using <code class="highlight">video</code> tag as an experiment:</h3>
+      <p class="none">Firstly we use <code class="h">iframe</code> tag directly again.</p>
+      <div class="container">
+        <iframe class="hide" width="854" height="480" src="https://www.youtube.com/embed/epTL3jHXrY4" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="none">Next step is testing the <code class="h">video</code>tag!</p>
+      <div class="container">
+        <video class="hide none" src="https://youtu.be/epTL3jHXrY4">Here we create another <code class="h">video</code> tag with the <span class="highlight">same source</span> as the second one pasted above.</video>
+      </div>
+      <p class="none">Notice that we <span class="h">wrap</span> each of them in seperate <code class="h">div</code> along with class named <span class="h">container</span>.</p>
+    </div>
+  </section>
+  <section class="section">
+    <h3 class="h">Memo:</h3>
+    <p class="none">With the <code class="h">src</code> pasted, is that enough to make the <code class="h">video</code> tag work?</p>
+    <p class="none">Got to distinguish what exact differ from <code class="h">video</code> and <code class="h">audio</code> tag.</p>
+    <p class="none">The initial provided embeded size are <span class="h">420*315</span> and <span class="h">854*480</span>, which makes me curious about the usage of these original settings.</p>
+    <p class="none">A new tag named <code class="h">frameborder</code> might be helpful if set as 0.</p>
+  </section>
+  <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">C47</a></footer>
+</body>
+</html>
