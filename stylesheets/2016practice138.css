@@ -1,1 +1,2 @@
-.radio{display:flex;height:100px;width:100px;align-items:start;}
+.radio{display:flex;flex-direction:column;}
+.radio input[type="radio"]{background:rgba(0,139,186,.75);height:100px;width:100px;align-items:start;}
