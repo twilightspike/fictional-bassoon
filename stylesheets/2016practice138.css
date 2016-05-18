@@ -2,4 +2,4 @@
 label{background:rgba(119,180,227,.65);flex-direction:column;}
 .radio{display:flex;flex-direction:column;}
 .radio input[type="radio"]{-webkit-appearance:none;appearance:none;background:rgba(235,193,215,.55);border:.25rem dotted rgba(208,201,31,.75);height:100px;width:100px;align-items:flex-start;}
-.radio input[type="radio"]:checked{background:rgba(228,38,110,.55);transform:rotate(-45deg);}
+.radio input[type="radio"]:checked{background:rgba(228,38,110,.55);content:'Hi!';transform:rotate(-30deg);}
