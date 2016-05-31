@@ -10,6 +10,7 @@
     function ShowMeDate(){
       var Today = new Date();
       alert("Oops, are we talking about " + (Today.getMonth()+1) +" / "+ Today.getDate() + " in " + Today.getFullYear() + " already?");
+      alert(5+8-9);
     }
   </script>
 </head>
@@ -21,6 +22,9 @@
     <p class="none">For this practice, we put the <code class="code">onclick</code> attribute <span class="h">into the <code class="code">canvas</code> tag</span> itself. Let's find out.</p>
     <canvas id="canvas" onclick="ShowMeDate()"></canvas>
     <p class="none">Turns out that <span class="highlight">it's OK</span> to put <code class="code">onlcick</code> at tags <span class="highlight">other than right inside  the <code class="code">body</code> tag</span> as we've explored earlier.</p>
+  </section>
+  <section class="section">
+    <p class="none">I just put (or should I say <span class="h">declare</span> instead?) another <code class="code">alert</code> within the same function named <code class="code">ShowMeDate()</code>. Although I have not see the result, right now let's suppose both alerts would show up in the same popping window.</p>
   </section>
   <section class="section">
     <h1 class="h">Memo:</h1>
