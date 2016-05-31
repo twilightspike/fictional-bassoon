@@ -6,13 +6,19 @@
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro'>
   <link rel="stylesheet" type="text/css" href="stylesheets/2016practice130.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/2016practice147.css">
+  <script type="text/javascript">
+    function ShowMeDate(){
+      var Today = new Date();
+      alert("Oops, are we talking about" + (Today.getMonth()+1) + Today.getDate() + "in" + Today.getFullYear() + "already?");
+    }
+  </script>
 </head>
 <body>
   <header class="header">
     <h1 class="h">Wrap</h1>
   </header>
   <section class="section">
-    <canvas id="canvas"></canvas>
+    <canvas id="canvas" onclick="ShowMeDate()"></canvas>
   </section>
   <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B54</a></footer>
 </body>
