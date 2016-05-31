@@ -9,7 +9,7 @@
   <script type="text/javascript">
     function ShowMeDate(){
       var Today = new Date();
-      alert("Oops, are we talking about" + (Today.getMonth()+1) +"/ "+ Today.getDate() + " in " + Today.getFullYear() + " already?");
+      alert("Oops, are we talking about" + (Today.getMonth()+1) +" / "+ Today.getDate() + " in " + Today.getFullYear() + " already?");
     }
   </script>
 </head>
@@ -18,7 +18,16 @@
     <h1 class="h">Wrap</h1>
   </header>
   <section class="section">
+    <p class="none">For this practice, we put the <code class="code">onclick</code> attribute <span class="h">into the <code class="code">canvas</code> tag</span> itself. Let's find out.</p>
     <canvas id="canvas" onclick="ShowMeDate()"></canvas>
+    <p class="none">Turns out that <span class="highlight">it's OK</span> to put <code class="code">onlcick</code> at tags <span class="highlight">other than right inside  the <code class="code">body</code> tag</span> as we've explored earlier.</p>
+  </section>
+  <section class="section">
+    <h1 class="h">Memo:</h1>
+    <ul class="none">
+      <li class="none">Remember adding space <span class="highlight">before and after</span> (each) number and mark.</li>
+      <li class="none">Also I want to consider about using <code class="code">touch action</code> together. But how?</li>
+    </ul>
   </section>
   <footer class="footer"><a class="none" href="http://twilightspike.github.io/fictional-bassoon">B54</a></footer>
 </body>
