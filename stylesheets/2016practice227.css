@@ -1,0 +1,4 @@
+body{background:rgba(217,217,217,.85);margin:0;}
+div{display:flex;}
+.footer{background:rgba(217,217,217,.8);margin:10px;}
+.watermark{color:rgba(250,230,230,85);}
