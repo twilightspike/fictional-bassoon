@@ -1,5 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head></head>
-<body></body>
+<head>
+	<meta name="viewport" content="maximum-scale=1.0">
+	<title>waffledream</title>
+	<script type="text/javascript">
+		document.addEventListener("touchstart",function(evt){
+			var total = evt.touches.length;
+			for(var i = 0;i < total;i++){
+				var id = evt.touches[i].identifier;
+				var imgId = document.getElementById(id);
+				if(!imgId){
+					img = document.createElement("img");
+					img.id = id;
+					img.src = "#";
+					img.style.position="absolute";
+					document.body.appendChild(img);
+				}
+				img.style.left = evt.touches[i].clientX + "px";
+				img.style.top = evt.touches[i].clientY + "px";
+			}
+			evt.preventDefault();
+		},true);
+	</script>
+</head>
+<body>
+</body>
 </html>
