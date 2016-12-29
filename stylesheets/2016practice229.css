@@ -3,3 +3,4 @@ body{background:rgba(141,182,0,.85);margin:0 auto;}
 .section{display:flex;flex-wrap:wrap;margin:5px;width:300px;height:150px;}
 .fixed{bottom:1%;position:fixed;}
 .footer{background:rgba(96,182,0,.85);}
+.word{color:rgba(41,0,182,.85);}
