@@ -7,3 +7,6 @@ body{background:rgba(141,182,0,.85);margin:0 auto;}
 .footer{background:rgba(96,182,0,.85);height:180px;width:260px;}
 .none{text-decoration:none;}
 .word{color:rgba(41,0,182,.85);}
+/*card*/
+.front{background:rgba(182,0,141,.65);}
+.back{background:rgba(132,0,182,.65);transform:rotateY(180deg);}
