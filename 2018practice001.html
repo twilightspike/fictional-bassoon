@@ -5,7 +5,7 @@
     <script src="https://unpkg.com/vue/dist/vue.min.js></script>
 </head>
 <body>
-    <div id="app"><pre style="font-family: 'helvetica';"></div>
+    <div id="app"><pre style="font-family: 'helvetica';">{{message}}{{message.split('').reverse().join('')}}</div>
   <script>
     var app = new Vue({ el: '#app',
                  data:{
